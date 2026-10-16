@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "NGF 开发者工具箱 entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "NGF 开发者工具箱 main ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NGF 开发者工具箱"
+    }
+  ]
+}
