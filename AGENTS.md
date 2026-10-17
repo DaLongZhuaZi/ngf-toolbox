@@ -457,3 +457,13 @@ hdc shell aa test -b com.dlzz.ngftoolbox -m entry_test \
   `HEAD` 版本目前是干净的（已核实），别让它变脏。
   检查方法：`git diff build-profile.json5` 里不该出现 `storePassword` / `keyPassword`。
   CI 侧有 `.github/scripts/strip_signing.py` 兜底，但**那管不到本地提交**。
+
+**本地签名与提交的共存（2026-10-18 落地）**：`build-profile.json5` 已用
+`git update-index --skip-worktree` 标记。这样**本地可以保留 DevEco 自动生成的签名配置**
+（真机装机需要），而 `git status` 保持干净、不会误提交。
+
+- 查标记：`git ls-files -v build-profile.json5`，首列 `S` 表示已标记；
+- 解除（要改这个文件并提交时）：`git update-index --no-skip-worktree build-profile.json5`；
+- ⚠️ 如果**远端**改了这个文件，pull 前必须先解除标记，否则会冲突。
+
+提交前仍要按上面那条复核一遍——标记只防误提交，不防你自己 `git add -f`。
