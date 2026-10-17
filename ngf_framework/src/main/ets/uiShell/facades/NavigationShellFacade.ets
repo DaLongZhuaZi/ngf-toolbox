@@ -5,7 +5,18 @@ import { ngfRouteInterceptorFacade } from './RouteInterceptorFacade';
 
 const TAG: string = 'NGFNavigationShellFacade';
 
-class NGFNavigationParamEnvelope {
+/**
+ * 导航参数的**信封**。
+ *
+ * 参数不直接以对象形式入栈，而是包成 JSON 字符串——这样路由拦截器
+ * （\`ngfRouteInterceptorFacade\`）可以在不改调用方签名的情况下审查/改写参数。
+ *
+ * ⚠️ \`export\` 是**本仓先行补充**，需回来源仓（airwavefootprints）同步：
+ * 原先它不是导出的，于是接收方（NavDestination 的 builder）拿到的是 \`Object\`，
+ * 在 ArkTS 里无法结构化地读 \`payloadJson\`（禁令 \`arkts-no-structural-typing\`），
+ * 也就是**参数根本取不出来**。见 \`ngf_framework/VENDORED.md\`。
+ */
+export class NGFNavigationParamEnvelope {
   payloadJson: string;
 
   constructor(payloadJson: string) {

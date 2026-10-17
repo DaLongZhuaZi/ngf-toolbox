@@ -1,16 +1,5856 @@
 {
   "string": [
     {
-      "name": "module_desc",
-      "value": "NGF Toolbox entry module"
-    },
-    {
       "name": "EntryAbility_desc",
-      "value": "NGF Toolbox main ability"
+      "value": "NGF Developer Toolbox main ability"
     },
     {
       "name": "EntryAbility_label",
-      "value": "NGF Toolbox"
+      "value": "NGF Developer Toolbox"
+    },
+    {
+      "name": "about_app_copyright",
+      "value": "© 2026 DaLongzhuazi"
+    },
+    {
+      "name": "about_feedback_scope",
+      "value": "Scope: report problems with the toolbox itself (a tool computing the wrong result, a broken screen) in this repository. Questions about how to use the framework belong in the framework repository, where its maintainers will see them."
+    },
+    {
+      "name": "about_framework_intro",
+      "value": "This app runs on NGF (Neon Genesis Framework) and is open-sourced as its official sample. Each tool demonstrates one layer of the framework — reading this repository is the fastest way to learn how NGF fits together."
+    },
+    {
+      "name": "about_layers_note",
+      "value": "The framework also ships media playback, push, hardware sensors, a web bridge and more. This app does not use them, so they are not listed here — listing them would suggest the sample demonstrates them."
+    },
+    {
+      "name": "about_layers_used",
+      "value": "Layers this app uses"
+    },
+    {
+      "name": "about_license",
+      "value": "MIT licensed · completely free · no ads, no in-app purchases"
+    },
+    {
+      "name": "about_open_in_browser",
+      "value": "Open in browser"
+    },
+    {
+      "name": "about_privacy_note",
+      "value": "These are not slogans: every line can be checked against the code and module.json5 in the repository."
+    },
+    {
+      "name": "about_reading_version",
+      "value": "Reading version…"
+    },
+    {
+      "name": "about_repo_intro",
+      "value": "The full source of this app is public. Scan the code with another device, or open the address below in a browser."
+    },
+    {
+      "name": "about_section_feedback",
+      "value": "Feedback & support"
+    },
+    {
+      "name": "about_section_framework",
+      "value": "What is this framework"
+    },
+    {
+      "name": "about_section_privacy",
+      "value": "Privacy commitments"
+    },
+    {
+      "name": "about_section_repo",
+      "value": "Open-source repository"
+    },
+    {
+      "name": "about_section_siblings",
+      "value": "Other projects on the same framework"
+    },
+    {
+      "name": "about_self_source_desc",
+      "value": "Source code of this app"
+    },
+    {
+      "name": "about_version_failed",
+      "value": "Could not read version information"
+    },
+    {
+      "name": "al_action_build",
+      "value": "Generate"
+    },
+    {
+      "name": "al_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "al_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "al_comment_c",
+      "value": "// (C-like)"
+    },
+    {
+      "name": "al_comment_hash",
+      "value": "# (scripts)"
+    },
+    {
+      "name": "al_comment_sql",
+      "value": "-- (SQL)"
+    },
+    {
+      "name": "al_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "al_err_text",
+      "value": "Enter the text first"
+    },
+    {
+      "name": "al_err_width",
+      "value": "Width must be a whole number from 10 to 120"
+    },
+    {
+      "name": "al_kind_banner",
+      "value": "Banner"
+    },
+    {
+      "name": "al_kind_box",
+      "value": "Box"
+    },
+    {
+      "name": "al_kind_line",
+      "value": "Line"
+    },
+    {
+      "name": "al_label_comment",
+      "value": "Comment prefix"
+    },
+    {
+      "name": "al_label_kind",
+      "value": "Shape"
+    },
+    {
+      "name": "al_label_style",
+      "value": "Fill character"
+    },
+    {
+      "name": "al_label_text",
+      "value": "Text (banner/box)"
+    },
+    {
+      "name": "al_label_width",
+      "value": "Width (10-120)"
+    },
+    {
+      "name": "al_style_dash",
+      "value": "Dash -"
+    },
+    {
+      "name": "al_style_eq",
+      "value": "Equals ="
+    },
+    {
+      "name": "al_style_hash",
+      "value": "Hash #"
+    },
+    {
+      "name": "al_style_star",
+      "value": "Star *"
+    },
+    {
+      "name": "al_style_tilde",
+      "value": "Tilde ~"
+    },
+    {
+      "name": "at_cat_ctrl",
+      "value": "Control"
+    },
+    {
+      "name": "at_cat_print",
+      "value": "Printable"
+    },
+    {
+      "name": "at_col_dec",
+      "value": "Dec"
+    },
+    {
+      "name": "at_col_hex",
+      "value": "Hex"
+    },
+    {
+      "name": "at_empty",
+      "value": "No matching entries"
+    },
+    {
+      "name": "at_label_all",
+      "value": "All"
+    },
+    {
+      "name": "at_placeholder_search",
+      "value": "Dec, hex, char or name"
+    },
+    {
+      "name": "bo_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "bo_action_run",
+      "value": "Run"
+    },
+    {
+      "name": "bo_err_empty_left",
+      "value": "Enter operand A (decimal or 0x hex)"
+    },
+    {
+      "name": "bo_err_empty_right",
+      "value": "Enter operand B first"
+    },
+    {
+      "name": "bo_err_shift",
+      "value": "Shift must be 0 to 31 (got %s)"
+    },
+    {
+      "name": "bo_hint_tap",
+      "value": "Tap a result bit to flip it"
+    },
+    {
+      "name": "bo_label_decimal",
+      "value": "Decimal"
+    },
+    {
+      "name": "bo_label_hex",
+      "value": "Hex"
+    },
+    {
+      "name": "bo_label_left",
+      "value": "Operand A (decimal or 0x hex)"
+    },
+    {
+      "name": "bo_label_result",
+      "value": "Result (bit31 → bit0)"
+    },
+    {
+      "name": "bo_label_right",
+      "value": "Operand B / shift amount"
+    },
+    {
+      "name": "bo_op_and",
+      "value": "AND"
+    },
+    {
+      "name": "bo_op_not",
+      "value": "NOT"
+    },
+    {
+      "name": "bo_op_or",
+      "value": "OR"
+    },
+    {
+      "name": "bo_op_shl",
+      "value": "Shift left <<"
+    },
+    {
+      "name": "bo_op_shr",
+      "value": "Shift right >>"
+    },
+    {
+      "name": "bo_op_xor",
+      "value": "XOR"
+    },
+    {
+      "name": "bs_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "bs_action_split",
+      "value": "Split bytes"
+    },
+    {
+      "name": "bs_err_empty",
+      "value": "Enter an integer first"
+    },
+    {
+      "name": "bs_err_range",
+      "value": "Out of the 32-bit range"
+    },
+    {
+      "name": "bs_label_big",
+      "value": "Big-endian (network)"
+    },
+    {
+      "name": "bs_label_input",
+      "value": "32-bit unsigned int (0-4294967295)"
+    },
+    {
+      "name": "bs_label_little",
+      "value": "Little-endian (x86)"
+    },
+    {
+      "name": "case_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "case_action_convert",
+      "value": "Convert"
+    },
+    {
+      "name": "case_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "case_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "case_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "case_err_no_words",
+      "value": "No words found: %s (only symbols or whitespace)"
+    },
+    {
+      "name": "case_hint_words",
+      "value": "Split rules: lower→upper, letter↔digit, separators; upper runs stay one word (HTTPServer)"
+    },
+    {
+      "name": "case_label_camel",
+      "value": "camelCase"
+    },
+    {
+      "name": "case_label_dot",
+      "value": "dot.case"
+    },
+    {
+      "name": "case_label_input",
+      "value": "An identifier or phrase in any style"
+    },
+    {
+      "name": "case_label_kebab",
+      "value": "kebab-case"
+    },
+    {
+      "name": "case_label_pascal",
+      "value": "PascalCase"
+    },
+    {
+      "name": "case_label_screaming",
+      "value": "SCREAMING_CASE"
+    },
+    {
+      "name": "case_label_snake",
+      "value": "snake_case"
+    },
+    {
+      "name": "case_placeholder_input",
+      "value": "e.g. userName, user_name, user-name"
+    },
+    {
+      "name": "cb2_action_blend",
+      "value": "Blend"
+    },
+    {
+      "name": "cb2_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cb2_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cb2_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cb2_err_color",
+      "value": "Cannot parse the color: %s"
+    },
+    {
+      "name": "cb2_err_empty",
+      "value": "Enter both colors first"
+    },
+    {
+      "name": "cb2_label_a",
+      "value": "Color A"
+    },
+    {
+      "name": "cb2_label_b",
+      "value": "Color B"
+    },
+    {
+      "name": "cb2_label_band",
+      "value": "Gradient band"
+    },
+    {
+      "name": "cb2_label_steps",
+      "value": "Gradient steps (2-12)"
+    },
+    {
+      "name": "cb_action_build",
+      "value": "Build commands"
+    },
+    {
+      "name": "cb_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cb_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cb_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cb_err_header",
+      "value": "Invalid header line (expected k: v per line)"
+    },
+    {
+      "name": "cb_err_url",
+      "value": "Enter the URL first"
+    },
+    {
+      "name": "cb_label_body",
+      "value": "Body (ignored for GET)"
+    },
+    {
+      "name": "cb_label_curl",
+      "value": "cURL"
+    },
+    {
+      "name": "cb_label_headers",
+      "value": "Headers (one k: v per line)"
+    },
+    {
+      "name": "cb_label_httpie",
+      "value": "HTTPie"
+    },
+    {
+      "name": "cb_label_method",
+      "value": "Method"
+    },
+    {
+      "name": "cb_label_url",
+      "value": "URL"
+    },
+    {
+      "name": "cc_action_check",
+      "value": "Check"
+    },
+    {
+      "name": "cc_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cc_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cc_cat_day",
+      "value": "Daily"
+    },
+    {
+      "name": "cc_cat_hour",
+      "value": "Per hour"
+    },
+    {
+      "name": "cc_cat_minute",
+      "value": "Per minute"
+    },
+    {
+      "name": "cc_cat_month",
+      "value": "Monthly"
+    },
+    {
+      "name": "cc_cat_special",
+      "value": "Special"
+    },
+    {
+      "name": "cc_cat_week",
+      "value": "Weekly"
+    },
+    {
+      "name": "cc_cat_year",
+      "value": "Yearly"
+    },
+    {
+      "name": "cc_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cc_empty",
+      "value": "No matching entries"
+    },
+    {
+      "name": "cc_err_empty",
+      "value": "Enter both colors first"
+    },
+    {
+      "name": "cc_err_same",
+      "value": "Same color: the ratio is always 1"
+    },
+    {
+      "name": "cc_label_all",
+      "value": "All"
+    },
+    {
+      "name": "cc_label_bg",
+      "value": "Background"
+    },
+    {
+      "name": "cc_label_fg",
+      "value": "Foreground (text)"
+    },
+    {
+      "name": "cc_label_large",
+      "value": "Large text (18pt+ or 14pt bold)"
+    },
+    {
+      "name": "cc_label_level",
+      "value": "WCAG level"
+    },
+    {
+      "name": "cc_label_ratio",
+      "value": "Contrast ratio"
+    },
+    {
+      "name": "cc_label_suggest",
+      "value": "Suggestion"
+    },
+    {
+      "name": "cc_level_aa",
+      "value": "AA (pass)"
+    },
+    {
+      "name": "cc_level_aa_large",
+      "value": "AA large text"
+    },
+    {
+      "name": "cc_level_aaa",
+      "value": "AAA (best)"
+    },
+    {
+      "name": "cc_level_fail",
+      "value": "Fail"
+    },
+    {
+      "name": "cc_placeholder_fg",
+      "value": "e.g. #0962F2 or #FFF"
+    },
+    {
+      "name": "cc_placeholder_search",
+      "value": "Expression or keyword"
+    },
+    {
+      "name": "cc_suggest_dark",
+      "value": "Dark text reads better on this background"
+    },
+    {
+      "name": "cc_suggest_light",
+      "value": "Light text reads better on this background"
+    },
+    {
+      "name": "cf_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cf_action_run",
+      "value": "Analyze"
+    },
+    {
+      "name": "cf_col_char",
+      "value": "Char"
+    },
+    {
+      "name": "cf_col_count",
+      "value": "Count"
+    },
+    {
+      "name": "cf_col_percent",
+      "value": "Percent%"
+    },
+    {
+      "name": "cf_err_empty",
+      "value": "Enter the text first"
+    },
+    {
+      "name": "cf_label_input",
+      "value": "Text"
+    },
+    {
+      "name": "cf_label_total",
+      "value": "Total chars"
+    },
+    {
+      "name": "cf_label_unique",
+      "value": "Unique chars"
+    },
+    {
+      "name": "cf_toggle_case",
+      "value": "Ignore case"
+    },
+    {
+      "name": "cf_toggle_space",
+      "value": "Ignore whitespace"
+    },
+    {
+      "name": "cg_action_build",
+      "value": "Build changelog"
+    },
+    {
+      "name": "cg_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cg_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cg_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cg_err_empty",
+      "value": "Enter the commits first"
+    },
+    {
+      "name": "cg_label_input",
+      "value": "Commits (one per line)"
+    },
+    {
+      "name": "cg_label_output",
+      "value": "Markdown output"
+    },
+    {
+      "name": "cg_label_stats",
+      "value": "%s classified, %s unrecognized"
+    },
+    {
+      "name": "cg_placeholder_input",
+      "value": "feat: add search\nfix: fix crash"
+    },
+    {
+      "name": "cj_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cj_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cj_action_to_csv",
+      "value": "JSON → CSV"
+    },
+    {
+      "name": "cj_action_to_json",
+      "value": "CSV → JSON"
+    },
+    {
+      "name": "cj_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cj_err_bad_json",
+      "value": "JSON parsing failed - check the syntax"
+    },
+    {
+      "name": "cj_err_columns",
+      "value": "Row %s has %s fields but the header has %s columns"
+    },
+    {
+      "name": "cj_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "cj_err_keys",
+      "value": "Row %s is missing the key %s (all rows must share the same keys)"
+    },
+    {
+      "name": "cj_err_no_rows",
+      "value": "Header only with no data rows (or an empty object array)"
+    },
+    {
+      "name": "cj_err_not_array",
+      "value": "The JSON must be an array of objects"
+    },
+    {
+      "name": "cj_label_input",
+      "value": "CSV or JSON text"
+    },
+    {
+      "name": "cj_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "cj_placeholder_csv",
+      "value": "Header row first, comma separated"
+    },
+    {
+      "name": "cj_placeholder_json",
+      "value": "Object array, e.g. [{\"id\":1}]"
+    },
+    {
+      "name": "cj_stats",
+      "value": "%s rows x %s columns"
+    },
+    {
+      "name": "ck_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ck_action_parse",
+      "value": "Parse"
+    },
+    {
+      "name": "ck_err_empty",
+      "value": "Enter the Cookie header first"
+    },
+    {
+      "name": "ck_label_attrs",
+      "value": "Attributes"
+    },
+    {
+      "name": "ck_label_pairs",
+      "value": "Pairs"
+    },
+    {
+      "name": "ck_label_request",
+      "value": "Cookie request header"
+    },
+    {
+      "name": "ck_label_setcookie",
+      "value": "Set-Cookie response header"
+    },
+    {
+      "name": "cm_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cm_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cm_action_minify",
+      "value": "Minify"
+    },
+    {
+      "name": "cm_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cm_err_block",
+      "value": "Unclosed block comment"
+    },
+    {
+      "name": "cm_err_empty",
+      "value": "Enter the code first"
+    },
+    {
+      "name": "cm_label_input",
+      "value": "Code"
+    },
+    {
+      "name": "cm_label_output",
+      "value": "Minified"
+    },
+    {
+      "name": "cm_label_stats",
+      "value": "%s to %s chars"
+    },
+    {
+      "name": "codec_action_convert",
+      "value": "Convert"
+    },
+    {
+      "name": "codec_action_copy",
+      "value": "Copy result"
+    },
+    {
+      "name": "codec_action_example",
+      "value": "Example"
+    },
+    {
+      "name": "codec_action_swap",
+      "value": "⇄ Swap direction and reuse the result"
+    },
+    {
+      "name": "codec_copied",
+      "value": "Result copied"
+    },
+    {
+      "name": "codec_dir_decode",
+      "value": "Decode"
+    },
+    {
+      "name": "codec_dir_encode",
+      "value": "Encode"
+    },
+    {
+      "name": "codec_err_b64_char",
+      "value": "Not a valid Base64 character: \"%s\""
+    },
+    {
+      "name": "codec_err_b64_length",
+      "value": "Invalid Base64 length: the character count leaves a remainder of 1 mod 4, so it cannot form whole bytes"
+    },
+    {
+      "name": "codec_err_b64_not_utf8",
+      "value": "The Base64 decodes, but the content is not valid UTF-8 text: "
+    },
+    {
+      "name": "codec_err_b64_pad_count",
+      "value": "Base64 can end with at most two = characters"
+    },
+    {
+      "name": "codec_err_b64_pad_mismatch",
+      "value": "The number of = characters does not match the Base64 length (padding is missing or extra)"
+    },
+    {
+      "name": "codec_err_b64_pad_position",
+      "value": "In Base64 the = may only appear at the end"
+    },
+    {
+      "name": "codec_err_empty",
+      "value": "Enter something to process"
+    },
+    {
+      "name": "codec_err_escape_trailing",
+      "value": "The backslash has nothing after it, so the escape is incomplete"
+    },
+    {
+      "name": "codec_err_escape_unsupported",
+      "value": "Unsupported escape sequence: \\%s"
+    },
+    {
+      "name": "codec_err_hex_char",
+      "value": "A character that is not a hex digit appeared: \"%s\""
+    },
+    {
+      "name": "codec_err_hex_not_utf8",
+      "value": "The hex decodes, but the content is not valid UTF-8 text: "
+    },
+    {
+      "name": "codec_err_hex_odd",
+      "value": "The hex string has an odd number of digits (%s), so it cannot form whole bytes"
+    },
+    {
+      "name": "codec_err_percent_bad",
+      "value": "A % must be followed by two hex digits, but this one is \"%%%s\""
+    },
+    {
+      "name": "codec_err_percent_incomplete",
+      "value": "A % must be followed by two hex digits (this one is at the end and is incomplete)"
+    },
+    {
+      "name": "codec_err_unicode_hex",
+      "value": "The \\u escape contains a non-hex character: \"%s\""
+    },
+    {
+      "name": "codec_err_unicode_incomplete",
+      "value": "The \\u escape is incomplete — it needs four hex digits"
+    },
+    {
+      "name": "codec_err_utf8_continuation",
+      "value": "Not valid UTF-8: a continuation byte has the wrong shape"
+    },
+    {
+      "name": "codec_err_utf8_lead",
+      "value": "Not valid UTF-8: the leading byte 0x%s is not a valid start byte"
+    },
+    {
+      "name": "codec_err_utf8_overlong",
+      "value": "Not valid UTF-8: overlong encoding (a code point used more bytes than needed)"
+    },
+    {
+      "name": "codec_err_utf8_range",
+      "value": "Not valid UTF-8: the code point is outside the Unicode range"
+    },
+    {
+      "name": "codec_err_utf8_surrogate",
+      "value": "Not valid UTF-8: a surrogate code point cannot be encoded in three bytes"
+    },
+    {
+      "name": "codec_err_utf8_truncated",
+      "value": "Not valid UTF-8: the last character is cut off"
+    },
+    {
+      "name": "codec_ex_base64_decode",
+      "value": "SGVsbG8gQmFzZTY0IPCfmIA="
+    },
+    {
+      "name": "codec_ex_base64_encode",
+      "value": "Hello Base64 😀"
+    },
+    {
+      "name": "codec_ex_hex_decode",
+      "value": "48 69"
+    },
+    {
+      "name": "codec_ex_hex_encode",
+      "value": "Hi"
+    },
+    {
+      "name": "codec_ex_unicode_decode",
+      "value": "\\u0048\\u0065\\u006C\\u006C\\u006F \\uD83D\\uDE00"
+    },
+    {
+      "name": "codec_ex_unicode_encode",
+      "value": "Hello 😀"
+    },
+    {
+      "name": "codec_ex_url_decode",
+      "value": "https://a.com/p?x=1&y=Hello%20world"
+    },
+    {
+      "name": "codec_ex_url_encode",
+      "value": "https://a.com/p?x=1&y=Hello world"
+    },
+    {
+      "name": "codec_ex_urlcomp_decode",
+      "value": "a%3D1%26b%3DHello%20world"
+    },
+    {
+      "name": "codec_ex_urlcomp_encode",
+      "value": "a=1&b=Hello world"
+    },
+    {
+      "name": "codec_hint_base64",
+      "value": "Standard Base64 over the UTF-8 bytes, padded with ="
+    },
+    {
+      "name": "codec_hint_hex",
+      "value": "Hex over the UTF-8 bytes, optionally grouped with spaces or colons"
+    },
+    {
+      "name": "codec_hint_unicode",
+      "value": "Writes non-ASCII characters as \\uXXXX (works for any language and for emoji)"
+    },
+    {
+      "name": "codec_hint_url",
+      "value": "For a whole URL: characters with syntactic meaning such as :/?#&= are left alone"
+    },
+    {
+      "name": "codec_hint_url_component",
+      "value": "For a parameter value: & and = are escaped too, and spaces become %20 rather than +"
+    },
+    {
+      "name": "codec_label_direction",
+      "value": "Direction"
+    },
+    {
+      "name": "codec_label_input_decode",
+      "value": "Content to decode"
+    },
+    {
+      "name": "codec_label_input_encode",
+      "value": "Source text"
+    },
+    {
+      "name": "codec_label_mode",
+      "value": "Mode"
+    },
+    {
+      "name": "codec_label_output_decode",
+      "value": "Decoded result"
+    },
+    {
+      "name": "codec_label_output_encode",
+      "value": "Encoded result"
+    },
+    {
+      "name": "codec_mode_base64",
+      "value": "Base64"
+    },
+    {
+      "name": "codec_mode_hex",
+      "value": "Hex"
+    },
+    {
+      "name": "codec_mode_unicode",
+      "value": "Unicode escape"
+    },
+    {
+      "name": "codec_mode_url",
+      "value": "Full URL"
+    },
+    {
+      "name": "codec_mode_url_component",
+      "value": "URL parameter value"
+    },
+    {
+      "name": "codec_placeholder_decode",
+      "value": "Paste the content to decode"
+    },
+    {
+      "name": "codec_placeholder_encode",
+      "value": "Enter the content to encode"
+    },
+    {
+      "name": "codec_status_done",
+      "value": "%s finished: %s · %s characters out"
+    },
+    {
+      "name": "codec_status_swapped",
+      "value": "Direction swapped and the previous result filled in — tap Convert."
+    },
+    {
+      "name": "codeview_copied",
+      "value": "File contents copied"
+    },
+    {
+      "name": "codeview_copied_truncated",
+      "value": "File contents copied (first %s lines only)"
+    },
+    {
+      "name": "codeview_hide_line_numbers",
+      "value": "Hide line numbers"
+    },
+    {
+      "name": "codeview_lang_plain",
+      "value": "Plain text"
+    },
+    {
+      "name": "codeview_lang_properties",
+      "value": "Key-value config"
+    },
+    {
+      "name": "codeview_no_file_yet",
+      "value": "No file selected yet. Tap the button above to pick one."
+    },
+    {
+      "name": "codeview_open_failed",
+      "value": "Something went wrong opening the file: %s"
+    },
+    {
+      "name": "codeview_permission_note",
+      "value": "Opened through the system file picker, so no storage permission is needed: only the single file you pick is read once. The tool does not scan directories, write any file, or go online."
+    },
+    {
+      "name": "codeview_pick_file",
+      "value": "Choose a file"
+    },
+    {
+      "name": "codeview_reading",
+      "value": "Reading…"
+    },
+    {
+      "name": "codeview_show_line_numbers",
+      "value": "Show line numbers"
+    },
+    {
+      "name": "codeview_summary",
+      "value": "%s · %s lines · %s"
+    },
+    {
+      "name": "codeview_summary_truncated",
+      "value": " (over %s lines — showing the first %s lines)"
+    },
+    {
+      "name": "codeview_too_large",
+      "value": "File too large (%s): the read-only viewer is capped at %s. Use a dedicated editor for big files, or extract the part you need first."
+    },
+    {
+      "name": "codeview_unnamed_file",
+      "value": "Untitled file"
+    },
+    {
+      "name": "codeview_unreadable",
+      "value": "Could not read this file. It may be empty, not text (an image or archive), or protected so this app is not allowed to read it."
+    },
+    {
+      "name": "color_contrast_hint",
+      "value": "AA needs 4.5:1 for body text and 3:1 for large text; AAA needs 7:1 for body text. Light text on a light background most often fails the 4.5:1 bar."
+    },
+    {
+      "name": "color_copied_label",
+      "value": "Copied %s"
+    },
+    {
+      "name": "color_copied_report",
+      "value": "Color info copied"
+    },
+    {
+      "name": "color_copied_value",
+      "value": "Copied %s"
+    },
+    {
+      "name": "color_err_bad_hue",
+      "value": "Hue must be a number in degrees (0-360). A deg suffix is allowed, and negatives wrap around (-30 equals 330)."
+    },
+    {
+      "name": "color_err_channel_range",
+      "value": "Channel values must be numbers (or percentages) from %s to %s, e.g. rgb(9, 98, 242)."
+    },
+    {
+      "name": "color_err_empty",
+      "value": "Enter a color, for example #0962F2 or rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_err_hex_bad_char",
+      "value": "The hex value contains an invalid character (only 0-9 and A-F are allowed)."
+    },
+    {
+      "name": "color_err_hsl_arity",
+      "value": "hsl() takes 3 values (hue, saturation%, lightness%) and hsla() one more for alpha, e.g. hsl(217, 93%, 49%)."
+    },
+    {
+      "name": "color_err_hsl_missing_paren",
+      "value": "Incomplete hsl(): a closing parenthesis is missing."
+    },
+    {
+      "name": "color_err_hsl_percent",
+      "value": "Saturation and lightness must be percentages, e.g. hsl(217, 93%, 49%)."
+    },
+    {
+      "name": "color_err_rgb_arity",
+      "value": "rgb() takes 3 values (red, green, blue) and rgba() one more for alpha, e.g. rgb(9, 98, 242)."
+    },
+    {
+      "name": "color_err_rgb_missing_paren",
+      "value": "Incomplete rgb(): a closing parenthesis is missing."
+    },
+    {
+      "name": "color_err_unknown_format",
+      "value": "Unrecognised format. Supported: #RGB, #RGBA, #RRGGBB, #RRGGBBAA, rgb(...), hsl(...) and common color names."
+    },
+    {
+      "name": "color_err_unknown_name",
+      "value": "Unknown color name"
+    },
+    {
+      "name": "color_field_nearest_name",
+      "value": "Nearest color name"
+    },
+    {
+      "name": "color_field_on_black",
+      "value": "Contrast on black"
+    },
+    {
+      "name": "color_field_on_white",
+      "value": "Contrast on white"
+    },
+    {
+      "name": "color_field_readable",
+      "value": "Suggested foreground"
+    },
+    {
+      "name": "color_field_separator",
+      "value": ": "
+    },
+    {
+      "name": "color_field_short_hex",
+      "value": "Short HEX"
+    },
+    {
+      "name": "color_input_hint",
+      "value": "Supports #RGB, #RGBA, #RRGGBB, #RRGGBBAA, rgb(), hsl() and common color names such as steelblue."
+    },
+    {
+      "name": "color_label_contrast",
+      "value": "Contrast (WCAG)"
+    },
+    {
+      "name": "color_label_forms",
+      "value": "Representations"
+    },
+    {
+      "name": "color_label_harmony",
+      "value": "Harmony"
+    },
+    {
+      "name": "color_label_input",
+      "value": "Color value"
+    },
+    {
+      "name": "color_label_lightness",
+      "value": "Lightness (hue unchanged)"
+    },
+    {
+      "name": "color_label_on_black",
+      "value": "On black"
+    },
+    {
+      "name": "color_label_on_white",
+      "value": "On white"
+    },
+    {
+      "name": "color_label_preview",
+      "value": "On this color, this reads better"
+    },
+    {
+      "name": "color_label_scale",
+      "value": "Lightness scale (common for design tokens)"
+    },
+    {
+      "name": "color_label_tokens",
+      "value": "Theme tokens"
+    },
+    {
+      "name": "color_notice_alpha",
+      "value": "This color has transparency (alpha=%s). The preview is drawn semi-transparent, but contrast is computed from the opaque value, so what you actually see depends on what is behind it."
+    },
+    {
+      "name": "color_notice_clamped",
+      "value": "A channel value was out of range and has been clamped to 0-255."
+    },
+    {
+      "name": "color_placeholder_input",
+      "value": "e.g. #0962F2 or rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_row_name",
+      "value": "Color name"
+    },
+    {
+      "name": "color_row_readable",
+      "value": "Suggested foreground"
+    },
+    {
+      "name": "color_row_short_hex",
+      "value": "Short HEX"
+    },
+    {
+      "name": "color_step_darken",
+      "value": "Darker %s%"
+    },
+    {
+      "name": "color_step_lighten",
+      "value": "Lighter %s%"
+    },
+    {
+      "name": "color_swatch_pick",
+      "value": "tap to use"
+    },
+    {
+      "name": "color_tokens_hint",
+      "value": "Every semantic color in this app. Each name carries both light and dark values; the UI reads tokens only, so switching themes needs no page changes."
+    },
+    {
+      "name": "color_verdict_aa",
+      "value": "AA for body text"
+    },
+    {
+      "name": "color_verdict_aaa",
+      "value": "AAA for body text"
+    },
+    {
+      "name": "color_verdict_fail",
+      "value": "Fails: the text would be hard to read"
+    },
+    {
+      "name": "color_verdict_large_only",
+      "value": "Large text only (not enough for body text)"
+    },
+    {
+      "name": "copied_common",
+      "value": "Copied"
+    },
+    {
+      "name": "cron_action_recalc",
+      "value": "Recalculate (using the current time)"
+    },
+    {
+      "name": "cron_day_rule_note",
+      "value": "When both the day-of-month and weekday fields are restricted, standard cron treats them as OR: either condition matching is enough."
+    },
+    {
+      "name": "cron_desc_and",
+      "value": " and "
+    },
+    {
+      "name": "cron_desc_at_minute_of_hour",
+      "value": "At minute %s of every hour"
+    },
+    {
+      "name": "cron_desc_at_times",
+      "value": "Every day at %s"
+    },
+    {
+      "name": "cron_desc_daily_suffix",
+      "value": " (every day)"
+    },
+    {
+      "name": "cron_desc_every_minute",
+      "value": "Every minute"
+    },
+    {
+      "name": "cron_desc_every_minute_at_hours",
+      "value": "Every minute of every hour (%s)"
+    },
+    {
+      "name": "cron_desc_every_n_minutes",
+      "value": "Every %s minutes"
+    },
+    {
+      "name": "cron_desc_month_day",
+      "value": "on day %s of the month"
+    },
+    {
+      "name": "cron_desc_or",
+      "value": " or "
+    },
+    {
+      "name": "cron_desc_week",
+      "value": "on %s"
+    },
+    {
+      "name": "cron_desc_within_hours",
+      "value": " (during %s)"
+    },
+    {
+      "name": "cron_desc_wrap",
+      "value": " (%s)"
+    },
+    {
+      "name": "cron_desc_year",
+      "value": "in %s"
+    },
+    {
+      "name": "cron_err_alias",
+      "value": "Aliases such as @daily are not supported — write the equivalent five fields."
+    },
+    {
+      "name": "cron_err_bad_step",
+      "value": "The step in the %s field must be a positive whole number: %s"
+    },
+    {
+      "name": "cron_err_bad_value",
+      "value": "The %s field contains an invalid value: %s"
+    },
+    {
+      "name": "cron_err_empty_expression",
+      "value": "Enter a cron expression, for example \"*/5 * * * *\"."
+    },
+    {
+      "name": "cron_err_empty_item",
+      "value": "The %s field has an empty value (did you add an extra comma?)"
+    },
+    {
+      "name": "cron_err_field_empty",
+      "value": "The %s field is empty"
+    },
+    {
+      "name": "cron_err_no_values",
+      "value": "No values could be parsed from the %s field: %s"
+    },
+    {
+      "name": "cron_err_out_of_range",
+      "value": "The %s field is outside the allowed range (%s-%s): %s"
+    },
+    {
+      "name": "cron_err_range_syntax",
+      "value": "The range in the %s field is malformed: %s"
+    },
+    {
+      "name": "cron_err_reversed_range",
+      "value": "The range in the %s field is backwards (%s): write it from low to high"
+    },
+    {
+      "name": "cron_err_six_segments",
+      "value": "The six-field form with seconds (Quartz and friends) is not supported."
+    },
+    {
+      "name": "cron_err_step_not_positive",
+      "value": "The step in the %s field must be greater than zero: %s"
+    },
+    {
+      "name": "cron_err_wrong_count",
+      "value": "Standard cron has five fields (minute hour day month weekday); this one has %s."
+    },
+    {
+      "name": "cron_field_day",
+      "value": "day"
+    },
+    {
+      "name": "cron_field_hour",
+      "value": "hour"
+    },
+    {
+      "name": "cron_field_minute",
+      "value": "minute"
+    },
+    {
+      "name": "cron_field_month",
+      "value": "month"
+    },
+    {
+      "name": "cron_field_weekday",
+      "value": "weekday"
+    },
+    {
+      "name": "cron_hours",
+      "value": "hours %s"
+    },
+    {
+      "name": "cron_label_examples",
+      "value": "Common patterns"
+    },
+    {
+      "name": "cron_label_expression",
+      "value": "cron expression"
+    },
+    {
+      "name": "cron_label_meaning",
+      "value": "Meaning"
+    },
+    {
+      "name": "cron_label_next_runs",
+      "value": "Next %s run times (local time zone)"
+    },
+    {
+      "name": "cron_list_separator",
+      "value": ", "
+    },
+    {
+      "name": "cron_month_1",
+      "value": "January"
+    },
+    {
+      "name": "cron_month_10",
+      "value": "October"
+    },
+    {
+      "name": "cron_month_11",
+      "value": "November"
+    },
+    {
+      "name": "cron_month_12",
+      "value": "December"
+    },
+    {
+      "name": "cron_month_2",
+      "value": "February"
+    },
+    {
+      "name": "cron_month_3",
+      "value": "March"
+    },
+    {
+      "name": "cron_month_4",
+      "value": "April"
+    },
+    {
+      "name": "cron_month_5",
+      "value": "May"
+    },
+    {
+      "name": "cron_month_6",
+      "value": "June"
+    },
+    {
+      "name": "cron_month_7",
+      "value": "July"
+    },
+    {
+      "name": "cron_month_8",
+      "value": "August"
+    },
+    {
+      "name": "cron_month_9",
+      "value": "September"
+    },
+    {
+      "name": "cron_never_matches",
+      "value": "Under standard cron semantics this combination never occurs within eight years (think 30 February)."
+    },
+    {
+      "name": "cron_placeholder",
+      "value": "minute hour day month weekday, e.g. */5 * * * *"
+    },
+    {
+      "name": "cron_weekday_fri",
+      "value": "Fri"
+    },
+    {
+      "name": "cron_weekday_mon",
+      "value": "Mon"
+    },
+    {
+      "name": "cron_weekday_sat",
+      "value": "Sat"
+    },
+    {
+      "name": "cron_weekday_sun",
+      "value": "Sun"
+    },
+    {
+      "name": "cron_weekday_thu",
+      "value": "Thu"
+    },
+    {
+      "name": "cron_weekday_tue",
+      "value": "Tue"
+    },
+    {
+      "name": "cron_weekday_wed",
+      "value": "Wed"
+    },
+    {
+      "name": "cs_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "cs_action_compute",
+      "value": "Compute"
+    },
+    {
+      "name": "cs_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "cs_alg_adler32",
+      "value": "Adler-32"
+    },
+    {
+      "name": "cs_alg_crc32",
+      "value": "CRC-32"
+    },
+    {
+      "name": "cs_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "cs_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "cs_hint_scope",
+      "value": "Integrity only: not a cryptographic hash, no tamper protection"
+    },
+    {
+      "name": "cs_label_algorithm",
+      "value": "Algorithm"
+    },
+    {
+      "name": "cs_label_decimal",
+      "value": "Decimal"
+    },
+    {
+      "name": "cs_label_hex",
+      "value": "Hex"
+    },
+    {
+      "name": "cs_label_input",
+      "value": "Text to verify"
+    },
+    {
+      "name": "date_action_diff",
+      "value": "Calculate difference"
+    },
+    {
+      "name": "date_action_shift",
+      "value": "Calculate"
+    },
+    {
+      "name": "date_copied_diff",
+      "value": "Date difference copied"
+    },
+    {
+      "name": "date_copied_shift",
+      "value": "Date result copied"
+    },
+    {
+      "name": "date_err_day_range",
+      "value": "%s-%s has only %s days, so day %s does not exist."
+    },
+    {
+      "name": "date_err_days_not_integer",
+      "value": "The number of days must be a whole number."
+    },
+    {
+      "name": "date_err_diff_end",
+      "value": "End date: %s"
+    },
+    {
+      "name": "date_err_diff_start",
+      "value": "Start date: %s"
+    },
+    {
+      "name": "date_err_empty",
+      "value": "Enter a date, for example 2024-02-29."
+    },
+    {
+      "name": "date_err_month_range",
+      "value": "The month must be between 1 and 12"
+    },
+    {
+      "name": "date_err_months_not_integer",
+      "value": "The number of months must be a whole number."
+    },
+    {
+      "name": "date_err_non_digit",
+      "value": "The date contains a non-digit character: %s"
+    },
+    {
+      "name": "date_err_out_of_range",
+      "value": "The result falls outside the supported year range (%s-%s)."
+    },
+    {
+      "name": "date_err_unrecognized",
+      "value": "Unrecognised date format: %s (try 2024-02-29, 2024/2/29 or 20240229)"
+    },
+    {
+      "name": "date_err_year_range",
+      "value": "The year must be between %s and %s"
+    },
+    {
+      "name": "date_err_years_not_integer",
+      "value": "The number of years must be a whole number."
+    },
+    {
+      "name": "date_field_amount",
+      "value": "Amount (negative moves backwards)"
+    },
+    {
+      "name": "date_field_base",
+      "value": "Base date"
+    },
+    {
+      "name": "date_field_end",
+      "value": "End date"
+    },
+    {
+      "name": "date_field_start",
+      "value": "Start date"
+    },
+    {
+      "name": "date_gap_days",
+      "value": "A difference of %s days; "
+    },
+    {
+      "name": "date_gap_workdays",
+      "value": "%s of them are %s."
+    },
+    {
+      "name": "date_label_diff",
+      "value": "Date difference"
+    },
+    {
+      "name": "date_label_exclude_weekends",
+      "value": "Working days exclude Saturdays and Sundays"
+    },
+    {
+      "name": "date_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "date_label_shift",
+      "value": "Date arithmetic"
+    },
+    {
+      "name": "date_notice_clamped",
+      "value": "The target month has no such day, so the result uses that month’s last day (1/31 plus one month lands on the last day of February)."
+    },
+    {
+      "name": "date_notice_reversed",
+      "value": " (note: the end date is earlier than the start date, so the values below are negative)"
+    },
+    {
+      "name": "date_placeholder_amount",
+      "value": "e.g. 1 or -30"
+    },
+    {
+      "name": "date_placeholder_base",
+      "value": "e.g. 2024-01-31"
+    },
+    {
+      "name": "date_placeholder_end",
+      "value": "e.g. 2024-12-31"
+    },
+    {
+      "name": "date_placeholder_start",
+      "value": "e.g. 2024-01-01"
+    },
+    {
+      "name": "date_shift_not_integer",
+      "value": "The amount must be a whole number (negative is allowed)."
+    },
+    {
+      "name": "date_unit_calendar",
+      "value": "calendar days"
+    },
+    {
+      "name": "date_unit_day",
+      "value": "Days"
+    },
+    {
+      "name": "date_unit_month",
+      "value": "Months"
+    },
+    {
+      "name": "date_unit_workday",
+      "value": "working days"
+    },
+    {
+      "name": "date_unit_year",
+      "value": "Years"
+    },
+    {
+      "name": "dd_action_calc",
+      "value": "Calculate"
+    },
+    {
+      "name": "dd_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "dd_err_date",
+      "value": "Invalid date format (expected YYYY-MM-DD)"
+    },
+    {
+      "name": "dd_err_empty",
+      "value": "Enter both dates first"
+    },
+    {
+      "name": "dd_label_end",
+      "value": "End date (YYYY-MM-DD)"
+    },
+    {
+      "name": "dd_label_natural",
+      "value": "Natural days"
+    },
+    {
+      "name": "dd_label_start",
+      "value": "Start date (YYYY-MM-DD)"
+    },
+    {
+      "name": "dd_label_weeks",
+      "value": "Weeks"
+    },
+    {
+      "name": "dd_label_work",
+      "value": "Workdays"
+    },
+    {
+      "name": "diff_action_compare",
+      "value": "Compare"
+    },
+    {
+      "name": "diff_action_copy_diff",
+      "value": "Copy diff"
+    },
+    {
+      "name": "diff_action_swap",
+      "value": "Swap sides"
+    },
+    {
+      "name": "diff_copied",
+      "value": "Diff text copied"
+    },
+    {
+      "name": "diff_err_matrix_too_large",
+      "value": "The line counts multiply out too large (%s × %s), so a line-by-line comparison would use too much memory. Cut each side down to a few hundred lines first."
+    },
+    {
+      "name": "diff_err_too_many_lines",
+      "value": "Text is too long: each side supports at most %s lines (currently %s on the left, %s on the right). Trim away what you do not need and try again."
+    },
+    {
+      "name": "diff_hide_unchanged",
+      "value": "Hide unchanged lines"
+    },
+    {
+      "name": "diff_hunk_header",
+      "value": "@@ old line %s / new line %s @@"
+    },
+    {
+      "name": "diff_identical",
+      "value": "The two sides are identical: all %s lines match."
+    },
+    {
+      "name": "diff_label_left",
+      "value": "Original"
+    },
+    {
+      "name": "diff_label_right",
+      "value": "Changed"
+    },
+    {
+      "name": "diff_notice_line_ending",
+      "value": "Note: the two sides use different line endings (one contains CRLF). The comparison treats them as the same, but version control will report the whole file as changed."
+    },
+    {
+      "name": "diff_notice_trailing_newline",
+      "value": "Note: one side ends with a newline and the other does not. Some tools and linters treat that as a missing newline at end of file."
+    },
+    {
+      "name": "diff_placeholder_left",
+      "value": "Paste the original text"
+    },
+    {
+      "name": "diff_placeholder_right",
+      "value": "Paste the text to compare"
+    },
+    {
+      "name": "diff_show_unchanged",
+      "value": "Show unchanged lines"
+    },
+    {
+      "name": "diff_summary_counts",
+      "value": "%s lines added, %s removed (%s unchanged)."
+    },
+    {
+      "name": "diff_summary_line_counts",
+      "value": "Left has %s lines, right has %s."
+    },
+    {
+      "name": "diff_summary_same_line_count",
+      "value": "Both sides have the same number of lines, so this is a line-by-line rewrite."
+    },
+    {
+      "name": "diff_unified_counts",
+      "value": "%s lines added, %s removed, %s unchanged"
+    },
+    {
+      "name": "digest_action_compute",
+      "value": "Compute"
+    },
+    {
+      "name": "digest_action_cross_check",
+      "value": "Cross-check"
+    },
+    {
+      "name": "digest_compare_empty_expected",
+      "value": "Enter the fingerprint to compare first."
+    },
+    {
+      "name": "digest_compare_length_mismatch",
+      "value": "Length mismatch: expected %s characters but got %s — you may have picked the wrong algorithm."
+    },
+    {
+      "name": "digest_compare_match",
+      "value": "Match: the two fingerprints are identical."
+    },
+    {
+      "name": "digest_compare_mismatch",
+      "value": "Mismatch: the fingerprints differ — the content changed, or one of them is stale."
+    },
+    {
+      "name": "digest_compare_no_actual",
+      "value": "No digest computed yet — tap \"Compute\" above first."
+    },
+    {
+      "name": "digest_compare_non_hex",
+      "value": "The fingerprint contains non-hex characters — did you paste some description text along with it?"
+    },
+    {
+      "name": "digest_copied",
+      "value": "Copied the %s digest"
+    },
+    {
+      "name": "digest_cross_check_diff",
+      "value": "Mismatch! SHA-256 %s, SHA-512 %s — please report this to the developer."
+    },
+    {
+      "name": "digest_cross_check_hint",
+      "value": "Recompute SHA-256 / SHA-512 through NGF's securityToolkit (backed by cryptoFramework) and compare with the results above."
+    },
+    {
+      "name": "digest_cross_check_match",
+      "value": "Match: the framework and the local implementation produce identical SHA-256 / SHA-512."
+    },
+    {
+      "name": "digest_cross_check_running",
+      "value": "Recomputing through the framework…"
+    },
+    {
+      "name": "digest_cross_check_unavailable",
+      "value": "The framework digest is unavailable (no cryptoFramework in this environment); the local results are unaffected."
+    },
+    {
+      "name": "digest_cross_different",
+      "value": "differs"
+    },
+    {
+      "name": "digest_cross_same",
+      "value": "matches"
+    },
+    {
+      "name": "digest_fingerprint_hint",
+      "value": "Paste the fingerprint you were given: case, spaces, colons and hyphens are all ignored."
+    },
+    {
+      "name": "digest_label_cross_check",
+      "value": "Cross-check against the framework"
+    },
+    {
+      "name": "digest_label_fingerprint",
+      "value": "Fingerprint comparison"
+    },
+    {
+      "name": "digest_label_input",
+      "value": "Input text"
+    },
+    {
+      "name": "digest_label_result",
+      "value": "Digest"
+    },
+    {
+      "name": "digest_placeholder_fingerprint",
+      "value": "e.g. d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "name": "digest_placeholder_input",
+      "value": "Paste or type the text to hash"
+    },
+    {
+      "name": "err_radix_empty_input",
+      "value": "Enter a number to convert"
+    },
+    {
+      "name": "err_radix_invalid_digit",
+      "value": "Character \"%s\" is not a valid digit in base %s"
+    },
+    {
+      "name": "err_radix_out_of_range",
+      "value": "Base must be an integer between %s and %s"
+    },
+    {
+      "name": "err_radix_shift_out_of_range",
+      "value": "Shift amount must be between %s and %s"
+    },
+    {
+      "name": "err_radix_unsupported_operation",
+      "value": "Unsupported bitwise operation: %s"
+    },
+    {
+      "name": "et_cat_arrow",
+      "value": "Arrows"
+    },
+    {
+      "name": "et_cat_math",
+      "value": "Math"
+    },
+    {
+      "name": "et_cat_quote",
+      "value": "Quotes"
+    },
+    {
+      "name": "et_cat_symbol",
+      "value": "Symbols"
+    },
+    {
+      "name": "et_empty",
+      "value": "No matching entities"
+    },
+    {
+      "name": "et_label_all",
+      "value": "All"
+    },
+    {
+      "name": "et_placeholder_input",
+      "value": "Enter milliseconds (e.g. 1700000000000)"
+    },
+    {
+      "name": "et_placeholder_search",
+      "value": "Entity or meaning"
+    },
+    {
+      "name": "fb_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "fb_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "fb_action_parse",
+      "value": "Decompose"
+    },
+    {
+      "name": "fb_class_infinity",
+      "value": "Infinity"
+    },
+    {
+      "name": "fb_class_nan",
+      "value": "NaN"
+    },
+    {
+      "name": "fb_class_normal",
+      "value": "Normal"
+    },
+    {
+      "name": "fb_class_subnormal",
+      "value": "Subnormal"
+    },
+    {
+      "name": "fb_class_zero",
+      "value": "Zero"
+    },
+    {
+      "name": "fb_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "fb_err_empty",
+      "value": "Enter a number first"
+    },
+    {
+      "name": "fb_err_parse",
+      "value": "Cannot parse as a number: %s"
+    },
+    {
+      "name": "fb_label_class",
+      "value": "Class"
+    },
+    {
+      "name": "fb_label_exponent",
+      "value": "Exponent bits"
+    },
+    {
+      "name": "fb_label_hex",
+      "value": "Hex pattern"
+    },
+    {
+      "name": "fb_label_input",
+      "value": "Number (decimal, or NaN / Infinity)"
+    },
+    {
+      "name": "fb_label_mantissa",
+      "value": "Mantissa bits"
+    },
+    {
+      "name": "fb_label_precision",
+      "value": "Precision"
+    },
+    {
+      "name": "fb_label_sign",
+      "value": "Sign bit"
+    },
+    {
+      "name": "fb_prec_double",
+      "value": "Double 64-bit"
+    },
+    {
+      "name": "fb_prec_single",
+      "value": "Single 32-bit"
+    },
+    {
+      "name": "fd_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "fd_err_empty",
+      "value": "Enter the form body first"
+    },
+    {
+      "name": "fd_err_question",
+      "value": "A leading ? is query syntax - remove it"
+    },
+    {
+      "name": "fd_label_count",
+      "value": "Unique fields"
+    },
+    {
+      "name": "fd_placeholder_input",
+      "value": "Form body (e.g. name=alice&age=30)"
+    },
+    {
+      "name": "fh_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "fh_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "fh_action_hash",
+      "value": "Compute hashes"
+    },
+    {
+      "name": "fh_compare_match",
+      "value": "Matched (%s)"
+    },
+    {
+      "name": "fh_compare_mismatch",
+      "value": "Does not match the expected value"
+    },
+    {
+      "name": "fh_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "fh_err_empty",
+      "value": "Enter the text content first"
+    },
+    {
+      "name": "fh_label_expected",
+      "value": "Expected hash (optional)"
+    },
+    {
+      "name": "fh_label_output",
+      "value": "Hashes"
+    },
+    {
+      "name": "fh_label_text",
+      "value": "Text content"
+    },
+    {
+      "name": "gc_cat_basic",
+      "value": "Basics"
+    },
+    {
+      "name": "gc_cat_branch",
+      "value": "Branches"
+    },
+    {
+      "name": "gc_cat_remote",
+      "value": "Remotes"
+    },
+    {
+      "name": "gc_cat_stash",
+      "value": "Stash"
+    },
+    {
+      "name": "gc_cat_undo",
+      "value": "Undo"
+    },
+    {
+      "name": "gc_cat_view",
+      "value": "Viewing"
+    },
+    {
+      "name": "gc_empty",
+      "value": "No matching commands"
+    },
+    {
+      "name": "gc_label_all",
+      "value": "All"
+    },
+    {
+      "name": "gc_placeholder_search",
+      "value": "Command or keyword"
+    },
+    {
+      "name": "hd_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "hd_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "hd_action_dump",
+      "value": "Dump"
+    },
+    {
+      "name": "hd_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "hd_err_empty",
+      "value": "Enter the text first"
+    },
+    {
+      "name": "hd_label_bytes",
+      "value": "Bytes"
+    },
+    {
+      "name": "hd_label_input",
+      "value": "Text"
+    },
+    {
+      "name": "hd_label_output",
+      "value": "Dump output"
+    },
+    {
+      "name": "he_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "he_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "he_action_decode",
+      "value": "Decode"
+    },
+    {
+      "name": "he_action_encode",
+      "value": "Encode"
+    },
+    {
+      "name": "he_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "he_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "he_err_range",
+      "value": "Code point out of Unicode range: %s"
+    },
+    {
+      "name": "he_err_semicolon",
+      "value": "Entity is missing a semicolon (no guessing - complete it and retry)"
+    },
+    {
+      "name": "he_err_unknown",
+      "value": "Unknown named entity: %s"
+    },
+    {
+      "name": "he_label_decoded",
+      "value": "Decoded"
+    },
+    {
+      "name": "he_label_encoded",
+      "value": "Encoded"
+    },
+    {
+      "name": "he_label_extended",
+      "value": "Extended (encode non-ASCII too)"
+    },
+    {
+      "name": "he_label_input",
+      "value": "Text with HTML entities, or text to encode"
+    },
+    {
+      "name": "he_label_replaced",
+      "value": "Replaced %s occurrence(s)"
+    },
+    {
+      "name": "he_placeholder_input",
+      "value": "e.g. &amp;amp; or a<b"
+    },
+    {
+      "name": "hh_dir_all",
+      "value": "All"
+    },
+    {
+      "name": "hh_dir_both",
+      "value": "Both"
+    },
+    {
+      "name": "hh_dir_request",
+      "value": "Request"
+    },
+    {
+      "name": "hh_dir_response",
+      "value": "Response"
+    },
+    {
+      "name": "hh_empty",
+      "value": "No matching headers"
+    },
+    {
+      "name": "hh_placeholder_search",
+      "value": "Header name or keyword"
+    },
+    {
+      "name": "hm_empty",
+      "value": "No matching methods"
+    },
+    {
+      "name": "hm_label_idempotent",
+      "value": "Idempotent"
+    },
+    {
+      "name": "hm_label_not_idempotent",
+      "value": "Not idempotent"
+    },
+    {
+      "name": "hm_label_status",
+      "value": "Common statuses"
+    },
+    {
+      "name": "hm_placeholder_search",
+      "value": "Method or semantics"
+    },
+    {
+      "name": "hmac_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "hmac_action_compute",
+      "value": "Compute"
+    },
+    {
+      "name": "hmac_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "hmac_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "hmac_err_empty_key",
+      "value": "Enter a key first"
+    },
+    {
+      "name": "hmac_err_empty_message",
+      "value": "Enter a message first"
+    },
+    {
+      "name": "hmac_label_algorithm",
+      "value": "Hash algorithm"
+    },
+    {
+      "name": "hmac_label_key",
+      "value": "Key"
+    },
+    {
+      "name": "hmac_label_message",
+      "value": "Message"
+    },
+    {
+      "name": "hmac_label_result",
+      "value": "HMAC result (uppercase hex)"
+    },
+    {
+      "name": "hmac_placeholder_key",
+      "value": "Shared key (never stored or sent)"
+    },
+    {
+      "name": "hmac_placeholder_message",
+      "value": "Message to sign"
+    },
+    {
+      "name": "host_missing_hint",
+      "value": "This entry may come from a favorite saved by an older version."
+    },
+    {
+      "name": "host_missing_title",
+      "value": "Tool not found"
+    },
+    {
+      "name": "host_placeholder_hint",
+      "value": "Tools ship in batches — this one is scheduled for a later batch."
+    },
+    {
+      "name": "host_placeholder_title",
+      "value": "This tool is still being built"
+    },
+    {
+      "name": "hs_action_apply",
+      "value": "Apply"
+    },
+    {
+      "name": "hs_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "hs_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "hs_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "hs_empty",
+      "value": "No matching status codes"
+    },
+    {
+      "name": "hs_err_bad",
+      "value": "Cannot parse the color: %s"
+    },
+    {
+      "name": "hs_err_empty",
+      "value": "Enter the base color first"
+    },
+    {
+      "name": "hs_label_color",
+      "value": "Base color"
+    },
+    {
+      "name": "hs_label_count",
+      "value": "%s entries"
+    },
+    {
+      "name": "hs_label_hex",
+      "value": "Result"
+    },
+    {
+      "name": "hs_label_hue",
+      "value": "Hue shift (deg, -180 to 180)"
+    },
+    {
+      "name": "hs_label_light",
+      "value": "Lightness shift (%, -100 to 100)"
+    },
+    {
+      "name": "hs_label_search",
+      "value": "Status code or keyword"
+    },
+    {
+      "name": "hs_placeholder_search",
+      "value": "e.g. 404, found, redirect"
+    },
+    {
+      "name": "ib_action_analyze",
+      "value": "Analyze"
+    },
+    {
+      "name": "ib_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ib_err_bad",
+      "value": "The Base64 format is invalid"
+    },
+    {
+      "name": "ib_err_empty",
+      "value": "Enter the content first"
+    },
+    {
+      "name": "ib_hint_ratio",
+      "value": "Base64 is roughly 33% larger than the raw bytes"
+    },
+    {
+      "name": "ib_label_b64len",
+      "value": "Base64 length"
+    },
+    {
+      "name": "ib_label_bytes",
+      "value": "Original size"
+    },
+    {
+      "name": "ib_label_input",
+      "value": "Data URI or Base64"
+    },
+    {
+      "name": "ib_label_mime",
+      "value": "MIME type"
+    },
+    {
+      "name": "ib_label_preview",
+      "value": "Preview"
+    },
+    {
+      "name": "ic_action_analyze",
+      "value": "Analyze"
+    },
+    {
+      "name": "ic_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ic_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "ic_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ic_err_empty",
+      "value": "Enter a CIDR first"
+    },
+    {
+      "name": "ic_err_format",
+      "value": "The IP format is invalid"
+    },
+    {
+      "name": "ic_err_no_prefix",
+      "value": "Missing the / prefix (e.g. 192.168.1.0/24)"
+    },
+    {
+      "name": "ic_err_prefix",
+      "value": "The prefix must be 0 to 32 (got %s)"
+    },
+    {
+      "name": "ic_label_broadcast",
+      "value": "Broadcast address"
+    },
+    {
+      "name": "ic_label_cidr",
+      "value": "Normalized CIDR"
+    },
+    {
+      "name": "ic_label_input",
+      "value": "CIDR (e.g. 192.168.1.0/24)"
+    },
+    {
+      "name": "ic_label_mask",
+      "value": "Subnet mask"
+    },
+    {
+      "name": "ic_label_network",
+      "value": "Network address"
+    },
+    {
+      "name": "ic_label_prefix",
+      "value": "Prefix length"
+    },
+    {
+      "name": "ic_label_total",
+      "value": "Total addresses"
+    },
+    {
+      "name": "ic_label_wildcard",
+      "value": "Wildcard mask"
+    },
+    {
+      "name": "ic_placeholder_input",
+      "value": "IP/prefix, e.g. 10.0.0.77/24"
+    },
+    {
+      "name": "jb_action_build",
+      "value": "Build token"
+    },
+    {
+      "name": "jb_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "jb_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "jb_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "jb_err_json",
+      "value": "The payload is not valid JSON"
+    },
+    {
+      "name": "jb_err_payload",
+      "value": "Enter the payload JSON first"
+    },
+    {
+      "name": "jb_err_secret",
+      "value": "Enter the signing secret first"
+    },
+    {
+      "name": "jb_hint_demo",
+      "value": "Demo only: local HS256 signing, no key strength checks"
+    },
+    {
+      "name": "jb_label_payload",
+      "value": "Payload (JSON)"
+    },
+    {
+      "name": "jb_label_secret",
+      "value": "Signing secret"
+    },
+    {
+      "name": "jb_label_token",
+      "value": "JWT token"
+    },
+    {
+      "name": "jd_action_build",
+      "value": "Build doc"
+    },
+    {
+      "name": "jd_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "jd_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "jd_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "jd_err_bad",
+      "value": "JSON parsing failed - check the syntax"
+    },
+    {
+      "name": "jd_err_empty",
+      "value": "Enter the JSON sample first"
+    },
+    {
+      "name": "jd_label_count",
+      "value": "Fields"
+    },
+    {
+      "name": "jd_label_input",
+      "value": "JSON sample"
+    },
+    {
+      "name": "jd_label_output",
+      "value": "Markdown table"
+    },
+    {
+      "name": "jp_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "jp_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "jp_action_query",
+      "value": "Get value"
+    },
+    {
+      "name": "jp_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "jp_err_bad_json",
+      "value": "JSON parsing failed - check the syntax"
+    },
+    {
+      "name": "jp_err_empty_json",
+      "value": "Enter the JSON text first"
+    },
+    {
+      "name": "jp_err_empty_path",
+      "value": "Enter a path first"
+    },
+    {
+      "name": "jp_err_not_found",
+      "value": "Path not found: %s"
+    },
+    {
+      "name": "jp_err_syntax",
+      "value": "Invalid path syntax (double dots or non-numeric index)"
+    },
+    {
+      "name": "jp_label_json",
+      "value": "JSON text"
+    },
+    {
+      "name": "jp_label_path",
+      "value": "Dot path"
+    },
+    {
+      "name": "jp_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "jp_label_type",
+      "value": "Type"
+    },
+    {
+      "name": "jp_placeholder_path",
+      "value": "e.g. user.name or user.tags[0]"
+    },
+    {
+      "name": "json_action_copy",
+      "value": "Copy result"
+    },
+    {
+      "name": "json_action_escape",
+      "value": "Escape"
+    },
+    {
+      "name": "json_action_format",
+      "value": "Format"
+    },
+    {
+      "name": "json_action_minify",
+      "value": "Minify"
+    },
+    {
+      "name": "json_action_unescape",
+      "value": "Unescape"
+    },
+    {
+      "name": "json_action_validate",
+      "value": "Validate"
+    },
+    {
+      "name": "json_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "json_copied_output",
+      "value": "Output copied"
+    },
+    {
+      "name": "json_duplicate_hint",
+      "value": "Note: these keys appear more than once: %s. JSON allows duplicate keys, but most languages keep only the last one after parsing — make sure that is what you want."
+    },
+    {
+      "name": "json_err_array_missing_comma",
+      "value": "A comma is missing between array elements"
+    },
+    {
+      "name": "json_err_array_trailing_comma",
+      "value": "The array has a comma after its last element (JSON forbids trailing commas)"
+    },
+    {
+      "name": "json_err_array_unclosed",
+      "value": "the array has no closing ]"
+    },
+    {
+      "name": "json_err_array_unexpected",
+      "value": "an array may only contain , or ], but this is %s"
+    },
+    {
+      "name": "json_err_comment",
+      "value": "The JSON standard has no comments — remove them first"
+    },
+    {
+      "name": "json_err_empty",
+      "value": "The input is empty — enter some JSON"
+    },
+    {
+      "name": "json_err_escape_trailing",
+      "value": "the escape character is followed by nothing"
+    },
+    {
+      "name": "json_err_escape_unknown",
+      "value": "unknown escape character \\\\%s"
+    },
+    {
+      "name": "json_err_escape_unsupported",
+      "value": "Unsupported escape sequence: \\\\%s"
+    },
+    {
+      "name": "json_err_literal_expected",
+      "value": "expected %s"
+    },
+    {
+      "name": "json_err_nothing",
+      "value": "Nothing could be parsed"
+    },
+    {
+      "name": "json_err_number_exponent",
+      "value": "the exponent must have digits"
+    },
+    {
+      "name": "json_err_number_fraction",
+      "value": "a decimal point must be followed by digits"
+    },
+    {
+      "name": "json_err_number_leading_zero",
+      "value": "a number may not have a leading zero"
+    },
+    {
+      "name": "json_err_number_minus",
+      "value": "Invalid number: a minus sign must be followed by digits"
+    },
+    {
+      "name": "json_err_number_no_digits",
+      "value": "the number has no digits"
+    },
+    {
+      "name": "json_err_object_colon",
+      "value": "the key must be followed by a colon"
+    },
+    {
+      "name": "json_err_object_key",
+      "value": "an object key must be a double-quoted string"
+    },
+    {
+      "name": "json_err_object_key_not_string",
+      "value": "Object keys must be double-quoted strings"
+    },
+    {
+      "name": "json_err_object_key_single",
+      "value": "Object keys must use double quotes, not single quotes"
+    },
+    {
+      "name": "json_err_object_missing_comma",
+      "value": "A comma is missing between object members"
+    },
+    {
+      "name": "json_err_object_trailing_comma",
+      "value": "The object has a comma after its last member (JSON forbids trailing commas)"
+    },
+    {
+      "name": "json_err_object_unclosed",
+      "value": "the object has no closing }"
+    },
+    {
+      "name": "json_err_object_unexpected",
+      "value": "an object may only contain , or }, but this is %s"
+    },
+    {
+      "name": "json_err_single_quote",
+      "value": "Strings must use double quotes, not single quotes"
+    },
+    {
+      "name": "json_err_string_backslash",
+      "value": "The string ends with a backslash, so the escape is unfinished"
+    },
+    {
+      "name": "json_err_string_control",
+      "value": "Control characters cannot appear literally inside a string (write newlines and tabs as \\\\n and \\\\t)"
+    },
+    {
+      "name": "json_err_string_unterminated",
+      "value": "the string has no closing quote"
+    },
+    {
+      "name": "json_err_too_deep",
+      "value": "Nesting goes deeper than %s levels, so parsing stopped"
+    },
+    {
+      "name": "json_err_trailing",
+      "value": "The JSON already ended, but there is extra content after it"
+    },
+    {
+      "name": "json_err_trailing_content",
+      "value": "there is extra content after the JSON"
+    },
+    {
+      "name": "json_err_unexpected_char",
+      "value": "the character %s should not appear here"
+    },
+    {
+      "name": "json_err_unexpected_end",
+      "value": "the content ends unexpectedly here"
+    },
+    {
+      "name": "json_err_unicode_bad_hex",
+      "value": "\\\\u must be followed by four hex digits"
+    },
+    {
+      "name": "json_err_unicode_incomplete",
+      "value": "a \\\\u escape needs four hex digits"
+    },
+    {
+      "name": "json_err_unknown_keyword",
+      "value": "Unrecognised literal (JSON only allows true / false / null)"
+    },
+    {
+      "name": "json_err_unknown_literal",
+      "value": "Unrecognised literal (JSON only allows true / false / null, numbers, strings, objects and arrays)"
+    },
+    {
+      "name": "json_error_at",
+      "value": "line %s, column %s"
+    },
+    {
+      "name": "json_error_line",
+      "value": "%s (%s)"
+    },
+    {
+      "name": "json_escape_hint",
+      "value": "Turn plain text into something that can sit inside a JSON string, or back again."
+    },
+    {
+      "name": "json_escape_need_input",
+      "value": "Enter the text to escape."
+    },
+    {
+      "name": "json_escape_placeholder",
+      "value": "e.g. a newline \\\\n and a quote \\\""
+    },
+    {
+      "name": "json_indent_none",
+      "value": "No indent"
+    },
+    {
+      "name": "json_indent_spaces",
+      "value": "%s spaces"
+    },
+    {
+      "name": "json_label_escape",
+      "value": "String escaping"
+    },
+    {
+      "name": "json_label_indent",
+      "value": "Indent (affects formatting only)"
+    },
+    {
+      "name": "json_label_input",
+      "value": "JSON text"
+    },
+    {
+      "name": "json_label_output",
+      "value": "Output"
+    },
+    {
+      "name": "json_list_separator",
+      "value": ", "
+    },
+    {
+      "name": "json_placeholder",
+      "value": "Paste JSON, e.g. {\"a\":[1,2]}"
+    },
+    {
+      "name": "json_status_need_input",
+      "value": "Enter some JSON text."
+    },
+    {
+      "name": "json_status_output",
+      "value": "%sOutput is %s characters."
+    },
+    {
+      "name": "json_status_valid",
+      "value": "Valid JSON: %s%s"
+    },
+    {
+      "name": "json_summary_array",
+      "value": "The top level is an array with %s items"
+    },
+    {
+      "name": "json_summary_boolean",
+      "value": "The top level is a boolean: %s"
+    },
+    {
+      "name": "json_summary_none",
+      "value": "No content"
+    },
+    {
+      "name": "json_summary_null",
+      "value": "The top level is null"
+    },
+    {
+      "name": "json_summary_number",
+      "value": "The top level is a number, kept exactly as written: %s"
+    },
+    {
+      "name": "json_summary_object",
+      "value": "The top level is an object with %s keys"
+    },
+    {
+      "name": "json_summary_string",
+      "value": "The top level is a string (length %s)"
+    },
+    {
+      "name": "json_unescape_need_input",
+      "value": "Enter the text to unescape."
+    },
+    {
+      "name": "jt_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "jt_action_convert",
+      "value": "To JSON"
+    },
+    {
+      "name": "jt_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "jt_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "jt_err_empty",
+      "value": "Enter the TOML text first"
+    },
+    {
+      "name": "jt_err_multiline",
+      "value": "Triple-quoted multiline strings are not supported"
+    },
+    {
+      "name": "jt_err_syntax",
+      "value": "Syntax error on line %s"
+    },
+    {
+      "name": "jt_label_input",
+      "value": "TOML text"
+    },
+    {
+      "name": "jt_label_json",
+      "value": "JSON output"
+    },
+    {
+      "name": "jtk_err_array_unclosed",
+      "value": "The array is not closed — a ] is missing"
+    },
+    {
+      "name": "jtk_err_number_exponent",
+      "value": "The exponent part has no digits"
+    },
+    {
+      "name": "jtk_err_number_fraction",
+      "value": "The decimal point must be followed by at least one digit"
+    },
+    {
+      "name": "jtk_err_number_leading_zero",
+      "value": "Numbers cannot have a leading zero (write 012 as 12)"
+    },
+    {
+      "name": "jtk_err_object_colon",
+      "value": "The colon between an object key and its value is missing"
+    },
+    {
+      "name": "jtk_err_object_unclosed",
+      "value": "The object is not closed — a } is missing"
+    },
+    {
+      "name": "jtk_err_string_unterminated",
+      "value": "The string is not closed — the ending double quote is missing"
+    },
+    {
+      "name": "jtk_err_unexpected_end",
+      "value": "The content ends unexpectedly: a value is still expected here"
+    },
+    {
+      "name": "jtk_err_unicode_bad_hex",
+      "value": "The \\\\u escape contains a non-hex character: %s"
+    },
+    {
+      "name": "jtk_err_unicode_incomplete",
+      "value": "The \\\\u escape is incomplete — it needs four hex digits"
+    },
+    {
+      "name": "jwt_action_decode",
+      "value": "Decode"
+    },
+    {
+      "name": "jwt_b64_bad_char",
+      "value": "The Base64URL contains an invalid character: %s"
+    },
+    {
+      "name": "jwt_b64_empty",
+      "value": "The segment is empty"
+    },
+    {
+      "name": "jwt_b64_length",
+      "value": "Invalid Base64URL length (one character left over after removing =)"
+    },
+    {
+      "name": "jwt_b64_pad_too_many",
+      "value": "Base64URL can have at most two = padding characters"
+    },
+    {
+      "name": "jwt_b64_trailing_bits",
+      "value": "The Base64URL ends with extra padding bits"
+    },
+    {
+      "name": "jwt_claim_exp",
+      "value": "Expires at"
+    },
+    {
+      "name": "jwt_claim_iat",
+      "value": "Issued at"
+    },
+    {
+      "name": "jwt_claim_nbf",
+      "value": "Not valid before"
+    },
+    {
+      "name": "jwt_copied",
+      "value": "Copied %s"
+    },
+    {
+      "name": "jwt_err_empty",
+      "value": "Paste a JWT first."
+    },
+    {
+      "name": "jwt_err_header_b64",
+      "value": "The Header is not valid Base64URL: %s"
+    },
+    {
+      "name": "jwt_err_header_json",
+      "value": "The Header does not decode to valid JSON. %s"
+    },
+    {
+      "name": "jwt_err_jwe",
+      "value": "This is a five-part JWE (an encrypted token). This tool only decodes three-part JWS tokens and does not decrypt."
+    },
+    {
+      "name": "jwt_err_payload_b64",
+      "value": "The Payload is not valid Base64URL: %s"
+    },
+    {
+      "name": "jwt_err_payload_json",
+      "value": "The Payload does not decode to valid JSON. %s"
+    },
+    {
+      "name": "jwt_err_segments",
+      "value": "A JWT has three parts (Header.Payload.Signature); this one has %s."
+    },
+    {
+      "name": "jwt_err_too_long",
+      "value": "Token too long (over %s characters): this tool is for inspecting a single token."
+    },
+    {
+      "name": "jwt_json_position",
+      "value": "JSON parsing stopped at line %s, column %s: "
+    },
+    {
+      "name": "jwt_label_paste",
+      "value": "Paste a JWT"
+    },
+    {
+      "name": "jwt_label_signature",
+      "value": "Signature (shown as-is, not verified)"
+    },
+    {
+      "name": "jwt_label_time_claims",
+      "value": "Time claims"
+    },
+    {
+      "name": "jwt_local_tz",
+      "value": " (local time zone)"
+    },
+    {
+      "name": "jwt_placeholder",
+      "value": "Paste a token shaped like xxxxx.yyyyy.zzzzz"
+    },
+    {
+      "name": "jwt_rel_future",
+      "value": "%s from now"
+    },
+    {
+      "name": "jwt_rel_just_now",
+      "value": "right now"
+    },
+    {
+      "name": "jwt_rel_past",
+      "value": "%s ago"
+    },
+    {
+      "name": "jwt_rel_unknown",
+      "value": "cannot tell"
+    },
+    {
+      "name": "jwt_span_days",
+      "value": "%s days"
+    },
+    {
+      "name": "jwt_span_hours",
+      "value": "%s hours"
+    },
+    {
+      "name": "jwt_span_minutes",
+      "value": "%s minutes"
+    },
+    {
+      "name": "jwt_span_seconds",
+      "value": "%s seconds"
+    },
+    {
+      "name": "jwt_span_years",
+      "value": "%s years"
+    },
+    {
+      "name": "jwt_status_expired",
+      "value": "Expired: %s (%s)"
+    },
+    {
+      "name": "jwt_status_no_exp",
+      "value": "This token has no exp claim, so expiry cannot be determined (that does not make it long-lived)."
+    },
+    {
+      "name": "jwt_status_valid",
+      "value": "Not expired: %s (%s). Note: decoding successfully does not make the token genuine."
+    },
+    {
+      "name": "jwt_time_not_number",
+      "value": "not a number, so it cannot be converted"
+    },
+    {
+      "name": "jwt_time_out_of_range",
+      "value": "outside the representable time range"
+    },
+    {
+      "name": "jy_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "jy_action_convert",
+      "value": "To JSON"
+    },
+    {
+      "name": "jy_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "jy_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "jy_err_block",
+      "value": "Block scalars are not supported"
+    },
+    {
+      "name": "jy_err_empty",
+      "value": "Enter the YAML text first"
+    },
+    {
+      "name": "jy_err_indent",
+      "value": "Indent error on line %s (one two-space level only)"
+    },
+    {
+      "name": "jy_err_multi",
+      "value": "Multi-document input is not supported"
+    },
+    {
+      "name": "jy_err_syntax",
+      "value": "Syntax error on line %s"
+    },
+    {
+      "name": "jy_label_input",
+      "value": "YAML text"
+    },
+    {
+      "name": "jy_label_json",
+      "value": "JSON output"
+    },
+    {
+      "name": "kbs_col_name",
+      "value": "Name"
+    },
+    {
+      "name": "kbs_col_symbol",
+      "value": "Symbol"
+    },
+    {
+      "name": "kbs_col_win",
+      "value": "Windows/Linux equivalent"
+    },
+    {
+      "name": "kbs_empty",
+      "value": "No matching symbols"
+    },
+    {
+      "name": "kbs_placeholder_search",
+      "value": "Symbol name or equivalent"
+    },
+    {
+      "name": "ks_cat_edit",
+      "value": "Editing"
+    },
+    {
+      "name": "ks_cat_nav",
+      "value": "Navigation"
+    },
+    {
+      "name": "ks_cat_refactor",
+      "value": "Refactoring"
+    },
+    {
+      "name": "ks_cat_run",
+      "value": "Run & Debug"
+    },
+    {
+      "name": "ks_cat_search",
+      "value": "Search"
+    },
+    {
+      "name": "ks_empty",
+      "value": "No matching shortcuts"
+    },
+    {
+      "name": "ks_label_all",
+      "value": "All"
+    },
+    {
+      "name": "ks_placeholder_search",
+      "value": "Keys or action"
+    },
+    {
+      "name": "li_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "li_action_copy",
+      "value": "Copy all"
+    },
+    {
+      "name": "li_action_generate",
+      "value": "Generate"
+    },
+    {
+      "name": "li_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "li_err_range",
+      "value": "Paragraphs and sentences must be 1 to 20"
+    },
+    {
+      "name": "li_label_lang",
+      "value": "Word list"
+    },
+    {
+      "name": "li_label_paragraphs",
+      "value": "Paragraphs (1-20)"
+    },
+    {
+      "name": "li_label_seed",
+      "value": "Seed (same seed, same output)"
+    },
+    {
+      "name": "li_label_sentences",
+      "value": "Sentences per paragraph (1-20)"
+    },
+    {
+      "name": "li_lang_chinese",
+      "value": "Chinese"
+    },
+    {
+      "name": "li_lang_latin",
+      "value": "Latin (Lorem Ipsum)"
+    },
+    {
+      "name": "li_result_words",
+      "value": "%s words"
+    },
+    {
+      "name": "ln_action_add",
+      "value": "Add numbers"
+    },
+    {
+      "name": "ln_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ln_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "ln_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ln_err_empty",
+      "value": "Enter the text first"
+    },
+    {
+      "name": "ln_label_input",
+      "value": "Text"
+    },
+    {
+      "name": "ln_label_output",
+      "value": "Result"
+    },
+    {
+      "name": "ln_label_start",
+      "value": "Start number"
+    },
+    {
+      "name": "ln_style_bracket",
+      "value": "Bracket"
+    },
+    {
+      "name": "ln_style_colon",
+      "value": "Colon"
+    },
+    {
+      "name": "ln_style_dot",
+      "value": "Dot"
+    },
+    {
+      "name": "md_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "md_action_copy_all",
+      "value": "Copy all"
+    },
+    {
+      "name": "md_action_generate",
+      "value": "Generate"
+    },
+    {
+      "name": "md_copied_all",
+      "value": "All copied"
+    },
+    {
+      "name": "md_empty",
+      "value": "The rendered result appears here once you type Markdown"
+    },
+    {
+      "name": "md_err_count",
+      "value": "Count must be a whole number from 1 to 200"
+    },
+    {
+      "name": "md_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "md_hint_fake",
+      "value": "All randomly generated fake data (emails use the reserved example.com domain)"
+    },
+    {
+      "name": "md_label_count",
+      "value": "Count (1-200)"
+    },
+    {
+      "name": "md_label_input",
+      "value": "Markdown source"
+    },
+    {
+      "name": "md_label_preview",
+      "value": "Preview"
+    },
+    {
+      "name": "md_label_type",
+      "value": "Data type"
+    },
+    {
+      "name": "md_placeholder_input",
+      "value": "# heading, **bold**, *italic*, `code`, - list, > quote"
+    },
+    {
+      "name": "md_type_email",
+      "value": "Email"
+    },
+    {
+      "name": "md_type_name",
+      "value": "Chinese name"
+    },
+    {
+      "name": "md_type_phone",
+      "value": "Phone number"
+    },
+    {
+      "name": "ml_action_check",
+      "value": "Check links"
+    },
+    {
+      "name": "ml_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ml_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "ml_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ml_err_empty",
+      "value": "Enter the Markdown text first"
+    },
+    {
+      "name": "ml_kind_absolute",
+      "value": "Absolute URL"
+    },
+    {
+      "name": "ml_kind_anchor",
+      "value": "Anchor"
+    },
+    {
+      "name": "ml_kind_image",
+      "value": "Image"
+    },
+    {
+      "name": "ml_kind_other",
+      "value": "Other protocol"
+    },
+    {
+      "name": "ml_kind_relative",
+      "value": "Relative"
+    },
+    {
+      "name": "ml_label_duplicates",
+      "value": "Duplicate targets"
+    },
+    {
+      "name": "ml_label_empty",
+      "value": "%s empty targets"
+    },
+    {
+      "name": "ml_label_input",
+      "value": "Markdown text"
+    },
+    {
+      "name": "ml_label_links",
+      "value": "%s links"
+    },
+    {
+      "name": "ml_not_found",
+      "value": "Extension not in the table (30 common entries only)"
+    },
+    {
+      "name": "ml_placeholder_search",
+      "value": "Extension or filename (e.g. .json)"
+    },
+    {
+      "name": "module_desc",
+      "value": "NGF Developer Toolbox entry module"
+    },
+    {
+      "name": "mt_action_build",
+      "value": "Build TOC"
+    },
+    {
+      "name": "mt_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "mt_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "mt_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "mt_err_empty",
+      "value": "Enter the Markdown text first"
+    },
+    {
+      "name": "mt_err_noheadings",
+      "value": "No level 1-3 headings found"
+    },
+    {
+      "name": "mt_label_input",
+      "value": "Markdown text"
+    },
+    {
+      "name": "mt_label_output",
+      "value": "TOC"
+    },
+    {
+      "name": "mtg_action_build",
+      "value": "Build table"
+    },
+    {
+      "name": "mtg_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "mtg_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "mtg_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "mtg_err_empty",
+      "value": "Enter the delimited text first"
+    },
+    {
+      "name": "mtg_label_delim",
+      "value": "Delimiter"
+    },
+    {
+      "name": "mtg_label_input",
+      "value": "Delimited text (first row is header)"
+    },
+    {
+      "name": "mtg_label_output",
+      "value": "Markdown table"
+    },
+    {
+      "name": "pc_action_calc",
+      "value": "Calculate"
+    },
+    {
+      "name": "pc_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "pc_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "pc_apply_base",
+      "value": "Base value"
+    },
+    {
+      "name": "pc_apply_down",
+      "value": "Decrease"
+    },
+    {
+      "name": "pc_apply_percent",
+      "value": "Percent %"
+    },
+    {
+      "name": "pc_apply_up",
+      "value": "Increase"
+    },
+    {
+      "name": "pc_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "pc_err_empty",
+      "value": "Enter values first"
+    },
+    {
+      "name": "pc_err_nan",
+      "value": "Inputs must be numbers"
+    },
+    {
+      "name": "pc_err_zero",
+      "value": "Division by zero: check the denominator"
+    },
+    {
+      "name": "pc_hint_asym",
+      "value": "Note: +50% then -50% does not return to the start (300 to 150)"
+    },
+    {
+      "name": "pc_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "pc_of_part",
+      "value": "Part value"
+    },
+    {
+      "name": "pc_of_total",
+      "value": "Total value"
+    },
+    {
+      "name": "pc_part_percent",
+      "value": "Percent %"
+    },
+    {
+      "name": "pc_part_total",
+      "value": "Total value"
+    },
+    {
+      "name": "pc_rate_from",
+      "value": "From"
+    },
+    {
+      "name": "pc_rate_to",
+      "value": "To"
+    },
+    {
+      "name": "pc_tab_apply",
+      "value": "Apply %"
+    },
+    {
+      "name": "pc_tab_of",
+      "value": "Percent of"
+    },
+    {
+      "name": "pc_tab_part",
+      "value": "Part"
+    },
+    {
+      "name": "pc_tab_rate",
+      "value": "Change rate"
+    },
+    {
+      "name": "pc_tab_total",
+      "value": "Total"
+    },
+    {
+      "name": "pc_total_part",
+      "value": "Known part"
+    },
+    {
+      "name": "pc_total_percent",
+      "value": "Its percent %"
+    },
+    {
+      "name": "pg_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "pg_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "pg_action_generate",
+      "value": "Generate"
+    },
+    {
+      "name": "pg_chip_luma",
+      "value": "Luma steps only"
+    },
+    {
+      "name": "pg_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "pg_err_bad",
+      "value": "Cannot parse the color: %s"
+    },
+    {
+      "name": "pg_err_empty",
+      "value": "Enter a base color first"
+    },
+    {
+      "name": "pg_harmony_none",
+      "value": "Shades only"
+    },
+    {
+      "name": "pg_label_base",
+      "value": "Base"
+    },
+    {
+      "name": "pg_label_harmony",
+      "value": "Harmony"
+    },
+    {
+      "name": "pg_label_input",
+      "value": "Base color"
+    },
+    {
+      "name": "pg_placeholder_input",
+      "value": "e.g. #0962F2 or rgb(9,98,242)"
+    },
+    {
+      "name": "pl_empty",
+      "value": "No matching ports"
+    },
+    {
+      "name": "pl_placeholder_search",
+      "value": "Port number or service name"
+    },
+    {
+      "name": "port_action_copy",
+      "value": "Copy results"
+    },
+    {
+      "name": "port_action_start",
+      "value": "Start testing"
+    },
+    {
+      "name": "port_action_stop",
+      "value": "Stop"
+    },
+    {
+      "name": "port_copied_results",
+      "value": "Test results copied"
+    },
+    {
+      "name": "port_detail_open",
+      "value": "took %s ms"
+    },
+    {
+      "name": "port_detail_running",
+      "value": "connecting…"
+    },
+    {
+      "name": "port_detail_skip_bad_host",
+      "value": "invalid host — no connection was made"
+    },
+    {
+      "name": "port_detail_skip_bad_port",
+      "value": "invalid port — no connection was made"
+    },
+    {
+      "name": "port_detail_skip_duplicate",
+      "value": "duplicate of an earlier target — not connected again"
+    },
+    {
+      "name": "port_err_bad_host",
+      "value": "That host does not look right: it must not be empty, contain spaces or control characters, or carry a scheme such as http://"
+    },
+    {
+      "name": "port_err_bad_port",
+      "value": "No ports could be parsed"
+    },
+    {
+      "name": "port_err_code",
+      "value": "Connection failed (error code %s)"
+    },
+    {
+      "name": "port_err_dns",
+      "value": "Could not resolve the host name: check the spelling and whether this network can resolve it"
+    },
+    {
+      "name": "port_err_empty",
+      "value": "Enter a host and ports, for example example.com:443 or 192.168.1.1:80,443"
+    },
+    {
+      "name": "port_err_ipv6_unclosed",
+      "value": "IPv6 addresses need square brackets, e.g. [::1]:443"
+    },
+    {
+      "name": "port_err_multiple_colons",
+      "value": "The host contains several colons. For an IPv6 address, wrap it in square brackets, e.g. [::1]:443"
+    },
+    {
+      "name": "port_err_no_permission",
+      "value": "Missing network permission (a problem in the app, not with your input)"
+    },
+    {
+      "name": "port_err_no_port",
+      "value": "No port found. Write it as host:port, e.g. example.com:443"
+    },
+    {
+      "name": "port_err_offline",
+      "value": "Network not connected: join Wi-Fi or mobile data first"
+    },
+    {
+      "name": "port_err_other",
+      "value": "Connection failed: %s"
+    },
+    {
+      "name": "port_err_port_not_integer",
+      "value": "A port must be a whole number from %s to %s (this one is \"%s\")"
+    },
+    {
+      "name": "port_err_protocol_prefix",
+      "value": "Drop the scheme (http:// or https://) and give just the host and ports, e.g. example.com:443"
+    },
+    {
+      "name": "port_err_range_reversed",
+      "value": "A port range cannot start after it ends (%s-%s)"
+    },
+    {
+      "name": "port_err_range_syntax",
+      "value": "Malformed port range: write it as start-end, e.g. 8000-8010"
+    },
+    {
+      "name": "port_err_range_too_many",
+      "value": "That range covers %s ports, past the limit of %s per run"
+    },
+    {
+      "name": "port_err_refused",
+      "value": "Connection refused: the host is reachable, but nothing is listening on that port"
+    },
+    {
+      "name": "port_err_timeout",
+      "value": "Connection timed out: the target did not answer in time (a firewall may be dropping packets, or the host may be offline)"
+    },
+    {
+      "name": "port_err_timeout_quiet",
+      "value": "Connection timed out"
+    },
+    {
+      "name": "port_err_too_long",
+      "value": "The input is too long — give one host and a few ports"
+    },
+    {
+      "name": "port_err_too_many",
+      "value": "At most %s ports per run (%s given). This tool checks your own services; it does not scan ports."
+    },
+    {
+      "name": "port_err_unreachable",
+      "value": "Network unreachable: this device may be offline"
+    },
+    {
+      "name": "port_input_hint",
+      "value": "Accepts host:port, host:port1,port2 and host:8000-8010 (at most 64 ports per run). For IPv6 use square brackets, e.g. [::1]:443."
+    },
+    {
+      "name": "port_label_online",
+      "value": "This tool uses the network"
+    },
+    {
+      "name": "port_label_presets",
+      "value": "Common ports (tap to add)"
+    },
+    {
+      "name": "port_label_target",
+      "value": "Host and ports"
+    },
+    {
+      "name": "port_label_timeout",
+      "value": "Timeout (%s s)"
+    },
+    {
+      "name": "port_mark_closed",
+      "value": "closed"
+    },
+    {
+      "name": "port_mark_open",
+      "value": "open"
+    },
+    {
+      "name": "port_mark_pending",
+      "value": "pending"
+    },
+    {
+      "name": "port_mark_running",
+      "value": "testing"
+    },
+    {
+      "name": "port_mark_skipped",
+      "value": "skipped"
+    },
+    {
+      "name": "port_notice_localhost",
+      "value": "Note: localhost means this device itself. On a phone, localhost is not your computer."
+    },
+    {
+      "name": "port_notice_loopback",
+      "value": "Note: 127.0.0.1 is a loopback address — it only means something on the machine being tested. Connecting to it from this device reaches this device."
+    },
+    {
+      "name": "port_notice_private",
+      "value": "Note: this is a private address, reachable only if this device is on the same network."
+    },
+    {
+      "name": "port_online_note",
+      "value": "It connects only to the host you type below, to see whether that port is reachable. Beyond that the toolbox stays offline, collects nothing and has no accounts."
+    },
+    {
+      "name": "port_placeholder",
+      "value": "e.g. 192.168.1.1:80 or example.com:443"
+    },
+    {
+      "name": "port_result_service",
+      "value": " (%s)"
+    },
+    {
+      "name": "port_summary_closed",
+      "value": ", %s closed"
+    },
+    {
+      "name": "port_summary_not_started",
+      "value": "Testing has not started yet."
+    },
+    {
+      "name": "port_summary_open",
+      "value": "%s open"
+    },
+    {
+      "name": "port_summary_skipped",
+      "value": ", %s not tested (invalid input, no network used)"
+    },
+    {
+      "name": "port_summary_total",
+      "value": " (of %s)"
+    },
+    {
+      "name": "port_timeout_note",
+      "value": "Below %s seconds a slow link on mobile data is easily misread as \"closed\", so the floor is fixed here."
+    },
+    {
+      "name": "port_toast_need_host",
+      "value": "Enter a host first, e.g. 192.168.1.1"
+    },
+    {
+      "name": "ps_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ps_hint_offline",
+      "value": "Offline heuristic: entropy is an upper bound, no breach check"
+    },
+    {
+      "name": "ps_label_advice",
+      "value": "Suggestions"
+    },
+    {
+      "name": "ps_label_entropy",
+      "value": "Estimated entropy"
+    },
+    {
+      "name": "ps_label_input",
+      "value": "Enter the password to evaluate"
+    },
+    {
+      "name": "ps_label_score",
+      "value": "Score"
+    },
+    {
+      "name": "ps_summary_medium",
+      "value": "Medium"
+    },
+    {
+      "name": "ps_summary_strong",
+      "value": "Strong"
+    },
+    {
+      "name": "ps_summary_weak",
+      "value": "Weak"
+    },
+    {
+      "name": "qr_action_copy",
+      "value": "Copy content"
+    },
+    {
+      "name": "qr_action_share",
+      "value": "Share"
+    },
+    {
+      "name": "qr_chars",
+      "value": "%s characters"
+    },
+    {
+      "name": "qr_copied",
+      "value": "QR content copied"
+    },
+    {
+      "name": "qr_empty",
+      "value": "Fill in the fields above and the QR code appears here."
+    },
+    {
+      "name": "qr_err_email_invalid",
+      "value": "Invalid email address — it should look like name@example.com"
+    },
+    {
+      "name": "qr_err_email_required",
+      "value": "Enter the recipient email address"
+    },
+    {
+      "name": "qr_err_phone_no_digits",
+      "value": "The phone number contains no digits"
+    },
+    {
+      "name": "qr_err_phone_required",
+      "value": "Enter a phone number"
+    },
+    {
+      "name": "qr_err_sms_phone",
+      "value": "Enter the number that receives the SMS"
+    },
+    {
+      "name": "qr_err_text_required",
+      "value": "Enter the text to put in the QR code"
+    },
+    {
+      "name": "qr_err_url_invalid",
+      "value": "That does not look like a URL (no domain suffix and no scheme)"
+    },
+    {
+      "name": "qr_err_url_required",
+      "value": "Enter a URL"
+    },
+    {
+      "name": "qr_err_vcard_name",
+      "value": "Enter a name — a contact card needs at least that"
+    },
+    {
+      "name": "qr_err_wifi_password",
+      "value": "A password is required unless the security is set to None"
+    },
+    {
+      "name": "qr_err_wifi_ssid",
+      "value": "Enter the Wi-Fi network name (SSID)"
+    },
+    {
+      "name": "qr_field_address",
+      "value": "Address"
+    },
+    {
+      "name": "qr_field_body",
+      "value": "Message body"
+    },
+    {
+      "name": "qr_field_email",
+      "value": "Email"
+    },
+    {
+      "name": "qr_field_name",
+      "value": "Name"
+    },
+    {
+      "name": "qr_field_org",
+      "value": "Company / organisation"
+    },
+    {
+      "name": "qr_field_password",
+      "value": "Wi-Fi password"
+    },
+    {
+      "name": "qr_field_phone",
+      "value": "Phone number"
+    },
+    {
+      "name": "qr_field_security",
+      "value": "Security"
+    },
+    {
+      "name": "qr_field_ssid",
+      "value": "Wi-Fi name (SSID)"
+    },
+    {
+      "name": "qr_field_subject",
+      "value": "Email subject"
+    },
+    {
+      "name": "qr_field_tel",
+      "value": "Phone"
+    },
+    {
+      "name": "qr_field_text",
+      "value": "Text"
+    },
+    {
+      "name": "qr_field_title",
+      "value": "Job title"
+    },
+    {
+      "name": "qr_field_url",
+      "value": "URL"
+    },
+    {
+      "name": "qr_hint_could_be_url",
+      "value": "If this text is actually a URL, switch to the URL type — it fills in the scheme and produces a more compact code."
+    },
+    {
+      "name": "qr_hint_long_url",
+      "value": "Long URLs often make a QR code too dense to scan. Consider a shorter address."
+    },
+    {
+      "name": "qr_label_kind",
+      "value": "QR content type"
+    },
+    {
+      "name": "qr_label_payload",
+      "value": "Content of the QR code"
+    },
+    {
+      "name": "qr_label_scan_as",
+      "value": "Will be read as: %s"
+    },
+    {
+      "name": "qr_notice_too_long",
+      "value": "The content is %s characters, past the range that usually scans reliably (about %s). The code will get denser and some scanners may fail — shorten it or use a link instead."
+    },
+    {
+      "name": "qr_ph_address",
+      "value": "1 Example Street"
+    },
+    {
+      "name": "qr_ph_body",
+      "value": "Body (optional)"
+    },
+    {
+      "name": "qr_ph_name",
+      "value": "Jane Doe"
+    },
+    {
+      "name": "qr_ph_org",
+      "value": "Acme Inc."
+    },
+    {
+      "name": "qr_ph_password",
+      "value": "Wi-Fi password"
+    },
+    {
+      "name": "qr_ph_ssid",
+      "value": "The Wi-Fi name shown on your router"
+    },
+    {
+      "name": "qr_ph_subject",
+      "value": "Email subject (optional)"
+    },
+    {
+      "name": "qr_ph_tel",
+      "value": "+1 555 000 0000 (separators are stripped automatically)"
+    },
+    {
+      "name": "qr_ph_text",
+      "value": "Any text"
+    },
+    {
+      "name": "qr_ph_title",
+      "value": "Engineer"
+    },
+    {
+      "name": "qr_ph_url",
+      "value": "example.com (https:// is added automatically)"
+    },
+    {
+      "name": "qr_result_email",
+      "value": "Email"
+    },
+    {
+      "name": "qr_result_phone",
+      "value": "Phone number"
+    },
+    {
+      "name": "qr_result_sms",
+      "value": "SMS"
+    },
+    {
+      "name": "qr_result_text",
+      "value": "Plain text"
+    },
+    {
+      "name": "qr_result_url",
+      "value": "URL"
+    },
+    {
+      "name": "qr_result_vcard",
+      "value": "Contact card"
+    },
+    {
+      "name": "qr_result_wifi",
+      "value": "Wi-Fi network"
+    },
+    {
+      "name": "qr_security_none",
+      "value": "No password"
+    },
+    {
+      "name": "qr_security_wep",
+      "value": "WEP (legacy devices)"
+    },
+    {
+      "name": "radix_action_bitwise",
+      "value": "Compute"
+    },
+    {
+      "name": "radix_action_convert",
+      "value": "Convert"
+    },
+    {
+      "name": "radix_bitwise_hint",
+      "value": "The left operand comes from the field above. Every operation except NOT also needs a right operand. >> is an arithmetic shift (the sign bit is kept)."
+    },
+    {
+      "name": "radix_copied_bitwise",
+      "value": "Bitwise result copied"
+    },
+    {
+      "name": "radix_copied_result",
+      "value": "Conversion result copied"
+    },
+    {
+      "name": "radix_label_bitwise",
+      "value": "Bitwise (signed %s-bit, same base as the source)"
+    },
+    {
+      "name": "radix_label_bitwise_result",
+      "value": "Bitwise result"
+    },
+    {
+      "name": "radix_label_input",
+      "value": "Number to convert"
+    },
+    {
+      "name": "radix_label_radix_pair",
+      "value": "From → to base (%s → %s)"
+    },
+    {
+      "name": "radix_label_result",
+      "value": "Result (base %s)"
+    },
+    {
+      "name": "radix_placeholder_input",
+      "value": "Signs and underscores allowed, e.g. -0xFF or 1111 0000"
+    },
+    {
+      "name": "radix_placeholder_right_operand",
+      "value": "Right operand"
+    },
+    {
+      "name": "radix_placeholder_shift",
+      "value": "Shift amount"
+    },
+    {
+      "name": "radix_placeholder_source_radix",
+      "value": "Source base %s-%s"
+    },
+    {
+      "name": "radix_placeholder_target_radix",
+      "value": "Target base %s-%s"
+    },
+    {
+      "name": "radix_truncated_notice",
+      "value": "Note: the input exceeded 64 bits and was truncated to the low 64 bits before the operation."
+    },
+    {
+      "name": "rc_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "rc_cat_anchor",
+      "value": "Anchors"
+    },
+    {
+      "name": "rc_cat_char",
+      "value": "Characters"
+    },
+    {
+      "name": "rc_cat_escape",
+      "value": "Escapes"
+    },
+    {
+      "name": "rc_cat_flag",
+      "value": "Flags"
+    },
+    {
+      "name": "rc_cat_group",
+      "value": "Groups"
+    },
+    {
+      "name": "rc_cat_quant",
+      "value": "Quantifiers"
+    },
+    {
+      "name": "rc_empty",
+      "value": "No matching entries"
+    },
+    {
+      "name": "rc_label_all",
+      "value": "All"
+    },
+    {
+      "name": "rc_label_search",
+      "value": "Syntax or keyword"
+    },
+    {
+      "name": "rc_placeholder_search",
+      "value": "e.g. digit, capture, {n}"
+    },
+    {
+      "name": "regex_action_collapse",
+      "value": "Collapse"
+    },
+    {
+      "name": "regex_action_copy",
+      "value": "Copy results"
+    },
+    {
+      "name": "regex_action_expand",
+      "value": "Show all"
+    },
+    {
+      "name": "regex_action_run",
+      "value": "Run"
+    },
+    {
+      "name": "regex_capture_line",
+      "value": "Group %s = %s"
+    },
+    {
+      "name": "regex_capture_unmatched",
+      "value": "(did not participate in the match)"
+    },
+    {
+      "name": "regex_copied_report",
+      "value": "Match results copied"
+    },
+    {
+      "name": "regex_current_flags",
+      "value": "Current flags: %s (%s)"
+    },
+    {
+      "name": "regex_err_incomplete_quantifier",
+      "value": "Incomplete brace quantifier — write {n}, {n,} or {n,m}"
+    },
+    {
+      "name": "regex_err_invalid_char_class",
+      "value": "Invalid character class (a reversed range such as [z-a], for example)"
+    },
+    {
+      "name": "regex_err_invalid_escape",
+      "value": "Invalid escape: the backslash is followed by an unsupported character"
+    },
+    {
+      "name": "regex_err_invalid_group",
+      "value": "Invalid group syntax: the (? extension is malformed"
+    },
+    {
+      "name": "regex_err_invalid_property",
+      "value": "Invalid Unicode property name — check the name inside \\\\p{...}"
+    },
+    {
+      "name": "regex_err_invalid_unicode_escape",
+      "value": "Invalid Unicode escape — write \\\\uXXXX or \\\\u{XXXXX}"
+    },
+    {
+      "name": "regex_err_nothing_to_repeat",
+      "value": "Nothing to repeat: * + ? {n} cannot appear at the start or right after ( or |"
+    },
+    {
+      "name": "regex_err_parse_error",
+      "value": "The regular expression could not be parsed"
+    },
+    {
+      "name": "regex_err_range_out_of_order",
+      "value": "Quantifier range is backwards: in {m,n}, m cannot exceed n"
+    },
+    {
+      "name": "regex_err_syntax",
+      "value": "Regular expression syntax error"
+    },
+    {
+      "name": "regex_err_unmatched_close",
+      "value": "There is one ) too many"
+    },
+    {
+      "name": "regex_err_unterminated_class",
+      "value": "Unclosed character class: a [ is missing its ]"
+    },
+    {
+      "name": "regex_err_unterminated_group",
+      "value": "Unclosed group: a ( is missing its )"
+    },
+    {
+      "name": "regex_error_near",
+      "value": " (near character %s)"
+    },
+    {
+      "name": "regex_flag_dot_all",
+      "value": "s dot matches newline"
+    },
+    {
+      "name": "regex_flag_dot_all_hint",
+      "value": "Lets . match newline characters too"
+    },
+    {
+      "name": "regex_flag_global",
+      "value": "g global"
+    },
+    {
+      "name": "regex_flag_global_hint",
+      "value": "With this off, only the first match is taken"
+    },
+    {
+      "name": "regex_flag_ignore_case",
+      "value": "i ignore case"
+    },
+    {
+      "name": "regex_flag_ignore_case_hint",
+      "value": "Treats A and a as the same"
+    },
+    {
+      "name": "regex_flag_multiline",
+      "value": "m multiline"
+    },
+    {
+      "name": "regex_flag_multiline_hint",
+      "value": "Makes ^ and $ work per line"
+    },
+    {
+      "name": "regex_flag_none",
+      "value": "no flags"
+    },
+    {
+      "name": "regex_flag_unicode",
+      "value": "u Unicode mode"
+    },
+    {
+      "name": "regex_flag_unicode_hint",
+      "value": "Interprets \\\\u{...} and surrogate pairs by code point"
+    },
+    {
+      "name": "regex_highlight_truncated",
+      "value": "Too many hits — the highlight preview keeps only the last %s segments of the text."
+    },
+    {
+      "name": "regex_issue_nothing_to_repeat",
+      "value": "Nothing to repeat: * and + cannot appear at the start or right after ( or |"
+    },
+    {
+      "name": "regex_issue_nothing_to_repeat_question",
+      "value": "Nothing to repeat before ?: it cannot appear at the start or right after |"
+    },
+    {
+      "name": "regex_issue_range_reversed",
+      "value": "Quantifier range is backwards: in {%s,%s}, %s cannot exceed %s"
+    },
+    {
+      "name": "regex_issue_trailing_backslash",
+      "value": "Nothing follows the backslash — the escape is unfinished"
+    },
+    {
+      "name": "regex_issue_unmatched_close",
+      "value": "There is one ) too many"
+    },
+    {
+      "name": "regex_issue_unterminated_class",
+      "value": "Unclosed character class: a [ is missing its ]"
+    },
+    {
+      "name": "regex_issue_unterminated_group",
+      "value": "Unclosed group: a ( is missing its )"
+    },
+    {
+      "name": "regex_label_cheatsheet",
+      "value": "Syntax cheat sheet"
+    },
+    {
+      "name": "regex_label_highlight",
+      "value": "Highlight preview"
+    },
+    {
+      "name": "regex_label_pattern",
+      "value": "Regular expression"
+    },
+    {
+      "name": "regex_label_presets",
+      "value": "Common presets"
+    },
+    {
+      "name": "regex_label_results",
+      "value": "Matches"
+    },
+    {
+      "name": "regex_label_separator",
+      "value": ": "
+    },
+    {
+      "name": "regex_label_subject",
+      "value": "Test text"
+    },
+    {
+      "name": "regex_list_separator",
+      "value": ", "
+    },
+    {
+      "name": "regex_live_paused",
+      "value": "The test text is longer than %s characters, so live matching is paused — tap Run to check it once."
+    },
+    {
+      "name": "regex_match_range",
+      "value": "Characters %s-%s"
+    },
+    {
+      "name": "regex_match_zero_width",
+      "value": "Before character %s (zero-width)"
+    },
+    {
+      "name": "regex_placeholder_pattern",
+      "value": "e.g. \\\\d{4}-\\\\d{2}-\\\\d{2}"
+    },
+    {
+      "name": "regex_placeholder_subject",
+      "value": "Paste the text to test"
+    },
+    {
+      "name": "regex_preset_hint",
+      "value": "About this preset: %s"
+    },
+    {
+      "name": "regex_run_empty",
+      "value": "No match found."
+    },
+    {
+      "name": "regex_run_failed",
+      "value": "The expression has an error, so nothing was matched."
+    },
+    {
+      "name": "regex_summary_failed",
+      "value": "The expression has an error, so nothing was matched"
+    },
+    {
+      "name": "regex_summary_matched",
+      "value": "Matched %s times"
+    },
+    {
+      "name": "regex_summary_no_match",
+      "value": "No match found (out of %s characters)"
+    },
+    {
+      "name": "regex_summary_truncated",
+      "value": " (hit the limit of %s, showing the first %s)"
+    },
+    {
+      "name": "regex_summary_zero_width",
+      "value": ", of which %s are zero-width matches (they occupy no characters and cannot be highlighted)"
+    },
+    {
+      "name": "regex_zero_width_note",
+      "value": "(zero-width match, occupies no characters)"
+    },
+    {
+      "name": "rr_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "rr_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "rr_action_run",
+      "value": "Preview replace"
+    },
+    {
+      "name": "rr_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "rr_err_input",
+      "value": "Enter the input text first"
+    },
+    {
+      "name": "rr_err_pattern",
+      "value": "Enter a pattern first"
+    },
+    {
+      "name": "rr_err_regex",
+      "value": "The pattern has a syntax error"
+    },
+    {
+      "name": "rr_label_flags",
+      "value": "Flags (g/i/m)"
+    },
+    {
+      "name": "rr_label_input",
+      "value": "Input text"
+    },
+    {
+      "name": "rr_label_matches",
+      "value": "%s matches"
+    },
+    {
+      "name": "rr_label_output",
+      "value": "Replaced"
+    },
+    {
+      "name": "rr_label_pattern",
+      "value": "Pattern"
+    },
+    {
+      "name": "rr_label_replacement",
+      "value": "Replace with ($1-$9 for groups)"
+    },
+    {
+      "name": "sc_action_calc",
+      "value": "Calculate"
+    },
+    {
+      "name": "sc_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "sc_cat_file",
+      "value": "Files"
+    },
+    {
+      "name": "sc_cat_git",
+      "value": "Git"
+    },
+    {
+      "name": "sc_cat_net",
+      "value": "Network"
+    },
+    {
+      "name": "sc_cat_sys",
+      "value": "System"
+    },
+    {
+      "name": "sc_cat_text",
+      "value": "Text"
+    },
+    {
+      "name": "sc_empty",
+      "value": "No matching entries"
+    },
+    {
+      "name": "sc_err_date",
+      "value": "Invalid date format (expected YYYY-MM-DD)"
+    },
+    {
+      "name": "sc_err_days",
+      "value": "Days must be a non-zero whole number up to 3650"
+    },
+    {
+      "name": "sc_err_empty",
+      "value": "Enter the date and day count first"
+    },
+    {
+      "name": "sc_hint_holiday",
+      "value": "Weekends are skipped - public holidays are not included"
+    },
+    {
+      "name": "sc_label_all",
+      "value": "All"
+    },
+    {
+      "name": "sc_label_bash",
+      "value": "bash"
+    },
+    {
+      "name": "sc_label_date",
+      "value": "Start date (YYYY-MM-DD)"
+    },
+    {
+      "name": "sc_label_days",
+      "value": "Workdays (can be negative)"
+    },
+    {
+      "name": "sc_label_natural",
+      "value": "Natural days"
+    },
+    {
+      "name": "sc_label_pwsh",
+      "value": "PowerShell"
+    },
+    {
+      "name": "sc_label_result",
+      "value": "Result date"
+    },
+    {
+      "name": "sc_label_weekday",
+      "value": "Weekday"
+    },
+    {
+      "name": "sc_placeholder_search",
+      "value": "Task or command"
+    },
+    {
+      "name": "sc_wd_0",
+      "value": "Sunday"
+    },
+    {
+      "name": "sc_wd_1",
+      "value": "Monday"
+    },
+    {
+      "name": "sc_wd_2",
+      "value": "Tuesday"
+    },
+    {
+      "name": "sc_wd_3",
+      "value": "Wednesday"
+    },
+    {
+      "name": "sc_wd_4",
+      "value": "Thursday"
+    },
+    {
+      "name": "sc_wd_5",
+      "value": "Friday"
+    },
+    {
+      "name": "sc_wd_6",
+      "value": "Saturday"
+    },
+    {
+      "name": "sf_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "sf_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "sf_action_format",
+      "value": "Format"
+    },
+    {
+      "name": "sf_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "sf_err_empty",
+      "value": "Enter the SQL statement first"
+    },
+    {
+      "name": "sf_err_quote",
+      "value": "Unclosed quote - check the string literals"
+    },
+    {
+      "name": "sf_label_input",
+      "value": "SQL statement"
+    },
+    {
+      "name": "sf_label_output",
+      "value": "Formatted"
+    },
+    {
+      "name": "shell_about",
+      "value": "About"
+    },
+    {
+      "name": "shell_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "shell_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "shell_action_copy_all",
+      "value": "Copy all"
+    },
+    {
+      "name": "shell_action_history",
+      "value": "History"
+    },
+    {
+      "name": "shell_app_name",
+      "value": "NGF Developer Toolbox"
+    },
+    {
+      "name": "shell_app_subtitle",
+      "value": "Offline · Open source · Official NGF sample"
+    },
+    {
+      "name": "shell_back",
+      "value": "Back"
+    },
+    {
+      "name": "shell_copy_failed",
+      "value": "Copy failed — long-press the text to select and copy it manually"
+    },
+    {
+      "name": "shell_empty_catalog_loading",
+      "value": "The tool list is still loading."
+    },
+    {
+      "name": "shell_empty_no_match",
+      "value": "No matching tools. Try a keyword from a tool name, such as \"regex\" or \"JSON\"."
+    },
+    {
+      "name": "shell_favorite",
+      "value": "Add to favorites"
+    },
+    {
+      "name": "shell_help_limitation",
+      "value": "What it can't do"
+    },
+    {
+      "name": "shell_history_clear",
+      "value": "Clear history"
+    },
+    {
+      "name": "shell_history_empty",
+      "value": "Nothing yet. Once you start using this tool, your past inputs will show up here."
+    },
+    {
+      "name": "shell_history_title",
+      "value": "Recent inputs"
+    },
+    {
+      "name": "shell_network_disclosure",
+      "value": "This tool connects to the host you enter. Apart from that the toolbox never goes online and collects no data."
+    },
+    {
+      "name": "shell_search_placeholder",
+      "value": "Search tools"
+    },
+    {
+      "name": "shell_section_favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "shell_section_recent",
+      "value": "Recently used"
+    },
+    {
+      "name": "shell_section_search",
+      "value": "Search results"
+    },
+    {
+      "name": "shell_tab_starred",
+      "value": "Starred"
+    },
+    {
+      "name": "shell_under_construction",
+      "value": "Coming soon"
+    },
+    {
+      "name": "shell_unfavorite",
+      "value": "Remove from favorites"
+    },
+    {
+      "name": "subnet_copied",
+      "value": "Result copied"
+    },
+    {
+      "name": "subnet_err_bad_address",
+      "value": "Invalid IP address: four decimal octets, each 0-255, with no leading zeros (e.g. 192.168.1.10)."
+    },
+    {
+      "name": "subnet_err_bad_mask",
+      "value": "Invalid mask: four decimal octets, e.g. 255.255.255.0"
+    },
+    {
+      "name": "subnet_err_bad_mask_contiguous",
+      "value": "Not a valid mask: the binary form must be contiguous ones followed by contiguous zeros (e.g. 255.255.255.0). Something like 255.0.255.0 has every octet in range but the bits are broken up, so it does not count."
+    },
+    {
+      "name": "subnet_err_bad_prefix",
+      "value": "The prefix length must be an integer from %s to %s (the familiar /24 means 255.255.255.0)."
+    },
+    {
+      "name": "subnet_err_empty",
+      "value": "Enter an IPv4 address, for example 192.168.1.10/24"
+    },
+    {
+      "name": "subnet_err_ipv6",
+      "value": "This tool only does IPv4 subnet maths and does not parse IPv6 (IPv6 addressing works quite differently and usually starts at /64)."
+    },
+    {
+      "name": "subnet_field_broadcast",
+      "value": "Broadcast address"
+    },
+    {
+      "name": "subnet_field_cidr",
+      "value": "Subnet (CIDR)"
+    },
+    {
+      "name": "subnet_field_hosts",
+      "value": "Usable hosts"
+    },
+    {
+      "name": "subnet_field_input",
+      "value": "Input address"
+    },
+    {
+      "name": "subnet_field_kinds",
+      "value": "Address type"
+    },
+    {
+      "name": "subnet_field_mask",
+      "value": "Subnet mask"
+    },
+    {
+      "name": "subnet_field_network",
+      "value": "Network address"
+    },
+    {
+      "name": "subnet_field_separator",
+      "value": ": "
+    },
+    {
+      "name": "subnet_field_total",
+      "value": "Total addresses"
+    },
+    {
+      "name": "subnet_field_usable",
+      "value": "Usable range"
+    },
+    {
+      "name": "subnet_field_wildcard",
+      "value": "Wildcard mask"
+    },
+    {
+      "name": "subnet_input_hint",
+      "value": "Both 192.168.1.10/24 and 192.168.1.10/255.255.255.0 work. Leaving the prefix off is treated as a single host (/32)."
+    },
+    {
+      "name": "subnet_label_input",
+      "value": "IPv4 address"
+    },
+    {
+      "name": "subnet_label_plan",
+      "value": "Reverse planning: how many hosts do you need?"
+    },
+    {
+      "name": "subnet_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "subnet_no_usable",
+      "value": "(none)"
+    },
+    {
+      "name": "subnet_notice_broadcast",
+      "value": "Note: you entered the broadcast address of this subnet (%s), which normally cannot be used as a host address."
+    },
+    {
+      "name": "subnet_notice_network",
+      "value": "Note: you entered the network address of this subnet (%s), which normally cannot be used as a host address. Start host addresses at %s."
+    },
+    {
+      "name": "subnet_notice_rfc3021",
+      "value": "This is an RFC 3021 point-to-point subnet: both addresses are usable, with no separate network and broadcast address."
+    },
+    {
+      "name": "subnet_notice_single_host",
+      "value": "This is a single host (/32): one address only, often used to pin down one machine or for loopback."
+    },
+    {
+      "name": "subnet_placeholder_input",
+      "value": "e.g. 192.168.1.10/24"
+    },
+    {
+      "name": "subnet_placeholder_plan",
+      "value": "e.g. 60"
+    },
+    {
+      "name": "subnet_plan_not_int",
+      "value": "Enter a whole number."
+    },
+    {
+      "name": "subnet_plan_suggest",
+      "value": "Use /%s: %s addresses in total, %s of them usable."
+    },
+    {
+      "name": "subnet_plan_too_many",
+      "value": "That many hosts exceeds a single IPv4 subnet — split it across several subnets."
+    },
+    {
+      "name": "subnet_remark_all_ipv4",
+      "value": "The entire IPv4 space (0.0.0.0/0) — normally seen only in a default route"
+    },
+    {
+      "name": "subnet_remark_common_lan",
+      "value": "The most common LAN size: 254 usable addresses"
+    },
+    {
+      "name": "subnet_remark_p2p_common",
+      "value": "The most common point-to-point subnet: exactly two usable addresses"
+    },
+    {
+      "name": "subnet_remark_p2p_rfc3021",
+      "value": "Point-to-point link (RFC 3021): one address per end, with no network or broadcast address"
+    },
+    {
+      "name": "subnet_remark_single_host",
+      "value": "Single host (one address), often used to pin down one machine or for loopback"
+    },
+    {
+      "name": "subnet_remark_very_large",
+      "value": "A very large subnet — you will almost never carve one out like this in practice"
+    },
+    {
+      "name": "sv_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "sv_action_parse",
+      "value": "Parse"
+    },
+    {
+      "name": "sv_compare_equal",
+      "value": "Same precedence"
+    },
+    {
+      "name": "sv_compare_left",
+      "value": "Left is older"
+    },
+    {
+      "name": "sv_compare_right",
+      "value": "Right is older"
+    },
+    {
+      "name": "sv_err_empty",
+      "value": "Enter a version first"
+    },
+    {
+      "name": "sv_err_format",
+      "value": "Invalid version format: %s"
+    },
+    {
+      "name": "sv_label_build",
+      "value": "Build metadata"
+    },
+    {
+      "name": "sv_label_compare",
+      "value": "Compare with another version"
+    },
+    {
+      "name": "sv_label_input",
+      "value": "Version"
+    },
+    {
+      "name": "sv_label_major",
+      "value": "Major"
+    },
+    {
+      "name": "sv_label_minor",
+      "value": "Minor"
+    },
+    {
+      "name": "sv_label_normalized",
+      "value": "Normalized"
+    },
+    {
+      "name": "sv_label_patch",
+      "value": "Patch"
+    },
+    {
+      "name": "sv_label_pre",
+      "value": "Prerelease"
+    },
+    {
+      "name": "sv_placeholder_input",
+      "value": "e.g. 2.13.7 or v1.0.0-alpha.1"
+    },
+    {
+      "name": "tk_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "tk_action_copy",
+      "value": "Copy result"
+    },
+    {
+      "name": "tk_action_run",
+      "value": "Process"
+    },
+    {
+      "name": "tk_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "tk_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "tk_err_no_content",
+      "value": "Nothing to process (only empty lines)"
+    },
+    {
+      "name": "tk_label_dedupe",
+      "value": "Dedupe (keep first occurrence)"
+    },
+    {
+      "name": "tk_label_drop_empty",
+      "value": "Drop empty lines"
+    },
+    {
+      "name": "tk_label_input",
+      "value": "Multi-line text (one item per line)"
+    },
+    {
+      "name": "tk_label_sort",
+      "value": "Sort"
+    },
+    {
+      "name": "tk_label_trim",
+      "value": "Trim each line"
+    },
+    {
+      "name": "tk_placeholder_input",
+      "value": "One per line, just paste"
+    },
+    {
+      "name": "tk_result_removed",
+      "value": "Removed %s duplicate lines"
+    },
+    {
+      "name": "tk_sort_length_asc",
+      "value": "Length ↑"
+    },
+    {
+      "name": "tk_sort_length_desc",
+      "value": "Length ↓"
+    },
+    {
+      "name": "tk_sort_lexical",
+      "value": "Lexical"
+    },
+    {
+      "name": "tk_sort_original",
+      "value": "Original"
+    },
+    {
+      "name": "tk_sort_reverse",
+      "value": "Reverse"
+    },
+    {
+      "name": "tk_stats_chars",
+      "value": "Chars (no line breaks)"
+    },
+    {
+      "name": "tk_stats_eol",
+      "value": "Line endings CRLF/LF"
+    },
+    {
+      "name": "tk_stats_lines",
+      "value": "Lines (non-empty/total)"
+    },
+    {
+      "name": "tk_stats_title",
+      "value": "Stats"
+    },
+    {
+      "name": "tk_stats_words",
+      "value": "Words"
+    },
+    {
+      "name": "ts_action_copy_millis",
+      "value": "Copy milliseconds"
+    },
+    {
+      "name": "ts_action_copy_seconds",
+      "value": "Copy seconds"
+    },
+    {
+      "name": "ts_action_fill_now",
+      "value": "Use the current time"
+    },
+    {
+      "name": "ts_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ts_copied_millis",
+      "value": "Millisecond timestamp copied"
+    },
+    {
+      "name": "ts_copied_seconds",
+      "value": "Second timestamp copied"
+    },
+    {
+      "name": "ts_empty_result",
+      "value": "Enter a timestamp or date and the conversion appears here."
+    },
+    {
+      "name": "ts_err_bad_date_digits",
+      "value": "The date must look like YYYY-MM-DD, with digits for the year, month and day"
+    },
+    {
+      "name": "ts_err_bad_date_format",
+      "value": "The date must look like YYYY-MM-DD (YYYY/MM/DD also works)"
+    },
+    {
+      "name": "ts_err_bad_millis",
+      "value": "The milliseconds part must be digits"
+    },
+    {
+      "name": "ts_err_bad_time_format",
+      "value": "The time must look like HH:mm, HH:mm:ss or HH:mm:ss.SSS"
+    },
+    {
+      "name": "ts_err_date_empty",
+      "value": "Enter a date"
+    },
+    {
+      "name": "ts_err_date_out_of_range",
+      "value": "The converted result falls outside the representable date range"
+    },
+    {
+      "name": "ts_err_day_range",
+      "value": "That day does not exist: %s-%s has only %s days"
+    },
+    {
+      "name": "ts_err_empty",
+      "value": "Enter a timestamp"
+    },
+    {
+      "name": "ts_err_month_range",
+      "value": "The month must be between 1 and 12"
+    },
+    {
+      "name": "ts_err_not_digits",
+      "value": "A timestamp must be digits only (a leading minus sign is allowed)"
+    },
+    {
+      "name": "ts_err_time_range",
+      "value": "The time must be between 00:00:00 and 23:59:59"
+    },
+    {
+      "name": "ts_err_too_many_digits",
+      "value": "Too many digits for a timestamp (at most %s) — check whether you pasted extra content"
+    },
+    {
+      "name": "ts_err_ts_out_of_range",
+      "value": "Outside the representable date range (up to %s milliseconds)"
+    },
+    {
+      "name": "ts_err_year_range",
+      "value": "The year is outside the representable range (1-9999)"
+    },
+    {
+      "name": "ts_err_zone_suffix",
+      "value": "A time zone suffix (Z) is not supported — use the time zone list below to convert"
+    },
+    {
+      "name": "ts_interpret_date",
+      "value": "Read as a date"
+    },
+    {
+      "name": "ts_interpret_millis",
+      "value": "Read as a milliseconds timestamp"
+    },
+    {
+      "name": "ts_interpret_seconds",
+      "value": "Read as a seconds timestamp"
+    },
+    {
+      "name": "ts_label_current",
+      "value": "Current time"
+    },
+    {
+      "name": "ts_label_input",
+      "value": "Timestamp or date (auto-detected)"
+    },
+    {
+      "name": "ts_label_zones_now",
+      "value": "Time zones for the current moment"
+    },
+    {
+      "name": "ts_label_zones_selected",
+      "value": "Time zones for the selected moment"
+    },
+    {
+      "name": "ts_now_seconds_millis",
+      "value": "Seconds %s / milliseconds %s"
+    },
+    {
+      "name": "ts_now_weekday",
+      "value": "This week: %s"
+    },
+    {
+      "name": "ts_placeholder_input",
+      "value": "1700000000 or 2024-05-06 12:30:45"
+    },
+    {
+      "name": "ts_rel_days_ago",
+      "value": "%s days ago"
+    },
+    {
+      "name": "ts_rel_days_later",
+      "value": "in %s days"
+    },
+    {
+      "name": "ts_rel_hours_ago",
+      "value": "%s hours ago"
+    },
+    {
+      "name": "ts_rel_hours_later",
+      "value": "in %s hours"
+    },
+    {
+      "name": "ts_rel_imminent",
+      "value": "In a moment"
+    },
+    {
+      "name": "ts_rel_just_now",
+      "value": "Just now"
+    },
+    {
+      "name": "ts_rel_minutes_ago",
+      "value": "%s minutes ago"
+    },
+    {
+      "name": "ts_rel_minutes_later",
+      "value": "in %s minutes"
+    },
+    {
+      "name": "ts_rel_months_ago",
+      "value": "%s months ago"
+    },
+    {
+      "name": "ts_rel_months_later",
+      "value": "in %s months"
+    },
+    {
+      "name": "ts_rel_years_ago",
+      "value": "%s years ago"
+    },
+    {
+      "name": "ts_rel_years_later",
+      "value": "in %s years"
+    },
+    {
+      "name": "ts_row_local",
+      "value": "Local time (%s)"
+    },
+    {
+      "name": "ts_row_millis",
+      "value": "Milliseconds timestamp"
+    },
+    {
+      "name": "ts_row_relative",
+      "value": "Relative to now"
+    },
+    {
+      "name": "ts_row_seconds",
+      "value": "Seconds timestamp"
+    },
+    {
+      "name": "ts_row_utc",
+      "value": "UTC time"
+    },
+    {
+      "name": "ts_zone_note",
+      "value": "The time zone list uses fixed offsets and does not follow daylight saving (Paris shows UTC+1 here even though summer is really UTC+2). The local zone comes from the system setting, and second timestamps are the milliseconds value rounded down."
+    },
+    {
+      "name": "tz_action_calc",
+      "value": "Compare"
+    },
+    {
+      "name": "tz_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "tz_err_empty",
+      "value": "Enter the meeting time first"
+    },
+    {
+      "name": "tz_err_time",
+      "value": "Invalid time (HH:mm, 00:00 to 23:59)"
+    },
+    {
+      "name": "tz_hint_dst",
+      "value": "Fixed offsets - daylight saving is not applied"
+    },
+    {
+      "name": "tz_label_city",
+      "value": "City"
+    },
+    {
+      "name": "tz_label_local",
+      "value": "Local time"
+    },
+    {
+      "name": "tz_label_time",
+      "value": "Meeting time (24h HH:mm)"
+    },
+    {
+      "name": "tz_placeholder_time",
+      "value": "e.g. 20:00"
+    },
+    {
+      "name": "tz_reasonable",
+      "value": "Working hours"
+    },
+    {
+      "name": "tz_unreasonable",
+      "value": "Off hours"
+    },
+    {
+      "name": "uap_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "uap_hint_partial",
+      "value": "Some fields unrecognized - UAs can be faked, heuristics are not exhaustive"
+    },
+    {
+      "name": "uap_label_browser",
+      "value": "Browser"
+    },
+    {
+      "name": "uap_label_engine",
+      "value": "Engine"
+    },
+    {
+      "name": "uap_label_os",
+      "value": "Operating system"
+    },
+    {
+      "name": "uap_placeholder_input",
+      "value": "Paste a User-Agent string"
+    },
+    {
+      "name": "ub_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ub_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "ub_action_copy_all",
+      "value": "Copy all"
+    },
+    {
+      "name": "ub_action_generate",
+      "value": "Generate"
+    },
+    {
+      "name": "ub_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ub_copied_all",
+      "value": "All copied"
+    },
+    {
+      "name": "ub_err_integer",
+      "value": "Count must be a whole number"
+    },
+    {
+      "name": "ub_err_large",
+      "value": "Count exceeds the limit of 100"
+    },
+    {
+      "name": "ub_err_random",
+      "value": "Secure random source unavailable"
+    },
+    {
+      "name": "ub_err_small",
+      "value": "Count must be at least 1"
+    },
+    {
+      "name": "ub_label_count",
+      "value": "Count (1-100)"
+    },
+    {
+      "name": "ub_label_count_result",
+      "value": "Count"
+    },
+    {
+      "name": "ub_toggle_hyphen",
+      "value": "Hyphens"
+    },
+    {
+      "name": "ub_toggle_upper",
+      "value": "Uppercase"
+    },
+    {
+      "name": "uc_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "uc_action_convert",
+      "value": "Convert"
+    },
+    {
+      "name": "uc_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "uc_action_swap",
+      "value": "Swap"
+    },
+    {
+      "name": "uc_cat_data",
+      "value": "Data (1024-based)"
+    },
+    {
+      "name": "uc_cat_length",
+      "value": "Length"
+    },
+    {
+      "name": "uc_cat_time",
+      "value": "Time"
+    },
+    {
+      "name": "uc_cat_weight",
+      "value": "Weight"
+    },
+    {
+      "name": "uc_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "uc_err_empty",
+      "value": "Enter a value first"
+    },
+    {
+      "name": "uc_err_nan",
+      "value": "Cannot parse as a number: %s"
+    },
+    {
+      "name": "uc_err_negative",
+      "value": "Negative values are invalid: %s"
+    },
+    {
+      "name": "uc_err_unit",
+      "value": "Unknown unit: %s"
+    },
+    {
+      "name": "uc_label_from",
+      "value": "From"
+    },
+    {
+      "name": "uc_label_result",
+      "value": "Result"
+    },
+    {
+      "name": "uc_label_temp",
+      "value": "Temperature"
+    },
+    {
+      "name": "uc_label_to",
+      "value": "To"
+    },
+    {
+      "name": "uc_label_value",
+      "value": "Value"
+    },
+    {
+      "name": "uc_temp_celsius",
+      "value": "Celsius °C"
+    },
+    {
+      "name": "uc_temp_fahrenheit",
+      "value": "Fahrenheit °F"
+    },
+    {
+      "name": "uc_temp_kelvin",
+      "value": "Kelvin K"
+    },
+    {
+      "name": "up_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "up_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "up_err_no_scheme",
+      "value": "Missing the scheme:// prefix (relative URLs are not supported)"
+    },
+    {
+      "name": "up_placeholder_input",
+      "value": "Enter a full URL (with scheme://)"
+    },
+    {
+      "name": "url_codec_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "url_codec_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "url_codec_action_decode",
+      "value": "Decode"
+    },
+    {
+      "name": "url_codec_action_encode",
+      "value": "Encode"
+    },
+    {
+      "name": "url_codec_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "url_codec_err_empty",
+      "value": "Enter some text first"
+    },
+    {
+      "name": "url_codec_err_escape",
+      "value": "Cannot decode: an incomplete % escape sequence was found"
+    },
+    {
+      "name": "url_codec_err_escape_at",
+      "value": "Cannot decode: parameter %s contains an incomplete % escape sequence"
+    },
+    {
+      "name": "url_codec_hint_plus",
+      "value": "Tip: + means a space in form style; write %2B for a literal plus"
+    },
+    {
+      "name": "url_codec_label_decoded",
+      "value": "Decoded (form style: + is space)"
+    },
+    {
+      "name": "url_codec_label_decoded_literal",
+      "value": "Decoded (literal style: + kept)"
+    },
+    {
+      "name": "url_codec_label_encoded",
+      "value": "Encoded"
+    },
+    {
+      "name": "url_codec_label_input",
+      "value": "URL text to encode or decode"
+    },
+    {
+      "name": "url_codec_label_query",
+      "value": "Query parameters"
+    },
+    {
+      "name": "url_codec_label_raw",
+      "value": "Raw"
+    },
+    {
+      "name": "url_codec_label_valueless",
+      "value": "Valueless"
+    },
+    {
+      "name": "url_codec_placeholder_input",
+      "value": "e.g. https://x.test/a?b=%E4%B8%AD"
+    },
+    {
+      "name": "url_codec_query_empty",
+      "value": "No query parameters (empty query is valid)"
+    },
+    {
+      "name": "ut_action_calc",
+      "value": "Convert"
+    },
+    {
+      "name": "ut_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ut_col_binary",
+      "value": "Binary (IEC)"
+    },
+    {
+      "name": "ut_col_decimal",
+      "value": "Decimal (SI)"
+    },
+    {
+      "name": "ut_hint_disk",
+      "value": "Disk labels use decimal while OSes use binary - about 7% apart"
+    },
+    {
+      "name": "ut_label_bytes",
+      "value": "Bytes"
+    },
+    {
+      "name": "uuidpwd_advice_common_weak",
+      "value": "Contains a common weak-password fragment"
+    },
+    {
+      "name": "uuidpwd_advice_consecutive_repeat",
+      "value": "Contains runs of the same character"
+    },
+    {
+      "name": "uuidpwd_advice_digits_only",
+      "value": "Digits only — mix in upper and lower case letters and symbols"
+    },
+    {
+      "name": "uuidpwd_advice_empty",
+      "value": "Enter a password to rate its strength."
+    },
+    {
+      "name": "uuidpwd_advice_lowercase_only",
+      "value": "Lowercase only — mix in uppercase, digits and symbols"
+    },
+    {
+      "name": "uuidpwd_advice_sequential",
+      "value": "Contains sequential characters such as abc or 123"
+    },
+    {
+      "name": "uuidpwd_advice_single_class",
+      "value": "Only one character class — mix several kinds of characters"
+    },
+    {
+      "name": "uuidpwd_advice_too_many_repeats",
+      "value": "Too many repeated characters — the randomness is being wasted"
+    },
+    {
+      "name": "uuidpwd_advice_too_short",
+      "value": "Shorter than %s characters — the shorter it is, the easier to brute-force"
+    },
+    {
+      "name": "uuidpwd_err_no_random_uuid",
+      "value": "Could not reach the system secure random source, so no UUID was generated."
+    },
+    {
+      "name": "uuidpwd_err_pwd_all_excluded",
+      "value": "Nothing is left after excluding look-alike characters — enable more character classes."
+    },
+    {
+      "name": "uuidpwd_err_pwd_length_not_integer",
+      "value": "The password length must be a whole number."
+    },
+    {
+      "name": "uuidpwd_err_pwd_length_range",
+      "value": "The password length must be between %s and %s."
+    },
+    {
+      "name": "uuidpwd_err_pwd_no_charset",
+      "value": "Pick at least one character class (uppercase, lowercase, digits or symbols)."
+    },
+    {
+      "name": "uuidpwd_err_pwd_no_random",
+      "value": "Could not reach the system secure random source, so no password was generated."
+    },
+    {
+      "name": "uuidpwd_err_pwd_too_short_for_pools",
+      "value": "The length must be at least %s to cover every character class you selected."
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_not_integer",
+      "value": "The count must be a whole number."
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_too_large",
+      "value": "At most %s at a time: this tool is for grabbing a few test values, not for bulk generation."
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_too_small",
+      "value": "The count must be at least 1."
+    },
+    {
+      "name": "uuidpwd_level_fair",
+      "value": "Fair"
+    },
+    {
+      "name": "uuidpwd_level_strong",
+      "value": "Strong"
+    },
+    {
+      "name": "uuidpwd_level_very_strong",
+      "value": "Very strong"
+    },
+    {
+      "name": "uuidpwd_level_very_weak",
+      "value": "Very weak"
+    },
+    {
+      "name": "uuidpwd_level_weak",
+      "value": "Weak"
+    },
+    {
+      "name": "uuidpwd_pwd_copied",
+      "value": "Password copied"
+    },
+    {
+      "name": "uuidpwd_pwd_digits",
+      "value": "Digits 012"
+    },
+    {
+      "name": "uuidpwd_pwd_exclude",
+      "value": "Exclude look-alikes 0 O 1 l I"
+    },
+    {
+      "name": "uuidpwd_pwd_generate",
+      "value": "Generate password"
+    },
+    {
+      "name": "uuidpwd_pwd_hint",
+      "value": "%s-%s characters. Passwords are never written to disk or uploaded."
+    },
+    {
+      "name": "uuidpwd_pwd_length_not_digit",
+      "value": "The length must be a number."
+    },
+    {
+      "name": "uuidpwd_pwd_length_placeholder",
+      "value": "Length"
+    },
+    {
+      "name": "uuidpwd_pwd_lowercase",
+      "value": "Lowercase abc"
+    },
+    {
+      "name": "uuidpwd_pwd_strength",
+      "value": "Strength: %s (estimated entropy %s bits)"
+    },
+    {
+      "name": "uuidpwd_pwd_symbols",
+      "value": "Symbols !@#"
+    },
+    {
+      "name": "uuidpwd_pwd_title",
+      "value": "Random password"
+    },
+    {
+      "name": "uuidpwd_pwd_uppercase",
+      "value": "Uppercase ABC"
+    },
+    {
+      "name": "uuidpwd_uuid_copied",
+      "value": "UUID copied"
+    },
+    {
+      "name": "uuidpwd_uuid_copied_all",
+      "value": "Copied %s UUIDs"
+    },
+    {
+      "name": "uuidpwd_uuid_copy_all",
+      "value": "Copy all"
+    },
+    {
+      "name": "uuidpwd_uuid_count_not_digit",
+      "value": "The count must be a number."
+    },
+    {
+      "name": "uuidpwd_uuid_generate",
+      "value": "Generate UUIDs"
+    },
+    {
+      "name": "uuidpwd_uuid_hint",
+      "value": "Up to %s at a time. The random bytes come from the system secure random source."
+    },
+    {
+      "name": "uuidpwd_uuid_hyphens",
+      "value": "Hyphens"
+    },
+    {
+      "name": "uuidpwd_uuid_placeholder",
+      "value": "Count (1-%s)"
+    },
+    {
+      "name": "uuidpwd_uuid_uppercase",
+      "value": "Uppercase"
+    },
+    {
+      "name": "ww_action_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "ww_action_copy",
+      "value": "Copy"
+    },
+    {
+      "name": "ww_action_wrap",
+      "value": "Wrap"
+    },
+    {
+      "name": "ww_copied",
+      "value": "Copied"
+    },
+    {
+      "name": "ww_err_empty",
+      "value": "Enter the text first"
+    },
+    {
+      "name": "ww_err_width",
+      "value": "Width must be a whole number from 10 to 200"
+    },
+    {
+      "name": "ww_label_input",
+      "value": "Text"
+    },
+    {
+      "name": "ww_label_lines",
+      "value": "Lines"
+    },
+    {
+      "name": "ww_label_output",
+      "value": "Result"
+    },
+    {
+      "name": "ww_label_width",
+      "value": "Width (10-200)"
     }
   ]
 }

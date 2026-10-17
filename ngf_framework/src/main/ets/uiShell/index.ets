@@ -18,7 +18,11 @@ export {
 } from './contracts/IPageTransitionManager';
 export { IOverlayManager, NGFOverlayToastOptions } from './contracts/IOverlayManager';
 
-export { NavigationShellFacade, ngfNavigationShellFacade } from './facades/NavigationShellFacade';
+export {
+  NavigationShellFacade,
+  NGFNavigationParamEnvelope,
+  ngfNavigationShellFacade
+} from './facades/NavigationShellFacade';
 export { PagePolicyHostFacade, ngfPagePolicyHostFacade } from './facades/PagePolicyHostFacade';
 export { RouteInterceptorFacade, ngfRouteInterceptorFacade } from './facades/RouteInterceptorFacade';
 export { DeepLinkFacade, ngfDeepLinkFacade } from './facades/DeepLinkFacade';

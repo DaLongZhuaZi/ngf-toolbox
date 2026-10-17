@@ -33,13 +33,19 @@ export class NGFHdsTabItem {
 }
 
 @Component
+  // ⚠️ 以下三项**不能**是 private —— 它们是父组件必须能传入的配置。
+  // 声明成 private 时 ArkTS 会告警「Property 'X' is private and can not be
+  // initialized through the component constructor」，而后果是**静默的**：
+  // items 保持空数组 → 页签一个都不渲染；onChangeCallback 保持空实现 →
+  // 点了页签没反应。编译不报错，只有真编译日志里三行 WARN。
+  // （本仓先行修正，需回来源仓同步，见 ngf_framework/VENDORED.md）
 export struct NGFHdsImmersiveTabs {
   private controller: HdsTabsController = new HdsTabsController();
-  private items: Array<NGFHdsTabItem> = [];
-  @Prop private selectedIndex: number = 0;
+  items: Array<NGFHdsTabItem> = [];
+  @Prop selectedIndex: number = 0;
   @StorageProp('ngf_visual_effects_effective_material_level')
   private effectiveMaterialLevel: number = hdsMaterial.MaterialLevel.ADAPTIVE;
-  private onChangeCallback: (index: number) => void = (): void => {};
+  onChangeCallback: (index: number) => void = (): void => {};
   @Builder defaultBuilder(index: number) {}
   @BuilderParam contentBuilder: (index: number) => void = this.defaultBuilder;
 

@@ -37,6 +37,11 @@ export {
   NGFCapabilityResult
 } from './contracts/IDeviceCapabilityDetector';
 
+// ⚠️ 本行是**本仓先行修改**，需回来源仓（airwavefootprints）同步。
+// 原因：AccessibilityFacade 文件一直存在，但漏了这条导出，导致
+// `import { ngfAccessibilityFacade } from 'ngf_framework'` 拿不到——
+// 而无障碍是官方样板应用必须演示的能力。详见 ngf_framework/VENDORED.md。
+export { ngfAccessibilityFacade, NGFAccessibilityState } from './facades/AccessibilityFacade';
 export { ngfHoldingAwarenessFacade } from './facades/HoldingAwarenessFacade';
 export { ngfDeviceAdaptationFacade } from './facades/DeviceAdaptationFacade';
 export { ngfVisualEffectsFacade } from './facades/VisualEffectsFacade';

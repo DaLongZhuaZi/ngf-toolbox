@@ -1,16 +1,5856 @@
 {
   "string": [
     {
-      "name": "module_desc",
-      "value": "NGF 开发者工具箱 entry module"
-    },
-    {
       "name": "EntryAbility_desc",
-      "value": "NGF 开发者工具箱 main ability"
+      "value": "NGF 开发者工具箱主入口"
     },
     {
       "name": "EntryAbility_label",
       "value": "NGF 开发者工具箱"
+    },
+    {
+      "name": "about_app_copyright",
+      "value": "© 2026 DaLongzhuazi"
+    },
+    {
+      "name": "about_feedback_scope",
+      "value": "支持边界：关于工具箱本身的问题（某件工具算得不对、界面有问题）请提给本仓；关于框架怎么用的问题请提到框架来源仓，那边维护者才会看到。"
+    },
+    {
+      "name": "about_framework_intro",
+      "value": "本 App 由 NGF（Neon Genesis Framework）驱动，并作为它的官方样板开源。每个工具都对应演示框架的一层能力——想了解 NGF 怎么用，读这个仓库的代码是最快的路径。"
+    },
+    {
+      "name": "about_layers_note",
+      "value": "框架本身还包含媒体播放、推送、硬件传感器、Web 桥等模块，本 App 没有用到，因此没有列在这里——列出来会让人误以为样板演示了它们。"
+    },
+    {
+      "name": "about_layers_used",
+      "value": "这个 App 用到的层"
+    },
+    {
+      "name": "about_license",
+      "value": "MIT 许可证 · 完全免费 · 无内购无广告"
+    },
+    {
+      "name": "about_open_in_browser",
+      "value": "在浏览器打开"
+    },
+    {
+      "name": "about_privacy_note",
+      "value": "这些不是宣传语：每一条都能在仓库里对着代码与 module.json5 核对。"
+    },
+    {
+      "name": "about_reading_version",
+      "value": "正在读取版本…"
+    },
+    {
+      "name": "about_repo_intro",
+      "value": "这个 App 的源码全部公开。用另一台设备扫码，或在浏览器打开下面的地址。"
+    },
+    {
+      "name": "about_section_feedback",
+      "value": "反馈与支持"
+    },
+    {
+      "name": "about_section_framework",
+      "value": "这是什么框架"
+    },
+    {
+      "name": "about_section_privacy",
+      "value": "隐私承诺"
+    },
+    {
+      "name": "about_section_repo",
+      "value": "开源仓库"
+    },
+    {
+      "name": "about_section_siblings",
+      "value": "同一个框架的作品"
+    },
+    {
+      "name": "about_self_source_desc",
+      "value": "本仓源码"
+    },
+    {
+      "name": "about_version_failed",
+      "value": "版本信息读取失败"
+    },
+    {
+      "name": "al_action_build",
+      "value": "生成"
+    },
+    {
+      "name": "al_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "al_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "al_comment_c",
+      "value": "// (C 系)"
+    },
+    {
+      "name": "al_comment_hash",
+      "value": "# (脚本)"
+    },
+    {
+      "name": "al_comment_sql",
+      "value": "-- (SQL)"
+    },
+    {
+      "name": "al_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "al_err_text",
+      "value": "请输入文本"
+    },
+    {
+      "name": "al_err_width",
+      "value": "宽度必须是 10 到 120 的整数"
+    },
+    {
+      "name": "al_kind_banner",
+      "value": "横幅"
+    },
+    {
+      "name": "al_kind_box",
+      "value": "文本框"
+    },
+    {
+      "name": "al_kind_line",
+      "value": "横线"
+    },
+    {
+      "name": "al_label_comment",
+      "value": "注释前缀"
+    },
+    {
+      "name": "al_label_kind",
+      "value": "形态"
+    },
+    {
+      "name": "al_label_style",
+      "value": "填充字符"
+    },
+    {
+      "name": "al_label_text",
+      "value": "文本（横幅/文本框）"
+    },
+    {
+      "name": "al_label_width",
+      "value": "宽度（10-120）"
+    },
+    {
+      "name": "al_style_dash",
+      "value": "横线 -"
+    },
+    {
+      "name": "al_style_eq",
+      "value": "等号 ="
+    },
+    {
+      "name": "al_style_hash",
+      "value": "井号 #"
+    },
+    {
+      "name": "al_style_star",
+      "value": "星号 *"
+    },
+    {
+      "name": "al_style_tilde",
+      "value": "波浪 ~"
+    },
+    {
+      "name": "at_cat_ctrl",
+      "value": "控制字符"
+    },
+    {
+      "name": "at_cat_print",
+      "value": "可打印"
+    },
+    {
+      "name": "at_col_dec",
+      "value": "十进制"
+    },
+    {
+      "name": "at_col_hex",
+      "value": "十六进制"
+    },
+    {
+      "name": "at_empty",
+      "value": "没有匹配的条目"
+    },
+    {
+      "name": "at_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "at_placeholder_search",
+      "value": "十进制/十六进制/字符/名称"
+    },
+    {
+      "name": "bo_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "bo_action_run",
+      "value": "执行"
+    },
+    {
+      "name": "bo_err_empty_left",
+      "value": "请输入操作数 A（十进制或 0x 十六进制）"
+    },
+    {
+      "name": "bo_err_empty_right",
+      "value": "请输入操作数 B"
+    },
+    {
+      "name": "bo_err_shift",
+      "value": "移位量必须在 0 到 31 之间（收到 %s）"
+    },
+    {
+      "name": "bo_hint_tap",
+      "value": "点结果位格子可翻转该位"
+    },
+    {
+      "name": "bo_label_decimal",
+      "value": "十进制"
+    },
+    {
+      "name": "bo_label_hex",
+      "value": "十六进制"
+    },
+    {
+      "name": "bo_label_left",
+      "value": "操作数 A（十进制或 0x 十六进制）"
+    },
+    {
+      "name": "bo_label_result",
+      "value": "结果（bit31 → bit0）"
+    },
+    {
+      "name": "bo_label_right",
+      "value": "操作数 B / 移位量"
+    },
+    {
+      "name": "bo_op_and",
+      "value": "AND"
+    },
+    {
+      "name": "bo_op_not",
+      "value": "NOT"
+    },
+    {
+      "name": "bo_op_or",
+      "value": "OR"
+    },
+    {
+      "name": "bo_op_shl",
+      "value": "左移 <<"
+    },
+    {
+      "name": "bo_op_shr",
+      "value": "右移 >>"
+    },
+    {
+      "name": "bo_op_xor",
+      "value": "XOR"
+    },
+    {
+      "name": "bs_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "bs_action_split",
+      "value": "拆分字节"
+    },
+    {
+      "name": "bs_err_empty",
+      "value": "请输入整数"
+    },
+    {
+      "name": "bs_err_range",
+      "value": "超出 32 位范围"
+    },
+    {
+      "name": "bs_label_big",
+      "value": "大端（网络字节序）"
+    },
+    {
+      "name": "bs_label_input",
+      "value": "32 位无符号整数（0-4294967295）"
+    },
+    {
+      "name": "bs_label_little",
+      "value": "小端（x86 内存序）"
+    },
+    {
+      "name": "case_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "case_action_convert",
+      "value": "转换"
+    },
+    {
+      "name": "case_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "case_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "case_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "case_err_no_words",
+      "value": "切不出任何词：%s（输入全是符号或空白）"
+    },
+    {
+      "name": "case_hint_words",
+      "value": "切词规则：小写→大写、字母↔数字、分隔符；连续大写保持成词（HTTPServer 不拆散）"
+    },
+    {
+      "name": "case_label_camel",
+      "value": "小驼峰 camelCase"
+    },
+    {
+      "name": "case_label_dot",
+      "value": "点分 dot.case"
+    },
+    {
+      "name": "case_label_input",
+      "value": "任意风格的标识符或句子"
+    },
+    {
+      "name": "case_label_kebab",
+      "value": "连字符 kebab-case"
+    },
+    {
+      "name": "case_label_pascal",
+      "value": "大驼峰 PascalCase"
+    },
+    {
+      "name": "case_label_screaming",
+      "value": "常量大写 SCREAMING_CASE"
+    },
+    {
+      "name": "case_label_snake",
+      "value": "下划线 snake_case"
+    },
+    {
+      "name": "case_placeholder_input",
+      "value": "如 userName、user_name、user-name、UserName"
+    },
+    {
+      "name": "cb2_action_blend",
+      "value": "混合"
+    },
+    {
+      "name": "cb2_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cb2_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cb2_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cb2_err_color",
+      "value": "无法解析颜色：%s"
+    },
+    {
+      "name": "cb2_err_empty",
+      "value": "请输入两个颜色"
+    },
+    {
+      "name": "cb2_label_a",
+      "value": "颜色 A"
+    },
+    {
+      "name": "cb2_label_b",
+      "value": "颜色 B"
+    },
+    {
+      "name": "cb2_label_band",
+      "value": "渐变色带"
+    },
+    {
+      "name": "cb2_label_steps",
+      "value": "渐变步数（2-12）"
+    },
+    {
+      "name": "cb_action_build",
+      "value": "生成命令"
+    },
+    {
+      "name": "cb_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cb_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cb_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cb_err_header",
+      "value": "请求头格式不合法（每行需 k: v）"
+    },
+    {
+      "name": "cb_err_url",
+      "value": "请输入 URL"
+    },
+    {
+      "name": "cb_label_body",
+      "value": "请求体（GET 忽略）"
+    },
+    {
+      "name": "cb_label_curl",
+      "value": "cURL"
+    },
+    {
+      "name": "cb_label_headers",
+      "value": "请求头（每行 k: v）"
+    },
+    {
+      "name": "cb_label_httpie",
+      "value": "HTTPie"
+    },
+    {
+      "name": "cb_label_method",
+      "value": "方法"
+    },
+    {
+      "name": "cb_label_url",
+      "value": "URL"
+    },
+    {
+      "name": "cc_action_check",
+      "value": "检查"
+    },
+    {
+      "name": "cc_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cc_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cc_cat_day",
+      "value": "每天"
+    },
+    {
+      "name": "cc_cat_hour",
+      "value": "每小时"
+    },
+    {
+      "name": "cc_cat_minute",
+      "value": "每分钟"
+    },
+    {
+      "name": "cc_cat_month",
+      "value": "每月"
+    },
+    {
+      "name": "cc_cat_special",
+      "value": "特殊"
+    },
+    {
+      "name": "cc_cat_week",
+      "value": "每周"
+    },
+    {
+      "name": "cc_cat_year",
+      "value": "每年"
+    },
+    {
+      "name": "cc_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cc_empty",
+      "value": "没有匹配的条目"
+    },
+    {
+      "name": "cc_err_empty",
+      "value": "请输入两个颜色"
+    },
+    {
+      "name": "cc_err_same",
+      "value": "两色相同，对比度恒为 1"
+    },
+    {
+      "name": "cc_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "cc_label_bg",
+      "value": "背景色"
+    },
+    {
+      "name": "cc_label_fg",
+      "value": "前景色（文字）"
+    },
+    {
+      "name": "cc_label_large",
+      "value": "大文本（≥18pt 或 14pt 粗体）"
+    },
+    {
+      "name": "cc_label_level",
+      "value": "WCAG 等级"
+    },
+    {
+      "name": "cc_label_ratio",
+      "value": "对比度"
+    },
+    {
+      "name": "cc_label_suggest",
+      "value": "建议"
+    },
+    {
+      "name": "cc_level_aa",
+      "value": "AA（达标）"
+    },
+    {
+      "name": "cc_level_aa_large",
+      "value": "AA 大文本"
+    },
+    {
+      "name": "cc_level_aaa",
+      "value": "AAA（最佳）"
+    },
+    {
+      "name": "cc_level_fail",
+      "value": "不达标"
+    },
+    {
+      "name": "cc_placeholder_fg",
+      "value": "如 #0962F2 或 #FFF"
+    },
+    {
+      "name": "cc_placeholder_search",
+      "value": "表达式或关键词"
+    },
+    {
+      "name": "cc_suggest_dark",
+      "value": "此背景上深色文字对比更高"
+    },
+    {
+      "name": "cc_suggest_light",
+      "value": "此背景上浅色文字对比更高"
+    },
+    {
+      "name": "cf_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cf_action_run",
+      "value": "统计"
+    },
+    {
+      "name": "cf_col_char",
+      "value": "字符"
+    },
+    {
+      "name": "cf_col_count",
+      "value": "次数"
+    },
+    {
+      "name": "cf_col_percent",
+      "value": "占比%"
+    },
+    {
+      "name": "cf_err_empty",
+      "value": "请输入文本"
+    },
+    {
+      "name": "cf_label_input",
+      "value": "文本"
+    },
+    {
+      "name": "cf_label_total",
+      "value": "总字符"
+    },
+    {
+      "name": "cf_label_unique",
+      "value": "不同字符"
+    },
+    {
+      "name": "cf_toggle_case",
+      "value": "忽略大小写"
+    },
+    {
+      "name": "cf_toggle_space",
+      "value": "忽略空白"
+    },
+    {
+      "name": "cg_action_build",
+      "value": "生成 Changelog"
+    },
+    {
+      "name": "cg_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cg_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cg_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cg_err_empty",
+      "value": "请输入提交信息"
+    },
+    {
+      "name": "cg_label_input",
+      "value": "提交信息（每行一条）"
+    },
+    {
+      "name": "cg_label_output",
+      "value": "Markdown 结果"
+    },
+    {
+      "name": "cg_label_stats",
+      "value": "归类 %s 条，未识别 %s 条"
+    },
+    {
+      "name": "cg_placeholder_input",
+      "value": "feat: 新增搜索\nfix: 修复崩溃"
+    },
+    {
+      "name": "cj_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cj_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cj_action_to_csv",
+      "value": "JSON → CSV"
+    },
+    {
+      "name": "cj_action_to_json",
+      "value": "CSV → JSON"
+    },
+    {
+      "name": "cj_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cj_err_bad_json",
+      "value": "JSON 解析失败，请检查语法"
+    },
+    {
+      "name": "cj_err_columns",
+      "value": "第 %s 行字段数是 %s，与表头 %s 列不一致"
+    },
+    {
+      "name": "cj_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "cj_err_keys",
+      "value": "第 %s 行缺少键 %s（所有行的键集合必须一致）"
+    },
+    {
+      "name": "cj_err_no_rows",
+      "value": "只有表头没有数据行（或对象数组为空）"
+    },
+    {
+      "name": "cj_err_not_array",
+      "value": "JSON 必须是对象数组"
+    },
+    {
+      "name": "cj_label_input",
+      "value": "CSV 或 JSON 文本"
+    },
+    {
+      "name": "cj_label_result",
+      "value": "结果"
+    },
+    {
+      "name": "cj_placeholder_csv",
+      "value": "首行表头，逗号分隔；如 id,name"
+    },
+    {
+      "name": "cj_placeholder_json",
+      "value": "对象数组；如 [{\"id\":1}]"
+    },
+    {
+      "name": "cj_stats",
+      "value": "%s 行 × %s 列"
+    },
+    {
+      "name": "ck_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ck_action_parse",
+      "value": "解析"
+    },
+    {
+      "name": "ck_err_empty",
+      "value": "请输入 Cookie 头"
+    },
+    {
+      "name": "ck_label_attrs",
+      "value": "属性"
+    },
+    {
+      "name": "ck_label_pairs",
+      "value": "键值对"
+    },
+    {
+      "name": "ck_label_request",
+      "value": "Cookie 请求头"
+    },
+    {
+      "name": "ck_label_setcookie",
+      "value": "Set-Cookie 响应头"
+    },
+    {
+      "name": "cm_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cm_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cm_action_minify",
+      "value": "压缩"
+    },
+    {
+      "name": "cm_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cm_err_block",
+      "value": "块注释未闭合"
+    },
+    {
+      "name": "cm_err_empty",
+      "value": "请输入代码"
+    },
+    {
+      "name": "cm_label_input",
+      "value": "代码"
+    },
+    {
+      "name": "cm_label_output",
+      "value": "压缩结果"
+    },
+    {
+      "name": "cm_label_stats",
+      "value": "%s → %s 字符"
+    },
+    {
+      "name": "codec_action_convert",
+      "value": "转换"
+    },
+    {
+      "name": "codec_action_copy",
+      "value": "复制结果"
+    },
+    {
+      "name": "codec_action_example",
+      "value": "示例"
+    },
+    {
+      "name": "codec_action_swap",
+      "value": "⇄ 换方向并复用结果"
+    },
+    {
+      "name": "codec_copied",
+      "value": "结果已复制"
+    },
+    {
+      "name": "codec_dir_decode",
+      "value": "解码"
+    },
+    {
+      "name": "codec_dir_encode",
+      "value": "编码"
+    },
+    {
+      "name": "codec_err_b64_char",
+      "value": "不是合法的 Base64 字符：「%s」"
+    },
+    {
+      "name": "codec_err_b64_length",
+      "value": "Base64 长度不合法：字符数对 4 取余为 1，无论怎样都凑不出完整字节"
+    },
+    {
+      "name": "codec_err_b64_not_utf8",
+      "value": "Base64 能解开，但内容不是合法的 UTF-8 文本："
+    },
+    {
+      "name": "codec_err_b64_pad_count",
+      "value": "Base64 结尾的 = 最多只能有两个"
+    },
+    {
+      "name": "codec_err_b64_pad_mismatch",
+      "value": "Base64 的 = 个数与内容长度不匹配（现在还差或多了补齐字符）"
+    },
+    {
+      "name": "codec_err_b64_pad_position",
+      "value": "Base64 里的 = 只能出现在末尾"
+    },
+    {
+      "name": "codec_err_empty",
+      "value": "请输入要处理的内容"
+    },
+    {
+      "name": "codec_err_escape_trailing",
+      "value": "反斜杠后面没有内容，转义不完整"
+    },
+    {
+      "name": "codec_err_escape_unsupported",
+      "value": "不支持的转义写法：\\%s"
+    },
+    {
+      "name": "codec_err_hex_char",
+      "value": "出现了不是十六进制的字符：「%s」"
+    },
+    {
+      "name": "codec_err_hex_not_utf8",
+      "value": "十六进制能解开，但内容不是合法的 UTF-8 文本："
+    },
+    {
+      "name": "codec_err_hex_odd",
+      "value": "十六进制字符数是奇数（%s 位），凑不出完整字节"
+    },
+    {
+      "name": "codec_err_percent_bad",
+      "value": "% 后面必须是两位十六进制，实际是「%%%s」"
+    },
+    {
+      "name": "codec_err_percent_incomplete",
+      "value": "% 后面必须是两位十六进制（这里是末尾，写不完整）"
+    },
+    {
+      "name": "codec_err_unicode_hex",
+      "value": "\\u 转义里出现了非十六进制字符：「%s」"
+    },
+    {
+      "name": "codec_err_unicode_incomplete",
+      "value": "\\u 转义不完整，需要 4 位十六进制"
+    },
+    {
+      "name": "codec_err_utf8_continuation",
+      "value": "不是合法的 UTF-8：续字节格式不对"
+    },
+    {
+      "name": "codec_err_utf8_lead",
+      "value": "不是合法的 UTF-8：首字节 0x%s 不是合法的起始字节"
+    },
+    {
+      "name": "codec_err_utf8_overlong",
+      "value": "不是合法的 UTF-8：出现了过长编码（同一个码点用了多余的字节）"
+    },
+    {
+      "name": "codec_err_utf8_range",
+      "value": "不是合法的 UTF-8：码点超出 Unicode 范围"
+    },
+    {
+      "name": "codec_err_utf8_surrogate",
+      "value": "不是合法的 UTF-8：代理区码点不能用三字节形式编码"
+    },
+    {
+      "name": "codec_err_utf8_truncated",
+      "value": "不是合法的 UTF-8：最后一个字符被截断了"
+    },
+    {
+      "name": "codec_ex_base64_decode",
+      "value": "5Lit5paHIEJhc2U2NCDwn5iA"
+    },
+    {
+      "name": "codec_ex_base64_encode",
+      "value": "中文 Base64 😀"
+    },
+    {
+      "name": "codec_ex_hex_decode",
+      "value": "e4 b8 ad e6 96 87"
+    },
+    {
+      "name": "codec_ex_hex_encode",
+      "value": "中文"
+    },
+    {
+      "name": "codec_ex_unicode_decode",
+      "value": "\\u4E2D\\u6587 \\uD83D\\uDE00"
+    },
+    {
+      "name": "codec_ex_unicode_encode",
+      "value": "中文 😀"
+    },
+    {
+      "name": "codec_ex_url_decode",
+      "value": "https://a.com/p?x=1&y=%E4%B8%AD%E6%96%87%20%E7%A9%BA%E6%A0%BC"
+    },
+    {
+      "name": "codec_ex_url_encode",
+      "value": "https://a.com/p?x=1&y=中文 空格"
+    },
+    {
+      "name": "codec_ex_urlcomp_decode",
+      "value": "a%3D1%26b%3D%E4%B8%AD%E6%96%87%20%E5%80%BC"
+    },
+    {
+      "name": "codec_ex_urlcomp_encode",
+      "value": "a=1&b=中文 值"
+    },
+    {
+      "name": "codec_hint_base64",
+      "value": "按 UTF-8 字节做标准 Base64，带 = 补齐"
+    },
+    {
+      "name": "codec_hint_hex",
+      "value": "按 UTF-8 字节转十六进制，可用空格/冒号分组"
+    },
+    {
+      "name": "codec_hint_unicode",
+      "value": "把非 ASCII 字符写成 \\uXXXX（中文、emoji 都支持）"
+    },
+    {
+      "name": "codec_hint_url",
+      "value": "处理整段网址：:/?#&= 这些有语法含义的字符不转义"
+    },
+    {
+      "name": "codec_hint_url_component",
+      "value": "处理参数值：& 与 = 也会被转义，空格编成 %20 而不是 +"
+    },
+    {
+      "name": "codec_label_direction",
+      "value": "方向"
+    },
+    {
+      "name": "codec_label_input_decode",
+      "value": "待解码内容"
+    },
+    {
+      "name": "codec_label_input_encode",
+      "value": "原文"
+    },
+    {
+      "name": "codec_label_mode",
+      "value": "模式"
+    },
+    {
+      "name": "codec_label_output_decode",
+      "value": "解码结果"
+    },
+    {
+      "name": "codec_label_output_encode",
+      "value": "编码结果"
+    },
+    {
+      "name": "codec_mode_base64",
+      "value": "Base64"
+    },
+    {
+      "name": "codec_mode_hex",
+      "value": "Hex"
+    },
+    {
+      "name": "codec_mode_unicode",
+      "value": "Unicode 转义"
+    },
+    {
+      "name": "codec_mode_url",
+      "value": "URL 整段"
+    },
+    {
+      "name": "codec_mode_url_component",
+      "value": "URL 参数值"
+    },
+    {
+      "name": "codec_placeholder_decode",
+      "value": "粘贴要解码的内容"
+    },
+    {
+      "name": "codec_placeholder_encode",
+      "value": "输入要编码的内容"
+    },
+    {
+      "name": "codec_status_done",
+      "value": "%s完成：%s · 输出 %s 个字符"
+    },
+    {
+      "name": "codec_status_swapped",
+      "value": "已切换方向并填入上一次的结果，点「转换」执行。"
+    },
+    {
+      "name": "codeview_copied",
+      "value": "已复制文件内容"
+    },
+    {
+      "name": "codeview_copied_truncated",
+      "value": "已复制文件内容（仅前 %s 行）"
+    },
+    {
+      "name": "codeview_hide_line_numbers",
+      "value": "隐藏行号"
+    },
+    {
+      "name": "codeview_lang_plain",
+      "value": "纯文本"
+    },
+    {
+      "name": "codeview_lang_properties",
+      "value": "键值配置"
+    },
+    {
+      "name": "codeview_no_file_yet",
+      "value": "还没有选择文件。点上面的按钮挑一个。"
+    },
+    {
+      "name": "codeview_open_failed",
+      "value": "打开文件时出错了：%s"
+    },
+    {
+      "name": "codeview_permission_note",
+      "value": "通过系统文件选择器打开，不需要存储权限：你选中的那一个文件被读取一次，工具不扫描目录、不写入任何文件、也不联网。"
+    },
+    {
+      "name": "codeview_pick_file",
+      "value": "选择文件"
+    },
+    {
+      "name": "codeview_reading",
+      "value": "正在读取…"
+    },
+    {
+      "name": "codeview_show_line_numbers",
+      "value": "显示行号"
+    },
+    {
+      "name": "codeview_summary",
+      "value": "%s · %s 行 · %s"
+    },
+    {
+      "name": "codeview_summary_truncated",
+      "value": "（超过 %s 行，只显示前 %s 行）"
+    },
+    {
+      "name": "codeview_too_large",
+      "value": "文件太大了（%s），超过 %s 的只读查看上限。大文件请用专门的编辑器，或先截取一段再打开。"
+    },
+    {
+      "name": "codeview_unnamed_file",
+      "value": "未命名文件"
+    },
+    {
+      "name": "codeview_unreadable",
+      "value": "读不到这个文件的内容。可能是：文件是空的、不是文本（例如图片或压缩包）、或者受系统保护不允许这个应用读取。"
+    },
+    {
+      "name": "color_contrast_hint",
+      "value": "AA 正文需 4.5:1，大字号需 3:1；AAA 正文需 7:1。浅色文字在浅背景上最常见的问题就是达不到 4.5:1。"
+    },
+    {
+      "name": "color_copied_label",
+      "value": "已复制 %s"
+    },
+    {
+      "name": "color_copied_report",
+      "value": "已复制颜色信息"
+    },
+    {
+      "name": "color_copied_value",
+      "value": "已复制 %s"
+    },
+    {
+      "name": "color_err_bad_hue",
+      "value": "色相必须是数字（0~360 度），可以带 deg 后缀或为负值（-30 等价于 330）"
+    },
+    {
+      "name": "color_err_channel_range",
+      "value": "通道值必须是 %s~%s 的数字（或百分数），例如 rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_err_empty",
+      "value": "请输入颜色，例如 #0962F2 或 rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_err_hex_bad_char",
+      "value": "十六进制里出现了非法字符（只允许 0-9 与 A-F）"
+    },
+    {
+      "name": "color_err_hsl_arity",
+      "value": "hsl() 需要 3 个参数（色相、饱和度%、亮度%），hsla() 再加一个透明度，例如 hsl(217, 93%, 49%)"
+    },
+    {
+      "name": "color_err_hsl_missing_paren",
+      "value": "hsl() 写法不完整，缺少右括号"
+    },
+    {
+      "name": "color_err_hsl_percent",
+      "value": "饱和度与亮度要写百分数，例如 hsl(217, 93%, 49%)"
+    },
+    {
+      "name": "color_err_rgb_arity",
+      "value": "rgb() 需要 3 个参数（红、绿、蓝），rgba() 再加一个透明度，例如 rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_err_rgb_missing_paren",
+      "value": "rgb() 写法不完整，缺少右括号"
+    },
+    {
+      "name": "color_err_unknown_format",
+      "value": "认不出这个写法。支持 #RGB、#RGBA、#RRGGBB、#RRGGBBAA、rgb(...)、hsl(...) 与常用颜色名"
+    },
+    {
+      "name": "color_err_unknown_name",
+      "value": "不认识这个颜色名"
+    },
+    {
+      "name": "color_field_nearest_name",
+      "value": "最接近的颜色名"
+    },
+    {
+      "name": "color_field_on_black",
+      "value": "与黑色的对比度"
+    },
+    {
+      "name": "color_field_on_white",
+      "value": "与白色的对比度"
+    },
+    {
+      "name": "color_field_readable",
+      "value": "建议前景色"
+    },
+    {
+      "name": "color_field_separator",
+      "value": "："
+    },
+    {
+      "name": "color_field_short_hex",
+      "value": "HEX 简写"
+    },
+    {
+      "name": "color_input_hint",
+      "value": "支持 #RGB、#RGBA、#RRGGBB、#RRGGBBAA、rgb()、hsl() 与常用颜色名（如 steelblue）。"
+    },
+    {
+      "name": "color_label_contrast",
+      "value": "对比度（WCAG）"
+    },
+    {
+      "name": "color_label_forms",
+      "value": "各种表示形式"
+    },
+    {
+      "name": "color_label_harmony",
+      "value": "配色方案"
+    },
+    {
+      "name": "color_label_input",
+      "value": "颜色值"
+    },
+    {
+      "name": "color_label_lightness",
+      "value": "明暗调整（保持色相不变）"
+    },
+    {
+      "name": "color_label_on_black",
+      "value": "与黑色"
+    },
+    {
+      "name": "color_label_on_white",
+      "value": "与白色"
+    },
+    {
+      "name": "color_label_preview",
+      "value": "在此色上，这样写更清楚"
+    },
+    {
+      "name": "color_label_scale",
+      "value": "明暗阶梯（设计 Token 常用）"
+    },
+    {
+      "name": "color_label_tokens",
+      "value": "主题 Token"
+    },
+    {
+      "name": "color_notice_alpha",
+      "value": "这个颜色带透明度（alpha=%s），预览已按半透明绘制，但对比度是按不透明值计算的，实际观感会随底层颜色变化。"
+    },
+    {
+      "name": "color_notice_clamped",
+      "value": "通道值超出范围，已按 0~255 夹紧显示。"
+    },
+    {
+      "name": "color_placeholder_input",
+      "value": "例如 #0962F2 或 rgb(9, 98, 242)"
+    },
+    {
+      "name": "color_row_name",
+      "value": "颜色名"
+    },
+    {
+      "name": "color_row_readable",
+      "value": "建议前景"
+    },
+    {
+      "name": "color_row_short_hex",
+      "value": "HEX 简写"
+    },
+    {
+      "name": "color_step_darken",
+      "value": "暗 %s%"
+    },
+    {
+      "name": "color_step_lighten",
+      "value": "亮 %s%"
+    },
+    {
+      "name": "color_swatch_pick",
+      "value": "点击选用"
+    },
+    {
+      "name": "color_tokens_hint",
+      "value": "本 App 的全部语义色。每个名字带深浅两套值，界面取色一律走 Token，改主题时无需改页面。"
+    },
+    {
+      "name": "color_verdict_aa",
+      "value": "AA 正文达标"
+    },
+    {
+      "name": "color_verdict_aaa",
+      "value": "AAA 正文达标"
+    },
+    {
+      "name": "color_verdict_fail",
+      "value": "不达标：文字会看不清"
+    },
+    {
+      "name": "color_verdict_large_only",
+      "value": "仅大字号达标（正文不够）"
+    },
+    {
+      "name": "copied_common",
+      "value": "已复制"
+    },
+    {
+      "name": "cron_action_recalc",
+      "value": "重新计算（按当前时间）"
+    },
+    {
+      "name": "cron_day_rule_note",
+      "value": "「日」与「星期」同时限定时，标准 cron 的语义是「或」：任一条件满足就会执行。"
+    },
+    {
+      "name": "cron_desc_and",
+      "value": " 且 "
+    },
+    {
+      "name": "cron_desc_at_minute_of_hour",
+      "value": "每小时的第 %s 分"
+    },
+    {
+      "name": "cron_desc_at_times",
+      "value": "每天 %s"
+    },
+    {
+      "name": "cron_desc_daily_suffix",
+      "value": "（每天）"
+    },
+    {
+      "name": "cron_desc_every_minute",
+      "value": "每分钟"
+    },
+    {
+      "name": "cron_desc_every_minute_at_hours",
+      "value": "每小时的每分钟（%s）"
+    },
+    {
+      "name": "cron_desc_every_n_minutes",
+      "value": "每 %s 分钟"
+    },
+    {
+      "name": "cron_desc_month_day",
+      "value": "每月 %s 日"
+    },
+    {
+      "name": "cron_desc_or",
+      "value": " 或 "
+    },
+    {
+      "name": "cron_desc_week",
+      "value": "每周 %s"
+    },
+    {
+      "name": "cron_desc_within_hours",
+      "value": "（%s内）"
+    },
+    {
+      "name": "cron_desc_wrap",
+      "value": "（%s）"
+    },
+    {
+      "name": "cron_desc_year",
+      "value": "每年 %s"
+    },
+    {
+      "name": "cron_err_alias",
+      "value": "@daily 这类别名不被支持，请写成等价的 5 段。"
+    },
+    {
+      "name": "cron_err_bad_step",
+      "value": "%s段的步长必须是正整数：%s"
+    },
+    {
+      "name": "cron_err_bad_value",
+      "value": "%s段里有非法取值：%s"
+    },
+    {
+      "name": "cron_err_empty_expression",
+      "value": "请输入 cron 表达式，例如「*/5 * * * *」。"
+    },
+    {
+      "name": "cron_err_empty_item",
+      "value": "%s段里有空的取值（是不是多写了一个逗号？）"
+    },
+    {
+      "name": "cron_err_field_empty",
+      "value": "%s段为空"
+    },
+    {
+      "name": "cron_err_no_values",
+      "value": "%s段没有解析出任何取值：%s"
+    },
+    {
+      "name": "cron_err_out_of_range",
+      "value": "%s段超出允许范围（%s-%s）：%s"
+    },
+    {
+      "name": "cron_err_range_syntax",
+      "value": "%s段的取值范围写错了：%s"
+    },
+    {
+      "name": "cron_err_reversed_range",
+      "value": "%s段的区间是倒着的（%s）：请写成从小到大"
+    },
+    {
+      "name": "cron_err_six_segments",
+      "value": "含秒的 6 段写法（Quartz 等）不被支持。"
+    },
+    {
+      "name": "cron_err_step_not_positive",
+      "value": "%s段的步长必须大于 0：%s"
+    },
+    {
+      "name": "cron_err_wrong_count",
+      "value": "标准 cron 是 5 段（分 时 日 月 周），当前是 %s 段。"
+    },
+    {
+      "name": "cron_field_day",
+      "value": "日"
+    },
+    {
+      "name": "cron_field_hour",
+      "value": "小时"
+    },
+    {
+      "name": "cron_field_minute",
+      "value": "分钟"
+    },
+    {
+      "name": "cron_field_month",
+      "value": "月"
+    },
+    {
+      "name": "cron_field_weekday",
+      "value": "星期"
+    },
+    {
+      "name": "cron_hours",
+      "value": "%s 点"
+    },
+    {
+      "name": "cron_label_examples",
+      "value": "常用写法"
+    },
+    {
+      "name": "cron_label_expression",
+      "value": "cron 表达式"
+    },
+    {
+      "name": "cron_label_meaning",
+      "value": "含义"
+    },
+    {
+      "name": "cron_label_next_runs",
+      "value": "接下来 %s 次执行时间（本地时区）"
+    },
+    {
+      "name": "cron_list_separator",
+      "value": "、"
+    },
+    {
+      "name": "cron_month_1",
+      "value": "1 月"
+    },
+    {
+      "name": "cron_month_10",
+      "value": "10 月"
+    },
+    {
+      "name": "cron_month_11",
+      "value": "11 月"
+    },
+    {
+      "name": "cron_month_12",
+      "value": "12 月"
+    },
+    {
+      "name": "cron_month_2",
+      "value": "2 月"
+    },
+    {
+      "name": "cron_month_3",
+      "value": "3 月"
+    },
+    {
+      "name": "cron_month_4",
+      "value": "4 月"
+    },
+    {
+      "name": "cron_month_5",
+      "value": "5 月"
+    },
+    {
+      "name": "cron_month_6",
+      "value": "6 月"
+    },
+    {
+      "name": "cron_month_7",
+      "value": "7 月"
+    },
+    {
+      "name": "cron_month_8",
+      "value": "8 月"
+    },
+    {
+      "name": "cron_month_9",
+      "value": "9 月"
+    },
+    {
+      "name": "cron_never_matches",
+      "value": "按标准 cron 语义，这个组合在 8 年内一次都不会成立（例如「2 月 30 日」）。"
+    },
+    {
+      "name": "cron_placeholder",
+      "value": "分 时 日 月 周，例如 */5 * * * *"
+    },
+    {
+      "name": "cron_weekday_fri",
+      "value": "周五"
+    },
+    {
+      "name": "cron_weekday_mon",
+      "value": "周一"
+    },
+    {
+      "name": "cron_weekday_sat",
+      "value": "周六"
+    },
+    {
+      "name": "cron_weekday_sun",
+      "value": "周日"
+    },
+    {
+      "name": "cron_weekday_thu",
+      "value": "周四"
+    },
+    {
+      "name": "cron_weekday_tue",
+      "value": "周二"
+    },
+    {
+      "name": "cron_weekday_wed",
+      "value": "周三"
+    },
+    {
+      "name": "cs_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "cs_action_compute",
+      "value": "计算"
+    },
+    {
+      "name": "cs_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "cs_alg_adler32",
+      "value": "Adler-32"
+    },
+    {
+      "name": "cs_alg_crc32",
+      "value": "CRC-32"
+    },
+    {
+      "name": "cs_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "cs_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "cs_hint_scope",
+      "value": "仅完整性校验：不是加密哈希，不能防篡改"
+    },
+    {
+      "name": "cs_label_algorithm",
+      "value": "算法"
+    },
+    {
+      "name": "cs_label_decimal",
+      "value": "十进制"
+    },
+    {
+      "name": "cs_label_hex",
+      "value": "十六进制"
+    },
+    {
+      "name": "cs_label_input",
+      "value": "待校验的文本"
+    },
+    {
+      "name": "date_action_diff",
+      "value": "计算间隔"
+    },
+    {
+      "name": "date_action_shift",
+      "value": "计算"
+    },
+    {
+      "name": "date_copied_diff",
+      "value": "已复制日期间隔结果"
+    },
+    {
+      "name": "date_copied_shift",
+      "value": "已复制日期结果"
+    },
+    {
+      "name": "date_err_day_range",
+      "value": "%s 年 %s 月只有 %s 天，不存在 %s 日。"
+    },
+    {
+      "name": "date_err_days_not_integer",
+      "value": "天数必须是整数。"
+    },
+    {
+      "name": "date_err_diff_end",
+      "value": "结束日期：%s"
+    },
+    {
+      "name": "date_err_diff_start",
+      "value": "起始日期：%s"
+    },
+    {
+      "name": "date_err_empty",
+      "value": "请输入日期，例如 2024-02-29。"
+    },
+    {
+      "name": "date_err_month_range",
+      "value": "月份必须在 1-12 之间"
+    },
+    {
+      "name": "date_err_months_not_integer",
+      "value": "月数必须是整数。"
+    },
+    {
+      "name": "date_err_non_digit",
+      "value": "日期里含有非数字字符：%s"
+    },
+    {
+      "name": "date_err_out_of_range",
+      "value": "结果超出了可表示的年份范围（%s-%s）。"
+    },
+    {
+      "name": "date_err_unrecognized",
+      "value": "无法识别的日期格式：%s（可用 2024-02-29 / 2024/2/29 / 20240229）"
+    },
+    {
+      "name": "date_err_year_range",
+      "value": "年份必须在 %s-%s 之间"
+    },
+    {
+      "name": "date_err_years_not_integer",
+      "value": "年数必须是整数。"
+    },
+    {
+      "name": "date_field_amount",
+      "value": "数量（可为负数表示往前推）"
+    },
+    {
+      "name": "date_field_base",
+      "value": "基准日期"
+    },
+    {
+      "name": "date_field_end",
+      "value": "结束日期"
+    },
+    {
+      "name": "date_field_start",
+      "value": "起始日期"
+    },
+    {
+      "name": "date_gap_days",
+      "value": "相差 %s 天；"
+    },
+    {
+      "name": "date_gap_workdays",
+      "value": "其中 %s 天是%s。"
+    },
+    {
+      "name": "date_label_diff",
+      "value": "日期间隔"
+    },
+    {
+      "name": "date_label_exclude_weekends",
+      "value": "工作日口径排除周六周日"
+    },
+    {
+      "name": "date_label_result",
+      "value": "结果"
+    },
+    {
+      "name": "date_label_shift",
+      "value": "日期加减"
+    },
+    {
+      "name": "date_notice_clamped",
+      "value": "目标月份没有这一天，结果已按该月最后一天给出（例如 1/31 加一个月 → 2 月最后一天）。"
+    },
+    {
+      "name": "date_notice_reversed",
+      "value": "（注意：结束日期早于起始日期，以下为负值）"
+    },
+    {
+      "name": "date_placeholder_amount",
+      "value": "例如 1 或 -30"
+    },
+    {
+      "name": "date_placeholder_base",
+      "value": "例如 2024-01-31"
+    },
+    {
+      "name": "date_placeholder_end",
+      "value": "例如 2024-12-31"
+    },
+    {
+      "name": "date_placeholder_start",
+      "value": "例如 2024-01-01"
+    },
+    {
+      "name": "date_shift_not_integer",
+      "value": "数量必须是整数（可为负数）。"
+    },
+    {
+      "name": "date_unit_calendar",
+      "value": "自然日"
+    },
+    {
+      "name": "date_unit_day",
+      "value": "天"
+    },
+    {
+      "name": "date_unit_month",
+      "value": "月"
+    },
+    {
+      "name": "date_unit_workday",
+      "value": "工作日"
+    },
+    {
+      "name": "date_unit_year",
+      "value": "年"
+    },
+    {
+      "name": "dd_action_calc",
+      "value": "计算差值"
+    },
+    {
+      "name": "dd_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "dd_err_date",
+      "value": "日期格式不合法（需 YYYY-MM-DD）"
+    },
+    {
+      "name": "dd_err_empty",
+      "value": "请输入两个日期"
+    },
+    {
+      "name": "dd_label_end",
+      "value": "结束日期（YYYY-MM-DD）"
+    },
+    {
+      "name": "dd_label_natural",
+      "value": "自然日"
+    },
+    {
+      "name": "dd_label_start",
+      "value": "开始日期（YYYY-MM-DD）"
+    },
+    {
+      "name": "dd_label_weeks",
+      "value": "周数"
+    },
+    {
+      "name": "dd_label_work",
+      "value": "工作日"
+    },
+    {
+      "name": "diff_action_compare",
+      "value": "对比"
+    },
+    {
+      "name": "diff_action_copy_diff",
+      "value": "复制差异"
+    },
+    {
+      "name": "diff_action_swap",
+      "value": "交换两侧"
+    },
+    {
+      "name": "diff_copied",
+      "value": "已复制差异文本"
+    },
+    {
+      "name": "diff_err_matrix_too_large",
+      "value": "两段文本的行数乘积太大（%s × %s），逐行比对会占用过多内存。建议先各自截取到几百行以内再对比。"
+    },
+    {
+      "name": "diff_err_too_many_lines",
+      "value": "文本太长了：单侧最多支持 %s 行（当前左侧 %s 行、右侧 %s 行）。请先裁掉不关心的部分再对比。"
+    },
+    {
+      "name": "diff_hide_unchanged",
+      "value": "隐藏未变行"
+    },
+    {
+      "name": "diff_hunk_header",
+      "value": "@@ 旧 %s 行 / 新 %s 行 @@"
+    },
+    {
+      "name": "diff_identical",
+      "value": "两侧完全一致：%s 行全部相同。"
+    },
+    {
+      "name": "diff_label_left",
+      "value": "旧文本"
+    },
+    {
+      "name": "diff_label_right",
+      "value": "新文本"
+    },
+    {
+      "name": "diff_notice_line_ending",
+      "value": "注意：两侧的行尾风格不一致（一侧含 CRLF 回车符），比对时已按同一行尾处理，但在版本控制里这种差异会显示为整个文件都被改动。"
+    },
+    {
+      "name": "diff_notice_trailing_newline",
+      "value": "注意：两侧的末尾换行符不同（一侧有、一侧没有），这在部分工具与检查里会被视为「文件末尾缺少换行」。"
+    },
+    {
+      "name": "diff_placeholder_left",
+      "value": "粘贴原始内容"
+    },
+    {
+      "name": "diff_placeholder_right",
+      "value": "粘贴要对比的内容"
+    },
+    {
+      "name": "diff_show_unchanged",
+      "value": "显示未变行"
+    },
+    {
+      "name": "diff_summary_counts",
+      "value": "新增 %s 行、删除 %s 行（未变 %s 行）。"
+    },
+    {
+      "name": "diff_summary_line_counts",
+      "value": "左侧 %s 行，右侧 %s 行。"
+    },
+    {
+      "name": "diff_summary_same_line_count",
+      "value": "两侧行数相同，属于逐行改写。"
+    },
+    {
+      "name": "diff_unified_counts",
+      "value": "新增 %s 行，删除 %s 行，未变 %s 行"
+    },
+    {
+      "name": "digest_action_compute",
+      "value": "计算摘要"
+    },
+    {
+      "name": "digest_action_cross_check",
+      "value": "交叉校验"
+    },
+    {
+      "name": "digest_compare_empty_expected",
+      "value": "请先填写要比对的指纹。"
+    },
+    {
+      "name": "digest_compare_length_mismatch",
+      "value": "长度不一致：期望 %s 位，实际 %s 位，可能选错了算法。"
+    },
+    {
+      "name": "digest_compare_match",
+      "value": "一致：两份摘要完全相同。"
+    },
+    {
+      "name": "digest_compare_mismatch",
+      "value": "不一致：两份摘要不同，内容有差别或其中一份已过期。"
+    },
+    {
+      "name": "digest_compare_no_actual",
+      "value": "还没有算出摘要：先点上面的「计算摘要」。"
+    },
+    {
+      "name": "digest_compare_non_hex",
+      "value": "比对的指纹里含有非十六进制字符（是否把说明文字一起粘进来了？）。"
+    },
+    {
+      "name": "digest_copied",
+      "value": "已复制 %s 摘要"
+    },
+    {
+      "name": "digest_cross_check_diff",
+      "value": "不一致！SHA-256 %s，SHA-512 %s，请把这条信息反馈给开发者。"
+    },
+    {
+      "name": "digest_cross_check_hint",
+      "value": "调用 NGF 框架的 securityToolkit（底层是 cryptoFramework）再算一遍 SHA-256 / SHA-512，与上面的结果对照。"
+    },
+    {
+      "name": "digest_cross_check_match",
+      "value": "一致：框架与本地实现算出的 SHA-256 / SHA-512 完全相同。"
+    },
+    {
+      "name": "digest_cross_check_running",
+      "value": "正在用框架能力重算……"
+    },
+    {
+      "name": "digest_cross_check_unavailable",
+      "value": "框架摘要不可用（当前环境没有 cryptoFramework），本地实现的结果不受影响。"
+    },
+    {
+      "name": "digest_cross_different",
+      "value": "不同"
+    },
+    {
+      "name": "digest_cross_same",
+      "value": "一致"
+    },
+    {
+      "name": "digest_fingerprint_hint",
+      "value": "把对方给的摘要粘进来即可比对：大小写、空格、冒号、连字符都会被忽略。"
+    },
+    {
+      "name": "digest_label_cross_check",
+      "value": "与框架能力交叉校验"
+    },
+    {
+      "name": "digest_label_fingerprint",
+      "value": "指纹比对"
+    },
+    {
+      "name": "digest_label_input",
+      "value": "输入文本"
+    },
+    {
+      "name": "digest_label_result",
+      "value": "摘要结果"
+    },
+    {
+      "name": "digest_placeholder_fingerprint",
+      "value": "例如 d41d8cd98f00b204e9800998ecf8427e"
+    },
+    {
+      "name": "digest_placeholder_input",
+      "value": "粘贴或输入要计算摘要的文本"
+    },
+    {
+      "name": "err_radix_empty_input",
+      "value": "请输入要转换的数"
+    },
+    {
+      "name": "err_radix_invalid_digit",
+      "value": "字符 “%s” 不是 %s 进制的合法数字"
+    },
+    {
+      "name": "err_radix_out_of_range",
+      "value": "进制必须是 %s-%s 之间的整数"
+    },
+    {
+      "name": "err_radix_shift_out_of_range",
+      "value": "移位位数必须在 %s-%s 之间"
+    },
+    {
+      "name": "err_radix_unsupported_operation",
+      "value": "不支持的位运算：%s"
+    },
+    {
+      "name": "et_cat_arrow",
+      "value": "箭头"
+    },
+    {
+      "name": "et_cat_math",
+      "value": "数学"
+    },
+    {
+      "name": "et_cat_quote",
+      "value": "引号"
+    },
+    {
+      "name": "et_cat_symbol",
+      "value": "符号"
+    },
+    {
+      "name": "et_empty",
+      "value": "没有匹配的实体"
+    },
+    {
+      "name": "et_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "et_placeholder_input",
+      "value": "输入毫秒值（如 1700000000000）"
+    },
+    {
+      "name": "et_placeholder_search",
+      "value": "实体或说明"
+    },
+    {
+      "name": "fb_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "fb_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "fb_action_parse",
+      "value": "分解"
+    },
+    {
+      "name": "fb_class_infinity",
+      "value": "无穷"
+    },
+    {
+      "name": "fb_class_nan",
+      "value": "NaN"
+    },
+    {
+      "name": "fb_class_normal",
+      "value": "规格化数"
+    },
+    {
+      "name": "fb_class_subnormal",
+      "value": "非规格化数"
+    },
+    {
+      "name": "fb_class_zero",
+      "value": "零"
+    },
+    {
+      "name": "fb_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "fb_err_empty",
+      "value": "请输入数字"
+    },
+    {
+      "name": "fb_err_parse",
+      "value": "无法解析为数字：%s"
+    },
+    {
+      "name": "fb_label_class",
+      "value": "分类"
+    },
+    {
+      "name": "fb_label_exponent",
+      "value": "指数位"
+    },
+    {
+      "name": "fb_label_hex",
+      "value": "十六进制位型"
+    },
+    {
+      "name": "fb_label_input",
+      "value": "数字（十进制，或 NaN / Infinity）"
+    },
+    {
+      "name": "fb_label_mantissa",
+      "value": "尾数位"
+    },
+    {
+      "name": "fb_label_precision",
+      "value": "精度"
+    },
+    {
+      "name": "fb_label_sign",
+      "value": "符号位"
+    },
+    {
+      "name": "fb_prec_double",
+      "value": "双精度 64 位"
+    },
+    {
+      "name": "fb_prec_single",
+      "value": "单精度 32 位"
+    },
+    {
+      "name": "fd_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "fd_err_empty",
+      "value": "请输入表单体"
+    },
+    {
+      "name": "fd_err_question",
+      "value": "以 ? 开头是 query 的形态，请去掉开头的 ?"
+    },
+    {
+      "name": "fd_label_count",
+      "value": "唯一字段"
+    },
+    {
+      "name": "fd_placeholder_input",
+      "value": "表单体（如 name=alice&age=30）"
+    },
+    {
+      "name": "fh_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "fh_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "fh_action_hash",
+      "value": "计算哈希"
+    },
+    {
+      "name": "fh_compare_match",
+      "value": "比对通过（%s）"
+    },
+    {
+      "name": "fh_compare_mismatch",
+      "value": "与期望值不匹配"
+    },
+    {
+      "name": "fh_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "fh_err_empty",
+      "value": "请输入文本内容"
+    },
+    {
+      "name": "fh_label_expected",
+      "value": "期望的校验值（可选）"
+    },
+    {
+      "name": "fh_label_output",
+      "value": "哈希结果"
+    },
+    {
+      "name": "fh_label_text",
+      "value": "文本内容"
+    },
+    {
+      "name": "gc_cat_basic",
+      "value": "基础"
+    },
+    {
+      "name": "gc_cat_branch",
+      "value": "分支"
+    },
+    {
+      "name": "gc_cat_remote",
+      "value": "远程"
+    },
+    {
+      "name": "gc_cat_stash",
+      "value": "暂存"
+    },
+    {
+      "name": "gc_cat_undo",
+      "value": "撤销"
+    },
+    {
+      "name": "gc_cat_view",
+      "value": "查看"
+    },
+    {
+      "name": "gc_empty",
+      "value": "没有匹配的命令"
+    },
+    {
+      "name": "gc_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "gc_placeholder_search",
+      "value": "命令或关键词"
+    },
+    {
+      "name": "hd_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "hd_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "hd_action_dump",
+      "value": "转储"
+    },
+    {
+      "name": "hd_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "hd_err_empty",
+      "value": "请输入文本"
+    },
+    {
+      "name": "hd_label_bytes",
+      "value": "字节数"
+    },
+    {
+      "name": "hd_label_input",
+      "value": "文本"
+    },
+    {
+      "name": "hd_label_output",
+      "value": "转储结果"
+    },
+    {
+      "name": "he_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "he_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "he_action_decode",
+      "value": "解码"
+    },
+    {
+      "name": "he_action_encode",
+      "value": "编码"
+    },
+    {
+      "name": "he_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "he_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "he_err_range",
+      "value": "码点超出 Unicode 范围：%s"
+    },
+    {
+      "name": "he_err_semicolon",
+      "value": "实体缺少分号（不猜测，请补全后再试）"
+    },
+    {
+      "name": "he_err_unknown",
+      "value": "未知的命名实体：%s"
+    },
+    {
+      "name": "he_label_decoded",
+      "value": "解码结果"
+    },
+    {
+      "name": "he_label_encoded",
+      "value": "编码结果"
+    },
+    {
+      "name": "he_label_extended",
+      "value": "扩展模式（非 ASCII 也编码）"
+    },
+    {
+      "name": "he_label_input",
+      "value": "含 HTML 实体或待编码的文本"
+    },
+    {
+      "name": "he_label_replaced",
+      "value": "替换了 %s 处"
+    },
+    {
+      "name": "he_placeholder_input",
+      "value": "如 &amp;amp; 或 a<b"
+    },
+    {
+      "name": "hh_dir_all",
+      "value": "全部"
+    },
+    {
+      "name": "hh_dir_both",
+      "value": "双向"
+    },
+    {
+      "name": "hh_dir_request",
+      "value": "请求"
+    },
+    {
+      "name": "hh_dir_response",
+      "value": "响应"
+    },
+    {
+      "name": "hh_empty",
+      "value": "没有匹配的头"
+    },
+    {
+      "name": "hh_placeholder_search",
+      "value": "头名或关键词"
+    },
+    {
+      "name": "hm_empty",
+      "value": "没有匹配的方法"
+    },
+    {
+      "name": "hm_label_idempotent",
+      "value": "幂等"
+    },
+    {
+      "name": "hm_label_not_idempotent",
+      "value": "非幂等"
+    },
+    {
+      "name": "hm_label_status",
+      "value": "常见状态码"
+    },
+    {
+      "name": "hm_placeholder_search",
+      "value": "方法或语义"
+    },
+    {
+      "name": "hmac_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "hmac_action_compute",
+      "value": "计算"
+    },
+    {
+      "name": "hmac_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "hmac_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "hmac_err_empty_key",
+      "value": "请输入密钥"
+    },
+    {
+      "name": "hmac_err_empty_message",
+      "value": "请输入消息"
+    },
+    {
+      "name": "hmac_label_algorithm",
+      "value": "哈希算法"
+    },
+    {
+      "name": "hmac_label_key",
+      "value": "密钥"
+    },
+    {
+      "name": "hmac_label_message",
+      "value": "消息"
+    },
+    {
+      "name": "hmac_label_result",
+      "value": "HMAC 结果（十六进制大写）"
+    },
+    {
+      "name": "hmac_placeholder_key",
+      "value": "共享密钥（不会存储或上报）"
+    },
+    {
+      "name": "hmac_placeholder_message",
+      "value": "要签名的消息"
+    },
+    {
+      "name": "host_missing_hint",
+      "value": "入口可能来自旧版本的收藏记录。"
+    },
+    {
+      "name": "host_missing_title",
+      "value": "没有找到这件工具"
+    },
+    {
+      "name": "host_placeholder_hint",
+      "value": "工具箱按计划分批上线，这件工具排在后面的批次。"
+    },
+    {
+      "name": "host_placeholder_title",
+      "value": "这件工具还在建设中"
+    },
+    {
+      "name": "hs_action_apply",
+      "value": "应用"
+    },
+    {
+      "name": "hs_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "hs_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "hs_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "hs_empty",
+      "value": "没有匹配的状态码"
+    },
+    {
+      "name": "hs_err_bad",
+      "value": "无法解析颜色：%s"
+    },
+    {
+      "name": "hs_err_empty",
+      "value": "请输入基础色"
+    },
+    {
+      "name": "hs_label_color",
+      "value": "基础色"
+    },
+    {
+      "name": "hs_label_count",
+      "value": "%s 条"
+    },
+    {
+      "name": "hs_label_hex",
+      "value": "结果"
+    },
+    {
+      "name": "hs_label_hue",
+      "value": "色相偏移（度，-180~180）"
+    },
+    {
+      "name": "hs_label_light",
+      "value": "明度偏移（%，-100~100）"
+    },
+    {
+      "name": "hs_label_search",
+      "value": "状态码或关键词"
+    },
+    {
+      "name": "hs_placeholder_search",
+      "value": "如 404、found、重定向"
+    },
+    {
+      "name": "ib_action_analyze",
+      "value": "解析"
+    },
+    {
+      "name": "ib_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ib_err_bad",
+      "value": "Base64 格式不合法"
+    },
+    {
+      "name": "ib_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "ib_hint_ratio",
+      "value": "Base64 比原始二进制大约多 33%"
+    },
+    {
+      "name": "ib_label_b64len",
+      "value": "Base64 长度"
+    },
+    {
+      "name": "ib_label_bytes",
+      "value": "原始体积"
+    },
+    {
+      "name": "ib_label_input",
+      "value": "data URI 或 Base64"
+    },
+    {
+      "name": "ib_label_mime",
+      "value": "类型"
+    },
+    {
+      "name": "ib_label_preview",
+      "value": "预览"
+    },
+    {
+      "name": "ic_action_analyze",
+      "value": "解析"
+    },
+    {
+      "name": "ic_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ic_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "ic_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ic_err_empty",
+      "value": "请输入 CIDR"
+    },
+    {
+      "name": "ic_err_format",
+      "value": "IP 格式不合法"
+    },
+    {
+      "name": "ic_err_no_prefix",
+      "value": "缺少 / 前缀（如 192.168.1.0/24）"
+    },
+    {
+      "name": "ic_err_prefix",
+      "value": "前缀必须是 0 到 32（收到 %s）"
+    },
+    {
+      "name": "ic_label_broadcast",
+      "value": "广播地址"
+    },
+    {
+      "name": "ic_label_cidr",
+      "value": "规范化 CIDR"
+    },
+    {
+      "name": "ic_label_input",
+      "value": "CIDR（如 192.168.1.0/24）"
+    },
+    {
+      "name": "ic_label_mask",
+      "value": "子网掩码"
+    },
+    {
+      "name": "ic_label_network",
+      "value": "网络地址"
+    },
+    {
+      "name": "ic_label_prefix",
+      "value": "前缀长度"
+    },
+    {
+      "name": "ic_label_total",
+      "value": "地址总数"
+    },
+    {
+      "name": "ic_label_wildcard",
+      "value": "通配符掩码"
+    },
+    {
+      "name": "ic_placeholder_input",
+      "value": "IP/前缀，如 10.0.0.77/24"
+    },
+    {
+      "name": "jb_action_build",
+      "value": "构建 Token"
+    },
+    {
+      "name": "jb_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "jb_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "jb_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "jb_err_json",
+      "value": "payload 不是合法 JSON"
+    },
+    {
+      "name": "jb_err_payload",
+      "value": "请输入 payload JSON"
+    },
+    {
+      "name": "jb_err_secret",
+      "value": "请输入签名密钥"
+    },
+    {
+      "name": "jb_hint_demo",
+      "value": "仅演示：本地 HS256 签名，不校验密钥强度"
+    },
+    {
+      "name": "jb_label_payload",
+      "value": "Payload（JSON）"
+    },
+    {
+      "name": "jb_label_secret",
+      "value": "签名密钥"
+    },
+    {
+      "name": "jb_label_token",
+      "value": "JWT Token"
+    },
+    {
+      "name": "jd_action_build",
+      "value": "生成文档"
+    },
+    {
+      "name": "jd_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "jd_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "jd_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "jd_err_bad",
+      "value": "JSON 解析失败，请检查语法"
+    },
+    {
+      "name": "jd_err_empty",
+      "value": "请输入 JSON 示例"
+    },
+    {
+      "name": "jd_label_count",
+      "value": "字段数"
+    },
+    {
+      "name": "jd_label_input",
+      "value": "JSON 示例"
+    },
+    {
+      "name": "jd_label_output",
+      "value": "Markdown 字段表"
+    },
+    {
+      "name": "jp_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "jp_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "jp_action_query",
+      "value": "取值"
+    },
+    {
+      "name": "jp_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "jp_err_bad_json",
+      "value": "JSON 解析失败，请检查语法"
+    },
+    {
+      "name": "jp_err_empty_json",
+      "value": "请输入 JSON 文本"
+    },
+    {
+      "name": "jp_err_empty_path",
+      "value": "请输入路径"
+    },
+    {
+      "name": "jp_err_not_found",
+      "value": "路径不存在：%s"
+    },
+    {
+      "name": "jp_err_syntax",
+      "value": "路径语法错误（如连续点、非数字下标）"
+    },
+    {
+      "name": "jp_label_json",
+      "value": "JSON 文本"
+    },
+    {
+      "name": "jp_label_path",
+      "value": "点路径"
+    },
+    {
+      "name": "jp_label_result",
+      "value": "结果"
+    },
+    {
+      "name": "jp_label_type",
+      "value": "类型"
+    },
+    {
+      "name": "jp_placeholder_path",
+      "value": "如 user.name 或 user.tags[0]"
+    },
+    {
+      "name": "json_action_copy",
+      "value": "复制结果"
+    },
+    {
+      "name": "json_action_escape",
+      "value": "转义"
+    },
+    {
+      "name": "json_action_format",
+      "value": "格式化"
+    },
+    {
+      "name": "json_action_minify",
+      "value": "压缩"
+    },
+    {
+      "name": "json_action_unescape",
+      "value": "反转义"
+    },
+    {
+      "name": "json_action_validate",
+      "value": "校验"
+    },
+    {
+      "name": "json_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "json_copied_output",
+      "value": "输出已复制"
+    },
+    {
+      "name": "json_duplicate_hint",
+      "value": "注意：出现了重复的键 %s。JSON 允许重复键，但多数语言解析后只保留最后一个，请确认这是你要的。"
+    },
+    {
+      "name": "json_err_array_missing_comma",
+      "value": "数组元素之间缺少逗号"
+    },
+    {
+      "name": "json_err_array_trailing_comma",
+      "value": "数组的最后一个元素后面多了逗号（JSON 不允许尾随逗号）"
+    },
+    {
+      "name": "json_err_array_unclosed",
+      "value": "数组没有闭合的 ]"
+    },
+    {
+      "name": "json_err_array_unexpected",
+      "value": "数组里只能是 , 或 ]，这里是 %s"
+    },
+    {
+      "name": "json_err_comment",
+      "value": "JSON 标准不支持注释，请先删掉注释"
+    },
+    {
+      "name": "json_err_empty",
+      "value": "内容为空，请输入 JSON 文本"
+    },
+    {
+      "name": "json_err_escape_trailing",
+      "value": "转义符后面没有字符"
+    },
+    {
+      "name": "json_err_escape_unknown",
+      "value": "不认识的转义字符 \\\\%s"
+    },
+    {
+      "name": "json_err_escape_unsupported",
+      "value": "不支持的转义写法：\\\\%s"
+    },
+    {
+      "name": "json_err_literal_expected",
+      "value": "期望 %s"
+    },
+    {
+      "name": "json_err_nothing",
+      "value": "没有解析出任何内容"
+    },
+    {
+      "name": "json_err_number_exponent",
+      "value": "指数部分必须有数字"
+    },
+    {
+      "name": "json_err_number_fraction",
+      "value": "小数点后面必须有数字"
+    },
+    {
+      "name": "json_err_number_leading_zero",
+      "value": "数值不能有前导零"
+    },
+    {
+      "name": "json_err_number_minus",
+      "value": "数字格式不合法：负号后面必须跟数字"
+    },
+    {
+      "name": "json_err_number_no_digits",
+      "value": "数值缺少数字部分"
+    },
+    {
+      "name": "json_err_object_colon",
+      "value": "键后面必须是冒号"
+    },
+    {
+      "name": "json_err_object_key",
+      "value": "对象的键必须是双引号字符串"
+    },
+    {
+      "name": "json_err_object_key_not_string",
+      "value": "对象的键必须是双引号包裹的字符串"
+    },
+    {
+      "name": "json_err_object_key_single",
+      "value": "对象的键必须用双引号，不能用单引号"
+    },
+    {
+      "name": "json_err_object_missing_comma",
+      "value": "对象成员之间缺少逗号"
+    },
+    {
+      "name": "json_err_object_trailing_comma",
+      "value": "对象的最后一个成员后面多了逗号（JSON 不允许尾随逗号）"
+    },
+    {
+      "name": "json_err_object_unclosed",
+      "value": "对象没有闭合的 }"
+    },
+    {
+      "name": "json_err_object_unexpected",
+      "value": "对象里只能是 , 或 }，这里是 %s"
+    },
+    {
+      "name": "json_err_single_quote",
+      "value": "字符串必须用双引号，不能用单引号"
+    },
+    {
+      "name": "json_err_string_backslash",
+      "value": "字符串以反斜杠结尾，转义没有写完"
+    },
+    {
+      "name": "json_err_string_control",
+      "value": "字符串里不能直接出现控制字符（换行、制表符需要写成 \\\\n、\\\\t）"
+    },
+    {
+      "name": "json_err_string_unterminated",
+      "value": "字符串没有闭合的引号"
+    },
+    {
+      "name": "json_err_too_deep",
+      "value": "嵌套层级超过 %s 层，已停止解析"
+    },
+    {
+      "name": "json_err_trailing",
+      "value": "JSON 已经结束，后面还有多余内容"
+    },
+    {
+      "name": "json_err_trailing_content",
+      "value": "JSON 结束后还有多余内容"
+    },
+    {
+      "name": "json_err_unexpected_char",
+      "value": "这里不该出现字符 %s"
+    },
+    {
+      "name": "json_err_unexpected_end",
+      "value": "内容在这里意外结束了"
+    },
+    {
+      "name": "json_err_unicode_bad_hex",
+      "value": "\\\\u 后面必须是 4 位十六进制数字"
+    },
+    {
+      "name": "json_err_unicode_incomplete",
+      "value": "\\\\u 转义需要 4 位十六进制数字"
+    },
+    {
+      "name": "json_err_unknown_keyword",
+      "value": "无法识别的字面量（JSON 只支持 true / false / null）"
+    },
+    {
+      "name": "json_err_unknown_literal",
+      "value": "无法识别的字面量（JSON 只支持 true / false / null、数字、字符串、对象、数组）"
+    },
+    {
+      "name": "json_error_at",
+      "value": "第 %s 行第 %s 列"
+    },
+    {
+      "name": "json_error_line",
+      "value": "%s（%s）"
+    },
+    {
+      "name": "json_escape_hint",
+      "value": "把普通文本转成可以放进 JSON 字符串里的写法（或反过来）。"
+    },
+    {
+      "name": "json_escape_need_input",
+      "value": "请输入要转义的文本。"
+    },
+    {
+      "name": "json_escape_placeholder",
+      "value": "例如 需要换行\\\\n与引号\\\""
+    },
+    {
+      "name": "json_indent_none",
+      "value": "不缩进"
+    },
+    {
+      "name": "json_indent_spaces",
+      "value": "%s 空格"
+    },
+    {
+      "name": "json_label_escape",
+      "value": "字符串转义"
+    },
+    {
+      "name": "json_label_indent",
+      "value": "缩进（只影响「格式化」）"
+    },
+    {
+      "name": "json_label_input",
+      "value": "JSON 文本"
+    },
+    {
+      "name": "json_label_output",
+      "value": "输出"
+    },
+    {
+      "name": "json_list_separator",
+      "value": "、"
+    },
+    {
+      "name": "json_placeholder",
+      "value": "粘贴 JSON，例如 {\"a\":[1,2]}"
+    },
+    {
+      "name": "json_status_need_input",
+      "value": "请输入 JSON 文本。"
+    },
+    {
+      "name": "json_status_output",
+      "value": "%s输出 %s 个字符。"
+    },
+    {
+      "name": "json_status_valid",
+      "value": "JSON 合法：%s%s"
+    },
+    {
+      "name": "json_summary_array",
+      "value": "顶层是数组，共 %s 项"
+    },
+    {
+      "name": "json_summary_boolean",
+      "value": "顶层是布尔值：%s"
+    },
+    {
+      "name": "json_summary_none",
+      "value": "没有内容"
+    },
+    {
+      "name": "json_summary_null",
+      "value": "顶层是 null"
+    },
+    {
+      "name": "json_summary_number",
+      "value": "顶层是数字，按原文保留：%s"
+    },
+    {
+      "name": "json_summary_object",
+      "value": "顶层是对象，共 %s 个键"
+    },
+    {
+      "name": "json_summary_string",
+      "value": "顶层是字符串（长度 %s）"
+    },
+    {
+      "name": "json_unescape_need_input",
+      "value": "请输入要反转义的文本。"
+    },
+    {
+      "name": "jt_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "jt_action_convert",
+      "value": "转 JSON"
+    },
+    {
+      "name": "jt_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "jt_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "jt_err_empty",
+      "value": "请输入 TOML 文本"
+    },
+    {
+      "name": "jt_err_multiline",
+      "value": "不支持三引号多行字符串"
+    },
+    {
+      "name": "jt_err_syntax",
+      "value": "第 %s 行语法错误"
+    },
+    {
+      "name": "jt_label_input",
+      "value": "TOML 文本"
+    },
+    {
+      "name": "jt_label_json",
+      "value": "JSON 结果"
+    },
+    {
+      "name": "jtk_err_array_unclosed",
+      "value": "数组没有闭合，缺少 ]"
+    },
+    {
+      "name": "jtk_err_number_exponent",
+      "value": "指数部分缺少数字"
+    },
+    {
+      "name": "jtk_err_number_fraction",
+      "value": "小数点后面必须至少有一位数字"
+    },
+    {
+      "name": "jtk_err_number_leading_zero",
+      "value": "数字不能有前导零（例如 012 应写成 12）"
+    },
+    {
+      "name": "jtk_err_object_colon",
+      "value": "对象的键和值之间缺少冒号"
+    },
+    {
+      "name": "jtk_err_object_unclosed",
+      "value": "对象没有闭合，缺少 }"
+    },
+    {
+      "name": "jtk_err_string_unterminated",
+      "value": "字符串没有闭合，缺少结尾的双引号"
+    },
+    {
+      "name": "jtk_err_unexpected_end",
+      "value": "内容意外结束：这里还需要一个值"
+    },
+    {
+      "name": "jtk_err_unicode_bad_hex",
+      "value": "\\\\u 转义里出现了非十六进制字符：%s"
+    },
+    {
+      "name": "jtk_err_unicode_incomplete",
+      "value": "\\\\u 转义不完整，需要 4 位十六进制"
+    },
+    {
+      "name": "jwt_action_decode",
+      "value": "解码"
+    },
+    {
+      "name": "jwt_b64_bad_char",
+      "value": "Base64URL 里含有非法字符 %s"
+    },
+    {
+      "name": "jwt_b64_empty",
+      "value": "片段为空"
+    },
+    {
+      "name": "jwt_b64_length",
+      "value": "Base64URL 长度不合法（去掉 = 之后余 1 个字符）"
+    },
+    {
+      "name": "jwt_b64_pad_too_many",
+      "value": "Base64URL 的 = 补齐最多两个"
+    },
+    {
+      "name": "jwt_b64_trailing_bits",
+      "value": "Base64URL 末尾有多余的填充位"
+    },
+    {
+      "name": "jwt_claim_exp",
+      "value": "过期时间"
+    },
+    {
+      "name": "jwt_claim_iat",
+      "value": "签发时间"
+    },
+    {
+      "name": "jwt_claim_nbf",
+      "value": "生效时间（不早于）"
+    },
+    {
+      "name": "jwt_copied",
+      "value": "已复制%s"
+    },
+    {
+      "name": "jwt_err_empty",
+      "value": "请先粘贴 JWT。"
+    },
+    {
+      "name": "jwt_err_header_b64",
+      "value": "Header 段不是合法的 Base64URL：%s"
+    },
+    {
+      "name": "jwt_err_header_json",
+      "value": "Header 段解出来不是合法 JSON。%s"
+    },
+    {
+      "name": "jwt_err_jwe",
+      "value": "这是 5 段的 JWE（加密令牌）：本工具只解码 3 段的 JWS，不做解密。"
+    },
+    {
+      "name": "jwt_err_payload_b64",
+      "value": "Payload 段不是合法的 Base64URL：%s"
+    },
+    {
+      "name": "jwt_err_payload_json",
+      "value": "Payload 段解出来不是合法 JSON。%s"
+    },
+    {
+      "name": "jwt_err_segments",
+      "value": "JWT 由 3 段组成（Header.Payload.Signature），当前是 %s 段。"
+    },
+    {
+      "name": "jwt_err_too_long",
+      "value": "token 过长（超过 %s 个字符）：本工具只用于查看单个令牌。"
+    },
+    {
+      "name": "jwt_json_position",
+      "value": "JSON 解析停在 第 %s 行 第 %s 列："
+    },
+    {
+      "name": "jwt_label_paste",
+      "value": "粘贴 JWT"
+    },
+    {
+      "name": "jwt_label_signature",
+      "value": "Signature（原样，不验签）"
+    },
+    {
+      "name": "jwt_label_time_claims",
+      "value": "时间声明"
+    },
+    {
+      "name": "jwt_local_tz",
+      "value": "（本地时区）"
+    },
+    {
+      "name": "jwt_placeholder",
+      "value": "粘贴形如 xxxxx.yyyyy.zzzzz 的令牌"
+    },
+    {
+      "name": "jwt_rel_future",
+      "value": "还有 %s"
+    },
+    {
+      "name": "jwt_rel_just_now",
+      "value": "就是现在"
+    },
+    {
+      "name": "jwt_rel_past",
+      "value": "已过去 %s"
+    },
+    {
+      "name": "jwt_rel_unknown",
+      "value": "无法判断"
+    },
+    {
+      "name": "jwt_span_days",
+      "value": "%s 天"
+    },
+    {
+      "name": "jwt_span_hours",
+      "value": "%s 小时"
+    },
+    {
+      "name": "jwt_span_minutes",
+      "value": "%s 分钟"
+    },
+    {
+      "name": "jwt_span_seconds",
+      "value": "%s 秒"
+    },
+    {
+      "name": "jwt_span_years",
+      "value": "%s 年"
+    },
+    {
+      "name": "jwt_status_expired",
+      "value": "已过期：%s（%s）"
+    },
+    {
+      "name": "jwt_status_no_exp",
+      "value": "这份令牌没有 exp 声明，无法判断是否过期（不代表它长期有效）。"
+    },
+    {
+      "name": "jwt_status_valid",
+      "value": "未过期：%s（%s）。注意：解码成功不代表令牌是真的。"
+    },
+    {
+      "name": "jwt_time_not_number",
+      "value": "不是数字，无法换算"
+    },
+    {
+      "name": "jwt_time_out_of_range",
+      "value": "超出可表示的时间范围"
+    },
+    {
+      "name": "jy_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "jy_action_convert",
+      "value": "转 JSON"
+    },
+    {
+      "name": "jy_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "jy_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "jy_err_block",
+      "value": "不支持多行块标量"
+    },
+    {
+      "name": "jy_err_empty",
+      "value": "请输入 YAML 文本"
+    },
+    {
+      "name": "jy_err_indent",
+      "value": "第 %s 行缩进错误（只支持一层两空格嵌套）"
+    },
+    {
+      "name": "jy_err_multi",
+      "value": "不支持多文档（--- 分隔）"
+    },
+    {
+      "name": "jy_err_syntax",
+      "value": "第 %s 行语法错误"
+    },
+    {
+      "name": "jy_label_input",
+      "value": "YAML 文本"
+    },
+    {
+      "name": "jy_label_json",
+      "value": "JSON 结果"
+    },
+    {
+      "name": "kbs_col_name",
+      "value": "名称"
+    },
+    {
+      "name": "kbs_col_symbol",
+      "value": "符号"
+    },
+    {
+      "name": "kbs_col_win",
+      "value": "Windows/Linux 等价"
+    },
+    {
+      "name": "kbs_empty",
+      "value": "没有匹配的符号"
+    },
+    {
+      "name": "kbs_placeholder_search",
+      "value": "符号名或等价键"
+    },
+    {
+      "name": "ks_cat_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "ks_cat_nav",
+      "value": "导航"
+    },
+    {
+      "name": "ks_cat_refactor",
+      "value": "重构"
+    },
+    {
+      "name": "ks_cat_run",
+      "value": "运行与调试"
+    },
+    {
+      "name": "ks_cat_search",
+      "value": "搜索"
+    },
+    {
+      "name": "ks_empty",
+      "value": "没有匹配的快捷键"
+    },
+    {
+      "name": "ks_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "ks_placeholder_search",
+      "value": "键位或功能"
+    },
+    {
+      "name": "li_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "li_action_copy",
+      "value": "复制全部"
+    },
+    {
+      "name": "li_action_generate",
+      "value": "生成"
+    },
+    {
+      "name": "li_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "li_err_range",
+      "value": "段落数与句数都要在 1 到 20 之间"
+    },
+    {
+      "name": "li_label_lang",
+      "value": "词表"
+    },
+    {
+      "name": "li_label_paragraphs",
+      "value": "段落数（1-20）"
+    },
+    {
+      "name": "li_label_seed",
+      "value": "随机种子（同种子同输出）"
+    },
+    {
+      "name": "li_label_sentences",
+      "value": "每段句数（1-20）"
+    },
+    {
+      "name": "li_lang_chinese",
+      "value": "中文"
+    },
+    {
+      "name": "li_lang_latin",
+      "value": "拉丁（Lorem Ipsum）"
+    },
+    {
+      "name": "li_result_words",
+      "value": "%s 词"
+    },
+    {
+      "name": "ln_action_add",
+      "value": "加行号"
+    },
+    {
+      "name": "ln_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ln_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "ln_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ln_err_empty",
+      "value": "请输入文本"
+    },
+    {
+      "name": "ln_label_input",
+      "value": "文本"
+    },
+    {
+      "name": "ln_label_output",
+      "value": "结果"
+    },
+    {
+      "name": "ln_label_start",
+      "value": "起始行号"
+    },
+    {
+      "name": "ln_style_bracket",
+      "value": "方括号"
+    },
+    {
+      "name": "ln_style_colon",
+      "value": "冒号"
+    },
+    {
+      "name": "ln_style_dot",
+      "value": "点样式"
+    },
+    {
+      "name": "md_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "md_action_copy_all",
+      "value": "全部复制"
+    },
+    {
+      "name": "md_action_generate",
+      "value": "生成"
+    },
+    {
+      "name": "md_copied_all",
+      "value": "已全部复制"
+    },
+    {
+      "name": "md_empty",
+      "value": "输入 Markdown 后这里会显示渲染结果"
+    },
+    {
+      "name": "md_err_count",
+      "value": "数量必须是 1 到 200 的整数"
+    },
+    {
+      "name": "md_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "md_hint_fake",
+      "value": "全部为随机生成的假数据（邮箱为 example.com 保留域）"
+    },
+    {
+      "name": "md_label_count",
+      "value": "数量（1-200）"
+    },
+    {
+      "name": "md_label_input",
+      "value": "Markdown 源文本"
+    },
+    {
+      "name": "md_label_preview",
+      "value": "预览"
+    },
+    {
+      "name": "md_label_type",
+      "value": "数据类型"
+    },
+    {
+      "name": "md_placeholder_input",
+      "value": "# 标题、**粗体**、*斜体*、`代码`、- 列表、> 引用"
+    },
+    {
+      "name": "md_type_email",
+      "value": "邮箱"
+    },
+    {
+      "name": "md_type_name",
+      "value": "中文姓名"
+    },
+    {
+      "name": "md_type_phone",
+      "value": "手机号"
+    },
+    {
+      "name": "ml_action_check",
+      "value": "检查链接"
+    },
+    {
+      "name": "ml_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ml_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "ml_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ml_err_empty",
+      "value": "请输入 Markdown 文本"
+    },
+    {
+      "name": "ml_kind_absolute",
+      "value": "绝对 URL"
+    },
+    {
+      "name": "ml_kind_anchor",
+      "value": "锚点"
+    },
+    {
+      "name": "ml_kind_image",
+      "value": "图片"
+    },
+    {
+      "name": "ml_kind_other",
+      "value": "其它协议"
+    },
+    {
+      "name": "ml_kind_relative",
+      "value": "相对路径"
+    },
+    {
+      "name": "ml_label_duplicates",
+      "value": "重复 target"
+    },
+    {
+      "name": "ml_label_empty",
+      "value": "空 target %s 处"
+    },
+    {
+      "name": "ml_label_input",
+      "value": "Markdown 文本"
+    },
+    {
+      "name": "ml_label_links",
+      "value": "链接 %s 条"
+    },
+    {
+      "name": "ml_not_found",
+      "value": "未收录该扩展名（表只含高频 30 条）"
+    },
+    {
+      "name": "ml_placeholder_search",
+      "value": "扩展名或文件名（如 .json）"
+    },
+    {
+      "name": "module_desc",
+      "value": "NGF 开发者工具箱的 entry 模块"
+    },
+    {
+      "name": "mt_action_build",
+      "value": "生成目录"
+    },
+    {
+      "name": "mt_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "mt_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "mt_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "mt_err_empty",
+      "value": "请输入 Markdown 文本"
+    },
+    {
+      "name": "mt_err_noheadings",
+      "value": "没有找到一至三级标题"
+    },
+    {
+      "name": "mt_label_input",
+      "value": "Markdown 文本"
+    },
+    {
+      "name": "mt_label_output",
+      "value": "目录"
+    },
+    {
+      "name": "mtg_action_build",
+      "value": "生成表格"
+    },
+    {
+      "name": "mtg_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "mtg_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "mtg_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "mtg_err_empty",
+      "value": "请输入分隔文本"
+    },
+    {
+      "name": "mtg_label_delim",
+      "value": "分隔符"
+    },
+    {
+      "name": "mtg_label_input",
+      "value": "分隔文本（首行表头）"
+    },
+    {
+      "name": "mtg_label_output",
+      "value": "Markdown 表格"
+    },
+    {
+      "name": "pc_action_calc",
+      "value": "计算"
+    },
+    {
+      "name": "pc_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "pc_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "pc_apply_base",
+      "value": "基准值"
+    },
+    {
+      "name": "pc_apply_down",
+      "value": "减少"
+    },
+    {
+      "name": "pc_apply_percent",
+      "value": "百分比 %"
+    },
+    {
+      "name": "pc_apply_up",
+      "value": "增加"
+    },
+    {
+      "name": "pc_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "pc_err_empty",
+      "value": "请输入数值"
+    },
+    {
+      "name": "pc_err_nan",
+      "value": "输入必须是数字"
+    },
+    {
+      "name": "pc_err_zero",
+      "value": "除数为零：请检查分母输入"
+    },
+    {
+      "name": "pc_hint_asym",
+      "value": "注意：先加 50% 再减 50% 不回到原值（300→150）"
+    },
+    {
+      "name": "pc_label_result",
+      "value": "结果"
+    },
+    {
+      "name": "pc_of_part",
+      "value": "部分值"
+    },
+    {
+      "name": "pc_of_total",
+      "value": "总数"
+    },
+    {
+      "name": "pc_part_percent",
+      "value": "百分比 %"
+    },
+    {
+      "name": "pc_part_total",
+      "value": "总数"
+    },
+    {
+      "name": "pc_rate_from",
+      "value": "变化前"
+    },
+    {
+      "name": "pc_rate_to",
+      "value": "变化后"
+    },
+    {
+      "name": "pc_tab_apply",
+      "value": "加减 %"
+    },
+    {
+      "name": "pc_tab_of",
+      "value": "占比"
+    },
+    {
+      "name": "pc_tab_part",
+      "value": "求部分"
+    },
+    {
+      "name": "pc_tab_rate",
+      "value": "变化率"
+    },
+    {
+      "name": "pc_tab_total",
+      "value": "求总数"
+    },
+    {
+      "name": "pc_total_part",
+      "value": "已知部分值"
+    },
+    {
+      "name": "pc_total_percent",
+      "value": "对应的百分比 %"
+    },
+    {
+      "name": "pg_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "pg_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "pg_action_generate",
+      "value": "生成色板"
+    },
+    {
+      "name": "pg_chip_luma",
+      "value": "仅明暗阶梯"
+    },
+    {
+      "name": "pg_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "pg_err_bad",
+      "value": "无法解析颜色：%s"
+    },
+    {
+      "name": "pg_err_empty",
+      "value": "请输入基础色"
+    },
+    {
+      "name": "pg_harmony_none",
+      "value": "仅明暗阶梯"
+    },
+    {
+      "name": "pg_label_base",
+      "value": "主色"
+    },
+    {
+      "name": "pg_label_harmony",
+      "value": "配色方案"
+    },
+    {
+      "name": "pg_label_input",
+      "value": "基础色"
+    },
+    {
+      "name": "pg_placeholder_input",
+      "value": "如 #0962F2 或 rgb(9,98,242)"
+    },
+    {
+      "name": "pl_empty",
+      "value": "没有匹配的端口"
+    },
+    {
+      "name": "pl_placeholder_search",
+      "value": "端口号或服务名"
+    },
+    {
+      "name": "port_action_copy",
+      "value": "复制结果"
+    },
+    {
+      "name": "port_action_start",
+      "value": "开始测试"
+    },
+    {
+      "name": "port_action_stop",
+      "value": "停止"
+    },
+    {
+      "name": "port_copied_results",
+      "value": "已复制测试结果"
+    },
+    {
+      "name": "port_detail_open",
+      "value": "耗时 %s ms"
+    },
+    {
+      "name": "port_detail_running",
+      "value": "正在连接…"
+    },
+    {
+      "name": "port_detail_skip_bad_host",
+      "value": "主机名不合法，未发起连接"
+    },
+    {
+      "name": "port_detail_skip_bad_port",
+      "value": "端口号不合法，未发起连接"
+    },
+    {
+      "name": "port_detail_skip_duplicate",
+      "value": "与前面的目标重复，未重复连接"
+    },
+    {
+      "name": "port_err_bad_host",
+      "value": "主机名看起来不对：不能为空、不能含空格与控制字符，也不要带 http:// 这样的协议前缀"
+    },
+    {
+      "name": "port_err_bad_port",
+      "value": "没解析出任何端口"
+    },
+    {
+      "name": "port_err_code",
+      "value": "连接失败（错误码 %s）"
+    },
+    {
+      "name": "port_err_dns",
+      "value": "无法解析主机名：请检查域名是否写对、当前网络能否解析"
+    },
+    {
+      "name": "port_err_empty",
+      "value": "请输入主机与端口，例如 example.com:443 或 192.168.1.1:80,443"
+    },
+    {
+      "name": "port_err_ipv6_unclosed",
+      "value": "IPv6 地址需要用方括号包起来，例如 [::1]:443"
+    },
+    {
+      "name": "port_err_multiple_colons",
+      "value": "主机里出现了多个冒号。若是 IPv6 地址，请用方括号包起来，例如 [::1]:443"
+    },
+    {
+      "name": "port_err_no_permission",
+      "value": "缺少网络权限（这是程序问题，不是你的输入问题）"
+    },
+    {
+      "name": "port_err_no_port",
+      "value": "没看到端口。请写成 主机:端口，例如 example.com:443"
+    },
+    {
+      "name": "port_err_offline",
+      "value": "网络未连接：请先连上 Wi-Fi 或移动网络"
+    },
+    {
+      "name": "port_err_other",
+      "value": "连接失败：%s"
+    },
+    {
+      "name": "port_err_port_not_integer",
+      "value": "端口必须是 %s~%s 之间的整数（现在是「%s」）"
+    },
+    {
+      "name": "port_err_protocol_prefix",
+      "value": "请去掉协议前缀（http:// 或 https://），只填主机名与端口，例如 example.com:443"
+    },
+    {
+      "name": "port_err_range_reversed",
+      "value": "端口范围的起始不能大于结束（%s-%s）"
+    },
+    {
+      "name": "port_err_range_syntax",
+      "value": "端口范围写法不对：应为 起始-结束，例如 8000-8010"
+    },
+    {
+      "name": "port_err_range_too_many",
+      "value": "这个范围有 %s 个端口，超过一次最多 %s 个的上限"
+    },
+    {
+      "name": "port_err_refused",
+      "value": "连接被拒绝：主机能到，但这个端口没有服务在监听"
+    },
+    {
+      "name": "port_err_timeout",
+      "value": "连接超时：目标没有在超时时间内回应（可能是防火墙丢包，也可能主机不在线）"
+    },
+    {
+      "name": "port_err_timeout_quiet",
+      "value": "连接超时"
+    },
+    {
+      "name": "port_err_too_long",
+      "value": "输入太长了，请只填一个主机与若干端口"
+    },
+    {
+      "name": "port_err_too_many",
+      "value": "一次最多测 %s 个端口（当前 %s 个）。本工具用于排查自己的服务，不做端口扫描。"
+    },
+    {
+      "name": "port_err_unreachable",
+      "value": "网络不可达：当前设备可能没有联网"
+    },
+    {
+      "name": "port_input_hint",
+      "value": "支持 host:port、host:port1,port2 与 host:8000-8010（一次最多 64 个端口）。IPv6 请用方括号，例如 [::1]:443。"
+    },
+    {
+      "name": "port_label_online",
+      "value": "本工具会联网"
+    },
+    {
+      "name": "port_label_presets",
+      "value": "常用端口（点一下追加）"
+    },
+    {
+      "name": "port_label_target",
+      "value": "主机与端口"
+    },
+    {
+      "name": "port_label_timeout",
+      "value": "超时（%s 秒）"
+    },
+    {
+      "name": "port_mark_closed",
+      "value": "不通"
+    },
+    {
+      "name": "port_mark_open",
+      "value": "连通"
+    },
+    {
+      "name": "port_mark_pending",
+      "value": "未测"
+    },
+    {
+      "name": "port_mark_running",
+      "value": "测试中"
+    },
+    {
+      "name": "port_mark_skipped",
+      "value": "跳过"
+    },
+    {
+      "name": "port_notice_localhost",
+      "value": "提示：localhost 指的是这台设备自己。手机上的 localhost 不是你的电脑。"
+    },
+    {
+      "name": "port_notice_loopback",
+      "value": "提示：127.0.0.1 是回环地址，只在被测试的那台机器上才有意义；从这台设备去连它，等于连设备自己。"
+    },
+    {
+      "name": "port_notice_private",
+      "value": "提示：这是内网地址，只有当前设备也在这个内网里才能连通。"
+    },
+    {
+      "name": "port_online_note",
+      "value": "它只会连接你在下面输入的那台主机，用于判断端口是否可达。除此之外，工具箱不联网、不收集任何数据，也没有账号。"
+    },
+    {
+      "name": "port_placeholder",
+      "value": "例如 192.168.1.1:80 或 example.com:443"
+    },
+    {
+      "name": "port_result_service",
+      "value": "（%s）"
+    },
+    {
+      "name": "port_summary_closed",
+      "value": "、%s 个不通"
+    },
+    {
+      "name": "port_summary_not_started",
+      "value": "尚未开始测试。"
+    },
+    {
+      "name": "port_summary_open",
+      "value": "%s 个连通"
+    },
+    {
+      "name": "port_summary_skipped",
+      "value": "、%s 个未测试（参数不合法，未联网）"
+    },
+    {
+      "name": "port_summary_total",
+      "value": "（共 %s 个）"
+    },
+    {
+      "name": "port_timeout_note",
+      "value": "超时低于 %s 秒在移动网络上容易把「慢」误判成「不通」，所以下限锁在这里。"
+    },
+    {
+      "name": "port_toast_need_host",
+      "value": "请先填写主机名，例如 192.168.1.1"
+    },
+    {
+      "name": "ps_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ps_hint_offline",
+      "value": "离线启发式评估：熵是理论上界，不检测泄露库"
+    },
+    {
+      "name": "ps_label_advice",
+      "value": "改进建议"
+    },
+    {
+      "name": "ps_label_entropy",
+      "value": "估算熵"
+    },
+    {
+      "name": "ps_label_input",
+      "value": "输入要评估的密码"
+    },
+    {
+      "name": "ps_label_score",
+      "value": "评分"
+    },
+    {
+      "name": "ps_summary_medium",
+      "value": "中"
+    },
+    {
+      "name": "ps_summary_strong",
+      "value": "强"
+    },
+    {
+      "name": "ps_summary_weak",
+      "value": "弱"
+    },
+    {
+      "name": "qr_action_copy",
+      "value": "复制内容"
+    },
+    {
+      "name": "qr_action_share",
+      "value": "系统分享"
+    },
+    {
+      "name": "qr_chars",
+      "value": "%s 字符"
+    },
+    {
+      "name": "qr_copied",
+      "value": "已复制二维码内容"
+    },
+    {
+      "name": "qr_empty",
+      "value": "填好上面的内容后，这里会显示二维码。"
+    },
+    {
+      "name": "qr_err_email_invalid",
+      "value": "邮箱格式不对，应当形如 name@example.com"
+    },
+    {
+      "name": "qr_err_email_required",
+      "value": "请填写收件邮箱"
+    },
+    {
+      "name": "qr_err_phone_no_digits",
+      "value": "电话号码里没有数字"
+    },
+    {
+      "name": "qr_err_phone_required",
+      "value": "请填写电话号码"
+    },
+    {
+      "name": "qr_err_sms_phone",
+      "value": "请填写接收短信的号码"
+    },
+    {
+      "name": "qr_err_text_required",
+      "value": "请输入要放进二维码的内容"
+    },
+    {
+      "name": "qr_err_url_invalid",
+      "value": "这看起来不是一个网址（既没有域名后缀也没有协议）"
+    },
+    {
+      "name": "qr_err_url_required",
+      "value": "请填写网址"
+    },
+    {
+      "name": "qr_err_vcard_name",
+      "value": "请填写姓名（名片至少要有名字）"
+    },
+    {
+      "name": "qr_err_wifi_password",
+      "value": "加密方式不是「无密码」时必须填写密码"
+    },
+    {
+      "name": "qr_err_wifi_ssid",
+      "value": "请填写 Wi-Fi 名称（SSID）"
+    },
+    {
+      "name": "qr_field_address",
+      "value": "地址"
+    },
+    {
+      "name": "qr_field_body",
+      "value": "短信内容"
+    },
+    {
+      "name": "qr_field_email",
+      "value": "邮箱"
+    },
+    {
+      "name": "qr_field_name",
+      "value": "姓名"
+    },
+    {
+      "name": "qr_field_org",
+      "value": "公司 / 组织"
+    },
+    {
+      "name": "qr_field_password",
+      "value": "Wi-Fi 密码"
+    },
+    {
+      "name": "qr_field_phone",
+      "value": "电话号码"
+    },
+    {
+      "name": "qr_field_security",
+      "value": "加密方式"
+    },
+    {
+      "name": "qr_field_ssid",
+      "value": "Wi-Fi 名称（SSID）"
+    },
+    {
+      "name": "qr_field_subject",
+      "value": "邮件主题"
+    },
+    {
+      "name": "qr_field_tel",
+      "value": "电话"
+    },
+    {
+      "name": "qr_field_text",
+      "value": "文本内容"
+    },
+    {
+      "name": "qr_field_title",
+      "value": "职位"
+    },
+    {
+      "name": "qr_field_url",
+      "value": "网址"
+    },
+    {
+      "name": "qr_hint_could_be_url",
+      "value": "若这段文本本身是一个网址，建议改用「网址」类型，它会自动补全协议并给出更紧凑的内容。"
+    },
+    {
+      "name": "qr_hint_long_url",
+      "value": "网址较长时，很多二维码会密到扫不出来。可以考虑换一个更短的地址。"
+    },
+    {
+      "name": "qr_label_kind",
+      "value": "二维码内容类型"
+    },
+    {
+      "name": "qr_label_payload",
+      "value": "二维码里的内容"
+    },
+    {
+      "name": "qr_label_scan_as",
+      "value": "扫出来会是：%s"
+    },
+    {
+      "name": "qr_notice_too_long",
+      "value": "内容有 %s 个字符，已超出通常能顺利扫出的范围（约 %s 字符）。二维码会变密，部分扫码器可能识别失败，建议缩短内容或改用链接。"
+    },
+    {
+      "name": "qr_ph_address",
+      "value": "某市某路 1 号"
+    },
+    {
+      "name": "qr_ph_body",
+      "value": "内容（可留空）"
+    },
+    {
+      "name": "qr_ph_name",
+      "value": "张三"
+    },
+    {
+      "name": "qr_ph_org",
+      "value": "某公司"
+    },
+    {
+      "name": "qr_ph_password",
+      "value": "Wi-Fi 密码"
+    },
+    {
+      "name": "qr_ph_ssid",
+      "value": "路由器上显示的 Wi-Fi 名称"
+    },
+    {
+      "name": "qr_ph_subject",
+      "value": "邮件主题（可留空）"
+    },
+    {
+      "name": "qr_ph_tel",
+      "value": "+86 138 0000 0000（分隔符会被自动去掉）"
+    },
+    {
+      "name": "qr_ph_text",
+      "value": "任何文本"
+    },
+    {
+      "name": "qr_ph_title",
+      "value": "工程师"
+    },
+    {
+      "name": "qr_ph_url",
+      "value": "example.com（会自动补 https://）"
+    },
+    {
+      "name": "qr_result_email",
+      "value": "邮件"
+    },
+    {
+      "name": "qr_result_phone",
+      "value": "电话号码"
+    },
+    {
+      "name": "qr_result_sms",
+      "value": "短信"
+    },
+    {
+      "name": "qr_result_text",
+      "value": "纯文本"
+    },
+    {
+      "name": "qr_result_url",
+      "value": "网址"
+    },
+    {
+      "name": "qr_result_vcard",
+      "value": "联系人名片"
+    },
+    {
+      "name": "qr_result_wifi",
+      "value": "Wi-Fi 网络"
+    },
+    {
+      "name": "qr_security_none",
+      "value": "无密码"
+    },
+    {
+      "name": "qr_security_wep",
+      "value": "WEP（老旧设备）"
+    },
+    {
+      "name": "radix_action_bitwise",
+      "value": "计算位运算"
+    },
+    {
+      "name": "radix_action_convert",
+      "value": "转换"
+    },
+    {
+      "name": "radix_bitwise_hint",
+      "value": "左操作数用上面的输入框；除「取反」外都需要右操作数；>> 是算术右移（保留符号）。"
+    },
+    {
+      "name": "radix_copied_bitwise",
+      "value": "已复制位运算结果"
+    },
+    {
+      "name": "radix_copied_result",
+      "value": "已复制转换结果"
+    },
+    {
+      "name": "radix_label_bitwise",
+      "value": "按位运算（%s 位有符号，与源进制一致）"
+    },
+    {
+      "name": "radix_label_bitwise_result",
+      "value": "位运算结果"
+    },
+    {
+      "name": "radix_label_input",
+      "value": "要转换的数"
+    },
+    {
+      "name": "radix_label_radix_pair",
+      "value": "源进制 → 目标进制（%s → %s）"
+    },
+    {
+      "name": "radix_label_result",
+      "value": "结果（%s 进制）"
+    },
+    {
+      "name": "radix_placeholder_input",
+      "value": "可带负号、下划线；如 -0xFF 或 1111 0000"
+    },
+    {
+      "name": "radix_placeholder_right_operand",
+      "value": "右操作数"
+    },
+    {
+      "name": "radix_placeholder_shift",
+      "value": "移位位数"
+    },
+    {
+      "name": "radix_placeholder_source_radix",
+      "value": "源进制 %s-%s"
+    },
+    {
+      "name": "radix_placeholder_target_radix",
+      "value": "目标进制 %s-%s"
+    },
+    {
+      "name": "radix_truncated_notice",
+      "value": "注意：输入超过 64 位，已按低 64 位截断后再运算。"
+    },
+    {
+      "name": "rc_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "rc_cat_anchor",
+      "value": "位置"
+    },
+    {
+      "name": "rc_cat_char",
+      "value": "字符类"
+    },
+    {
+      "name": "rc_cat_escape",
+      "value": "转义"
+    },
+    {
+      "name": "rc_cat_flag",
+      "value": "标志"
+    },
+    {
+      "name": "rc_cat_group",
+      "value": "分组"
+    },
+    {
+      "name": "rc_cat_quant",
+      "value": "量词"
+    },
+    {
+      "name": "rc_empty",
+      "value": "没有匹配的条目"
+    },
+    {
+      "name": "rc_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "rc_label_search",
+      "value": "语法或关键词"
+    },
+    {
+      "name": "rc_placeholder_search",
+      "value": "如 数字、捕获、{n}"
+    },
+    {
+      "name": "regex_action_collapse",
+      "value": "收起"
+    },
+    {
+      "name": "regex_action_copy",
+      "value": "复制结果"
+    },
+    {
+      "name": "regex_action_expand",
+      "value": "展开全部"
+    },
+    {
+      "name": "regex_action_run",
+      "value": "执行匹配"
+    },
+    {
+      "name": "regex_capture_line",
+      "value": "分组 %s = %s"
+    },
+    {
+      "name": "regex_capture_unmatched",
+      "value": "（未参与匹配）"
+    },
+    {
+      "name": "regex_copied_report",
+      "value": "匹配结果已复制"
+    },
+    {
+      "name": "regex_current_flags",
+      "value": "当前标志：%s（%s）"
+    },
+    {
+      "name": "regex_err_incomplete_quantifier",
+      "value": "量词的花括号写法不完整，正确写法是 {n}、{n,} 或 {n,m}"
+    },
+    {
+      "name": "regex_err_invalid_char_class",
+      "value": "字符组写法无效（例如 [z-a] 这种范围反了）"
+    },
+    {
+      "name": "regex_err_invalid_escape",
+      "value": "转义序列无效：反斜杠后面跟了不被支持的字符"
+    },
+    {
+      "name": "regex_err_invalid_group",
+      "value": "分组语法无效：(? 开头的扩展分组写法不对"
+    },
+    {
+      "name": "regex_err_invalid_property",
+      "value": "Unicode 属性名无效，请检查 \\\\p{...} 里的名字"
+    },
+    {
+      "name": "regex_err_invalid_unicode_escape",
+      "value": "Unicode 转义写法无效，正确写法是 \\\\uXXXX 或 \\\\u{XXXXX}"
+    },
+    {
+      "name": "regex_err_nothing_to_repeat",
+      "value": "量词前面没有可重复的内容（* + ? {n} 不能出现在开头或 ( | 之后）"
+    },
+    {
+      "name": "regex_err_parse_error",
+      "value": "正则表达式无法解析"
+    },
+    {
+      "name": "regex_err_range_out_of_order",
+      "value": "量词范围写反了：{m,n} 里 m 不能大于 n"
+    },
+    {
+      "name": "regex_err_syntax",
+      "value": "正则表达式语法错误"
+    },
+    {
+      "name": "regex_err_unmatched_close",
+      "value": "多了一个右括号 )"
+    },
+    {
+      "name": "regex_err_unterminated_class",
+      "value": "中括号没有闭合：有一个 [ 缺少配对的 ]"
+    },
+    {
+      "name": "regex_err_unterminated_group",
+      "value": "括号没有闭合：有一个 ( 缺少配对的 )"
+    },
+    {
+      "name": "regex_error_near",
+      "value": "（第 %s 个字符附近）"
+    },
+    {
+      "name": "regex_flag_dot_all",
+      "value": "s 点匹配换行"
+    },
+    {
+      "name": "regex_flag_dot_all_hint",
+      "value": ". 也能匹配换行符"
+    },
+    {
+      "name": "regex_flag_global",
+      "value": "g 全局"
+    },
+    {
+      "name": "regex_flag_global_hint",
+      "value": "关掉后只取第一个匹配"
+    },
+    {
+      "name": "regex_flag_ignore_case",
+      "value": "i 忽略大小写"
+    },
+    {
+      "name": "regex_flag_ignore_case_hint",
+      "value": "A 与 a 视为相同"
+    },
+    {
+      "name": "regex_flag_multiline",
+      "value": "m 多行"
+    },
+    {
+      "name": "regex_flag_multiline_hint",
+      "value": "^ 与 $ 按行生效"
+    },
+    {
+      "name": "regex_flag_none",
+      "value": "无标志"
+    },
+    {
+      "name": "regex_flag_unicode",
+      "value": "u Unicode 模式"
+    },
+    {
+      "name": "regex_flag_unicode_hint",
+      "value": "按码点解释 \\\\u{...} 与代理对"
+    },
+    {
+      "name": "regex_highlight_truncated",
+      "value": "命中太多，高亮预览只保留了文本末尾的 %s 段。"
+    },
+    {
+      "name": "regex_issue_nothing_to_repeat",
+      "value": "量词前面没有可重复的内容（* 与 + 不能出现在开头，或 ( | 之后）"
+    },
+    {
+      "name": "regex_issue_nothing_to_repeat_question",
+      "value": "量词 ? 前面没有可重复的内容（不能出现在开头或 | 之后）"
+    },
+    {
+      "name": "regex_issue_range_reversed",
+      "value": "量词范围写反了：{%s,%s} 里 %s 不能大于 %s"
+    },
+    {
+      "name": "regex_issue_trailing_backslash",
+      "value": "反斜杠后面什么都没有：转义没有写完"
+    },
+    {
+      "name": "regex_issue_unmatched_close",
+      "value": "多了一个右括号 )"
+    },
+    {
+      "name": "regex_issue_unterminated_class",
+      "value": "中括号没有闭合：有一个 [ 缺少配对的 ]"
+    },
+    {
+      "name": "regex_issue_unterminated_group",
+      "value": "括号没有闭合：有一个 ( 缺少配对的 )"
+    },
+    {
+      "name": "regex_label_cheatsheet",
+      "value": "语法速查"
+    },
+    {
+      "name": "regex_label_highlight",
+      "value": "高亮预览"
+    },
+    {
+      "name": "regex_label_pattern",
+      "value": "正则表达式"
+    },
+    {
+      "name": "regex_label_presets",
+      "value": "常用预设"
+    },
+    {
+      "name": "regex_label_results",
+      "value": "匹配结果"
+    },
+    {
+      "name": "regex_label_separator",
+      "value": "："
+    },
+    {
+      "name": "regex_label_subject",
+      "value": "测试文本"
+    },
+    {
+      "name": "regex_list_separator",
+      "value": "、"
+    },
+    {
+      "name": "regex_live_paused",
+      "value": "测试文本超过 %s 字符，已暂停实时匹配；点「执行匹配」跑一次。"
+    },
+    {
+      "name": "regex_match_range",
+      "value": "第 %s - %s 个字符"
+    },
+    {
+      "name": "regex_match_zero_width",
+      "value": "第 %s 个字符前（零宽）"
+    },
+    {
+      "name": "regex_placeholder_pattern",
+      "value": "例如 \\\\d{4}-\\\\d{2}-\\\\d{2}"
+    },
+    {
+      "name": "regex_placeholder_subject",
+      "value": "粘贴要测试的文本"
+    },
+    {
+      "name": "regex_preset_hint",
+      "value": "预设说明：%s"
+    },
+    {
+      "name": "regex_run_empty",
+      "value": "没有匹配到任何内容。"
+    },
+    {
+      "name": "regex_run_failed",
+      "value": "表达式有误，未执行匹配。"
+    },
+    {
+      "name": "regex_summary_failed",
+      "value": "表达式有误，未执行匹配"
+    },
+    {
+      "name": "regex_summary_matched",
+      "value": "匹配到 %s 处"
+    },
+    {
+      "name": "regex_summary_no_match",
+      "value": "没有匹配到任何内容（共 %s 个字符）"
+    },
+    {
+      "name": "regex_summary_truncated",
+      "value": "（已达上限 %s 条，仅显示前 %s 条）"
+    },
+    {
+      "name": "regex_summary_zero_width",
+      "value": "，其中 %s 处是零宽匹配（不占字符，无法高亮）"
+    },
+    {
+      "name": "regex_zero_width_note",
+      "value": "（零宽匹配，不占字符）"
+    },
+    {
+      "name": "rr_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "rr_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "rr_action_run",
+      "value": "替换预览"
+    },
+    {
+      "name": "rr_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "rr_err_input",
+      "value": "请输入原文"
+    },
+    {
+      "name": "rr_err_pattern",
+      "value": "请输入正则"
+    },
+    {
+      "name": "rr_err_regex",
+      "value": "正则语法错误"
+    },
+    {
+      "name": "rr_label_flags",
+      "value": "标志（g/i/m）"
+    },
+    {
+      "name": "rr_label_input",
+      "value": "原文"
+    },
+    {
+      "name": "rr_label_matches",
+      "value": "匹配 %s 处"
+    },
+    {
+      "name": "rr_label_output",
+      "value": "替换后"
+    },
+    {
+      "name": "rr_label_pattern",
+      "value": "正则"
+    },
+    {
+      "name": "rr_label_replacement",
+      "value": "替换为（$1-$9 引用分组）"
+    },
+    {
+      "name": "sc_action_calc",
+      "value": "计算"
+    },
+    {
+      "name": "sc_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "sc_cat_file",
+      "value": "文件"
+    },
+    {
+      "name": "sc_cat_git",
+      "value": "Git"
+    },
+    {
+      "name": "sc_cat_net",
+      "value": "网络"
+    },
+    {
+      "name": "sc_cat_sys",
+      "value": "系统"
+    },
+    {
+      "name": "sc_cat_text",
+      "value": "文本"
+    },
+    {
+      "name": "sc_empty",
+      "value": "没有匹配的条目"
+    },
+    {
+      "name": "sc_err_date",
+      "value": "日期格式不合法（需 YYYY-MM-DD）"
+    },
+    {
+      "name": "sc_err_days",
+      "value": "天数必须是 1 到 3650 的非零整数"
+    },
+    {
+      "name": "sc_err_empty",
+      "value": "请输入日期与天数"
+    },
+    {
+      "name": "sc_hint_holiday",
+      "value": "只跳过周末，不含法定节假日"
+    },
+    {
+      "name": "sc_label_all",
+      "value": "全部"
+    },
+    {
+      "name": "sc_label_bash",
+      "value": "bash"
+    },
+    {
+      "name": "sc_label_date",
+      "value": "起始日期（YYYY-MM-DD）"
+    },
+    {
+      "name": "sc_label_days",
+      "value": "工作日数（可负）"
+    },
+    {
+      "name": "sc_label_natural",
+      "value": "自然日数"
+    },
+    {
+      "name": "sc_label_pwsh",
+      "value": "PowerShell"
+    },
+    {
+      "name": "sc_label_result",
+      "value": "结果日期"
+    },
+    {
+      "name": "sc_label_weekday",
+      "value": "星期"
+    },
+    {
+      "name": "sc_placeholder_search",
+      "value": "任务或命令"
+    },
+    {
+      "name": "sc_wd_0",
+      "value": "周日"
+    },
+    {
+      "name": "sc_wd_1",
+      "value": "周一"
+    },
+    {
+      "name": "sc_wd_2",
+      "value": "周二"
+    },
+    {
+      "name": "sc_wd_3",
+      "value": "周三"
+    },
+    {
+      "name": "sc_wd_4",
+      "value": "周四"
+    },
+    {
+      "name": "sc_wd_5",
+      "value": "周五"
+    },
+    {
+      "name": "sc_wd_6",
+      "value": "周六"
+    },
+    {
+      "name": "sf_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "sf_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "sf_action_format",
+      "value": "格式化"
+    },
+    {
+      "name": "sf_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "sf_err_empty",
+      "value": "请输入 SQL 语句"
+    },
+    {
+      "name": "sf_err_quote",
+      "value": "引号未闭合，请检查字符串字面量"
+    },
+    {
+      "name": "sf_label_input",
+      "value": "SQL 语句"
+    },
+    {
+      "name": "sf_label_output",
+      "value": "格式化结果"
+    },
+    {
+      "name": "shell_about",
+      "value": "关于"
+    },
+    {
+      "name": "shell_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "shell_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "shell_action_copy_all",
+      "value": "复制全部"
+    },
+    {
+      "name": "shell_action_history",
+      "value": "历史"
+    },
+    {
+      "name": "shell_app_name",
+      "value": "NGF 开发者工具箱"
+    },
+    {
+      "name": "shell_app_subtitle",
+      "value": "离线 · 开源 · NGF 官方样板"
+    },
+    {
+      "name": "shell_back",
+      "value": "返回"
+    },
+    {
+      "name": "shell_copy_failed",
+      "value": "复制失败，请长按选择文本手动复制"
+    },
+    {
+      "name": "shell_empty_catalog_loading",
+      "value": "工具清单尚未加载完成。"
+    },
+    {
+      "name": "shell_empty_no_match",
+      "value": "没有匹配的工具。试试工具名里的关键词，例如「正则」「JSON」。"
+    },
+    {
+      "name": "shell_favorite",
+      "value": "收藏"
+    },
+    {
+      "name": "shell_help_limitation",
+      "value": "做不到什么"
+    },
+    {
+      "name": "shell_history_clear",
+      "value": "清空历史"
+    },
+    {
+      "name": "shell_history_empty",
+      "value": "还没有记录。用一会儿之后，你输入过的内容会出现在这里。"
+    },
+    {
+      "name": "shell_history_title",
+      "value": "最近的输入"
+    },
+    {
+      "name": "shell_network_disclosure",
+      "value": "本工具会连接你输入的主机。除此之外，工具箱不联网、不收集任何数据。"
+    },
+    {
+      "name": "shell_search_placeholder",
+      "value": "搜索工具"
+    },
+    {
+      "name": "shell_section_favorites",
+      "value": "收藏"
+    },
+    {
+      "name": "shell_section_recent",
+      "value": "最近使用"
+    },
+    {
+      "name": "shell_section_search",
+      "value": "搜索结果"
+    },
+    {
+      "name": "shell_tab_starred",
+      "value": "收藏"
+    },
+    {
+      "name": "shell_under_construction",
+      "value": "建设中"
+    },
+    {
+      "name": "shell_unfavorite",
+      "value": "取消收藏"
+    },
+    {
+      "name": "subnet_copied",
+      "value": "已复制计算结果"
+    },
+    {
+      "name": "subnet_err_bad_address",
+      "value": "IP 地址格式不对：需要四段十进制，每段 0~255，且不能有前导零（如 192.168.1.10）"
+    },
+    {
+      "name": "subnet_err_bad_mask",
+      "value": "掩码格式不对：需要四段十进制，如 255.255.255.0"
+    },
+    {
+      "name": "subnet_err_bad_mask_contiguous",
+      "value": "这不是合法掩码：二进制必须是「连续的 1 后面接连续的 0」（如 255.255.255.0），像 255.0.255.0 这种每段都在范围内、但中间断开的不算"
+    },
+    {
+      "name": "subnet_err_bad_prefix",
+      "value": "前缀长度必须是 %s~%s 的整数（常见的 /24 表示 255.255.255.0）"
+    },
+    {
+      "name": "subnet_err_empty",
+      "value": "请输入 IPv4 地址，例如 192.168.1.10/24"
+    },
+    {
+      "name": "subnet_err_ipv6",
+      "value": "本工具只做 IPv4 子网计算，不解析 IPv6（IPv6 的地址规划方式完全不同，用 /64 起步是常态）"
+    },
+    {
+      "name": "subnet_field_broadcast",
+      "value": "广播地址"
+    },
+    {
+      "name": "subnet_field_cidr",
+      "value": "所属网段"
+    },
+    {
+      "name": "subnet_field_hosts",
+      "value": "可用主机"
+    },
+    {
+      "name": "subnet_field_input",
+      "value": "输入地址"
+    },
+    {
+      "name": "subnet_field_kinds",
+      "value": "地址性质"
+    },
+    {
+      "name": "subnet_field_mask",
+      "value": "子网掩码"
+    },
+    {
+      "name": "subnet_field_network",
+      "value": "网络地址"
+    },
+    {
+      "name": "subnet_field_separator",
+      "value": "："
+    },
+    {
+      "name": "subnet_field_total",
+      "value": "地址总数"
+    },
+    {
+      "name": "subnet_field_usable",
+      "value": "可用范围"
+    },
+    {
+      "name": "subnet_field_wildcard",
+      "value": "反掩码"
+    },
+    {
+      "name": "subnet_input_hint",
+      "value": "支持 192.168.1.10/24 与 192.168.1.10/255.255.255.0 两种写法；省略 / 前缀按单主机（/32）处理。"
+    },
+    {
+      "name": "subnet_label_input",
+      "value": "IPv4 地址"
+    },
+    {
+      "name": "subnet_label_plan",
+      "value": "反向规划：需要多少台主机？"
+    },
+    {
+      "name": "subnet_label_result",
+      "value": "计算结果"
+    },
+    {
+      "name": "subnet_no_usable",
+      "value": "（无）"
+    },
+    {
+      "name": "subnet_notice_broadcast",
+      "value": "注意：你填的是这个网段的广播地址（%s），它通常不能作为主机地址使用。"
+    },
+    {
+      "name": "subnet_notice_network",
+      "value": "注意：你填的是这个网段的网络地址（%s），它通常不能作为主机地址使用。主机地址请从 %s 开始。"
+    },
+    {
+      "name": "subnet_notice_rfc3021",
+      "value": "这是 RFC 3021 点对点网段：两个地址都是可用地址，没有网络号与广播号之分。"
+    },
+    {
+      "name": "subnet_notice_single_host",
+      "value": "这是单主机（/32）：只有一个地址，常用于指定某台机器或回环。"
+    },
+    {
+      "name": "subnet_placeholder_input",
+      "value": "例如 192.168.1.10/24"
+    },
+    {
+      "name": "subnet_placeholder_plan",
+      "value": "例如 60"
+    },
+    {
+      "name": "subnet_plan_not_int",
+      "value": "请输入整数。"
+    },
+    {
+      "name": "subnet_plan_suggest",
+      "value": "建议切成 /%s：共 %s 个地址，其中可用 %s 个。"
+    },
+    {
+      "name": "subnet_plan_too_many",
+      "value": "这个数量超出了单个 IPv4 网段的容量，请拆分多个网段。"
+    },
+    {
+      "name": "subnet_remark_all_ipv4",
+      "value": "整个 IPv4 空间（0.0.0.0/0），通常只出现在默认路由里"
+    },
+    {
+      "name": "subnet_remark_common_lan",
+      "value": "最常见的局域网规格：254 个可用地址"
+    },
+    {
+      "name": "subnet_remark_p2p_common",
+      "value": "最常见的点对点网段：恰好 2 个可用地址"
+    },
+    {
+      "name": "subnet_remark_p2p_rfc3021",
+      "value": "点对点链路（RFC 3021）：两端各占一个地址，没有「网络号/广播号」"
+    },
+    {
+      "name": "subnet_remark_single_host",
+      "value": "单主机（1 个地址），常用于指定某台机器或回环"
+    },
+    {
+      "name": "subnet_remark_very_large",
+      "value": "超大型网段，实际项目里几乎不会这样切"
+    },
+    {
+      "name": "sv_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "sv_action_parse",
+      "value": "解析"
+    },
+    {
+      "name": "sv_compare_equal",
+      "value": "相同优先级"
+    },
+    {
+      "name": "sv_compare_left",
+      "value": "前者更小"
+    },
+    {
+      "name": "sv_compare_right",
+      "value": "后者更小"
+    },
+    {
+      "name": "sv_err_empty",
+      "value": "请输入版本号"
+    },
+    {
+      "name": "sv_err_format",
+      "value": "版本号格式不合法：%s"
+    },
+    {
+      "name": "sv_label_build",
+      "value": "构建元数据"
+    },
+    {
+      "name": "sv_label_compare",
+      "value": "与另一版本比较"
+    },
+    {
+      "name": "sv_label_input",
+      "value": "版本号"
+    },
+    {
+      "name": "sv_label_major",
+      "value": "主版本"
+    },
+    {
+      "name": "sv_label_minor",
+      "value": "次版本"
+    },
+    {
+      "name": "sv_label_normalized",
+      "value": "规范化"
+    },
+    {
+      "name": "sv_label_patch",
+      "value": "补丁"
+    },
+    {
+      "name": "sv_label_pre",
+      "value": "先行版本"
+    },
+    {
+      "name": "sv_placeholder_input",
+      "value": "如 2.13.7 或 v1.0.0-alpha.1"
+    },
+    {
+      "name": "tk_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "tk_action_copy",
+      "value": "复制结果"
+    },
+    {
+      "name": "tk_action_run",
+      "value": "处理"
+    },
+    {
+      "name": "tk_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "tk_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "tk_err_no_content",
+      "value": "没有可处理的实质内容（全是空行）"
+    },
+    {
+      "name": "tk_label_dedupe",
+      "value": "去重（保留首次出现）"
+    },
+    {
+      "name": "tk_label_drop_empty",
+      "value": "剔除空行"
+    },
+    {
+      "name": "tk_label_input",
+      "value": "多行文本（每行一条）"
+    },
+    {
+      "name": "tk_label_sort",
+      "value": "排序"
+    },
+    {
+      "name": "tk_label_trim",
+      "value": "去掉每行首尾空白"
+    },
+    {
+      "name": "tk_placeholder_input",
+      "value": "每行一条，粘贴进来即可"
+    },
+    {
+      "name": "tk_result_removed",
+      "value": "已去掉 %s 条重复行"
+    },
+    {
+      "name": "tk_sort_length_asc",
+      "value": "行长升序"
+    },
+    {
+      "name": "tk_sort_length_desc",
+      "value": "行长降序"
+    },
+    {
+      "name": "tk_sort_lexical",
+      "value": "字典序"
+    },
+    {
+      "name": "tk_sort_original",
+      "value": "原顺序"
+    },
+    {
+      "name": "tk_sort_reverse",
+      "value": "反转"
+    },
+    {
+      "name": "tk_stats_chars",
+      "value": "字符（不含换行）"
+    },
+    {
+      "name": "tk_stats_eol",
+      "value": "行尾 CRLF/LF"
+    },
+    {
+      "name": "tk_stats_lines",
+      "value": "行数（非空/总）"
+    },
+    {
+      "name": "tk_stats_title",
+      "value": "统计"
+    },
+    {
+      "name": "tk_stats_words",
+      "value": "词数"
+    },
+    {
+      "name": "ts_action_copy_millis",
+      "value": "复制毫秒"
+    },
+    {
+      "name": "ts_action_copy_seconds",
+      "value": "复制秒"
+    },
+    {
+      "name": "ts_action_fill_now",
+      "value": "用当前时间填入"
+    },
+    {
+      "name": "ts_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ts_copied_millis",
+      "value": "毫秒时间戳已复制"
+    },
+    {
+      "name": "ts_copied_seconds",
+      "value": "秒时间戳已复制"
+    },
+    {
+      "name": "ts_empty_result",
+      "value": "输入时间戳或日期后这里显示换算结果。"
+    },
+    {
+      "name": "ts_err_bad_date_digits",
+      "value": "日期的格式应为 YYYY-MM-DD，且年月日必须是数字"
+    },
+    {
+      "name": "ts_err_bad_date_format",
+      "value": "日期的格式应为 YYYY-MM-DD（也可以写 YYYY/MM/DD）"
+    },
+    {
+      "name": "ts_err_bad_millis",
+      "value": "毫秒部分必须是数字"
+    },
+    {
+      "name": "ts_err_bad_time_format",
+      "value": "时间的格式应为 HH:mm、HH:mm:ss 或 HH:mm:ss.SSS"
+    },
+    {
+      "name": "ts_err_date_empty",
+      "value": "请输入日期"
+    },
+    {
+      "name": "ts_err_date_out_of_range",
+      "value": "换算结果超出可表示的日期范围"
+    },
+    {
+      "name": "ts_err_day_range",
+      "value": "日期超出该月天数：%s 年 %s 月只有 %s 天"
+    },
+    {
+      "name": "ts_err_empty",
+      "value": "请输入时间戳"
+    },
+    {
+      "name": "ts_err_month_range",
+      "value": "月份必须在 1-12 之间"
+    },
+    {
+      "name": "ts_err_not_digits",
+      "value": "时间戳只能是数字（可以带负号）"
+    },
+    {
+      "name": "ts_err_time_range",
+      "value": "时间必须在 00:00:00 - 23:59:59 之间"
+    },
+    {
+      "name": "ts_err_too_many_digits",
+      "value": "时间戳位数过多（最多 %s 位），请检查是否多粘了内容"
+    },
+    {
+      "name": "ts_err_ts_out_of_range",
+      "value": "超出可表示的日期范围（%s 毫秒以内）"
+    },
+    {
+      "name": "ts_err_year_range",
+      "value": "年份超出可表示范围（1-9999）"
+    },
+    {
+      "name": "ts_err_zone_suffix",
+      "value": "不支持时区后缀（Z），请用下方时区列表换算"
+    },
+    {
+      "name": "ts_interpret_date",
+      "value": "按日期解释"
+    },
+    {
+      "name": "ts_interpret_millis",
+      "value": "按毫秒级时间戳解释"
+    },
+    {
+      "name": "ts_interpret_seconds",
+      "value": "按秒级时间戳解释"
+    },
+    {
+      "name": "ts_label_current",
+      "value": "当前时间"
+    },
+    {
+      "name": "ts_label_input",
+      "value": "时间戳或日期（自动识别）"
+    },
+    {
+      "name": "ts_label_zones_now",
+      "value": "当前时刻的时区对照"
+    },
+    {
+      "name": "ts_label_zones_selected",
+      "value": "所选时刻的时区对照"
+    },
+    {
+      "name": "ts_now_seconds_millis",
+      "value": "秒 %s　毫秒 %s"
+    },
+    {
+      "name": "ts_now_weekday",
+      "value": "本周 %s"
+    },
+    {
+      "name": "ts_placeholder_input",
+      "value": "1700000000 或 2024-05-06 12:30:45"
+    },
+    {
+      "name": "ts_rel_days_ago",
+      "value": "%s 天前"
+    },
+    {
+      "name": "ts_rel_days_later",
+      "value": "%s 天后"
+    },
+    {
+      "name": "ts_rel_hours_ago",
+      "value": "%s 小时前"
+    },
+    {
+      "name": "ts_rel_hours_later",
+      "value": "%s 小时后"
+    },
+    {
+      "name": "ts_rel_imminent",
+      "value": "马上"
+    },
+    {
+      "name": "ts_rel_just_now",
+      "value": "刚刚"
+    },
+    {
+      "name": "ts_rel_minutes_ago",
+      "value": "%s 分钟前"
+    },
+    {
+      "name": "ts_rel_minutes_later",
+      "value": "%s 分钟后"
+    },
+    {
+      "name": "ts_rel_months_ago",
+      "value": "%s 个月前"
+    },
+    {
+      "name": "ts_rel_months_later",
+      "value": "%s 个月后"
+    },
+    {
+      "name": "ts_rel_years_ago",
+      "value": "%s 年前"
+    },
+    {
+      "name": "ts_rel_years_later",
+      "value": "%s 年后"
+    },
+    {
+      "name": "ts_row_local",
+      "value": "本地时间（%s）"
+    },
+    {
+      "name": "ts_row_millis",
+      "value": "毫秒级时间戳"
+    },
+    {
+      "name": "ts_row_relative",
+      "value": "相对现在"
+    },
+    {
+      "name": "ts_row_seconds",
+      "value": "秒级时间戳"
+    },
+    {
+      "name": "ts_row_utc",
+      "value": "UTC 时间"
+    },
+    {
+      "name": "ts_zone_note",
+      "value": "时区列表使用固定偏移，不跟随夏令时（例如巴黎夏天实际是 UTC+2，这里仍按 UTC+1 显示）。本机时区取系统当前设置；秒级时间戳由毫秒向下取整得到。"
+    },
+    {
+      "name": "tz_action_calc",
+      "value": "对照"
+    },
+    {
+      "name": "tz_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "tz_err_empty",
+      "value": "请输入会议时刻"
+    },
+    {
+      "name": "tz_err_time",
+      "value": "时刻格式不合法（HH:mm，00:00-23:59）"
+    },
+    {
+      "name": "tz_hint_dst",
+      "value": "固定时区偏移，不含夏令时"
+    },
+    {
+      "name": "tz_label_city",
+      "value": "城市"
+    },
+    {
+      "name": "tz_label_local",
+      "value": "当地时间"
+    },
+    {
+      "name": "tz_label_time",
+      "value": "会议时刻（24 小时制 HH:mm）"
+    },
+    {
+      "name": "tz_placeholder_time",
+      "value": "如 20:00"
+    },
+    {
+      "name": "tz_reasonable",
+      "value": "工作时段"
+    },
+    {
+      "name": "tz_unreasonable",
+      "value": "非工作时段"
+    },
+    {
+      "name": "uap_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "uap_hint_partial",
+      "value": "部分字段未识别——UA 可伪造，启发式不保证完整"
+    },
+    {
+      "name": "uap_label_browser",
+      "value": "浏览器"
+    },
+    {
+      "name": "uap_label_engine",
+      "value": "引擎"
+    },
+    {
+      "name": "uap_label_os",
+      "value": "操作系统"
+    },
+    {
+      "name": "uap_placeholder_input",
+      "value": "粘贴 User-Agent 字符串"
+    },
+    {
+      "name": "ub_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ub_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "ub_action_copy_all",
+      "value": "全部复制"
+    },
+    {
+      "name": "ub_action_generate",
+      "value": "批量生成"
+    },
+    {
+      "name": "ub_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ub_copied_all",
+      "value": "已全部复制"
+    },
+    {
+      "name": "ub_err_integer",
+      "value": "数量必须是整数"
+    },
+    {
+      "name": "ub_err_large",
+      "value": "数量超出上限 100"
+    },
+    {
+      "name": "ub_err_random",
+      "value": "安全随机源不可用"
+    },
+    {
+      "name": "ub_err_small",
+      "value": "数量至少为 1"
+    },
+    {
+      "name": "ub_label_count",
+      "value": "生成数量（1-100）"
+    },
+    {
+      "name": "ub_label_count_result",
+      "value": "条数"
+    },
+    {
+      "name": "ub_toggle_hyphen",
+      "value": "连字符"
+    },
+    {
+      "name": "ub_toggle_upper",
+      "value": "大写"
+    },
+    {
+      "name": "uc_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "uc_action_convert",
+      "value": "换算"
+    },
+    {
+      "name": "uc_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "uc_action_swap",
+      "value": "交换"
+    },
+    {
+      "name": "uc_cat_data",
+      "value": "数据量（1024 进制）"
+    },
+    {
+      "name": "uc_cat_length",
+      "value": "长度"
+    },
+    {
+      "name": "uc_cat_time",
+      "value": "时间"
+    },
+    {
+      "name": "uc_cat_weight",
+      "value": "重量"
+    },
+    {
+      "name": "uc_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "uc_err_empty",
+      "value": "请输入数值"
+    },
+    {
+      "name": "uc_err_nan",
+      "value": "无法解析为数字：%s"
+    },
+    {
+      "name": "uc_err_negative",
+      "value": "负值不合法：%s"
+    },
+    {
+      "name": "uc_err_unit",
+      "value": "未知单位：%s"
+    },
+    {
+      "name": "uc_label_from",
+      "value": "从"
+    },
+    {
+      "name": "uc_label_result",
+      "value": "结果"
+    },
+    {
+      "name": "uc_label_temp",
+      "value": "温度换算"
+    },
+    {
+      "name": "uc_label_to",
+      "value": "到"
+    },
+    {
+      "name": "uc_label_value",
+      "value": "数值"
+    },
+    {
+      "name": "uc_temp_celsius",
+      "value": "摄氏度 °C"
+    },
+    {
+      "name": "uc_temp_fahrenheit",
+      "value": "华氏度 °F"
+    },
+    {
+      "name": "uc_temp_kelvin",
+      "value": "开尔文 K"
+    },
+    {
+      "name": "up_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "up_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "up_err_no_scheme",
+      "value": "缺少 scheme:// 前缀（不支持相对 URL）"
+    },
+    {
+      "name": "up_placeholder_input",
+      "value": "输入完整 URL（含 scheme://）"
+    },
+    {
+      "name": "url_codec_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "url_codec_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "url_codec_action_decode",
+      "value": "解码"
+    },
+    {
+      "name": "url_codec_action_encode",
+      "value": "编码"
+    },
+    {
+      "name": "url_codec_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "url_codec_err_empty",
+      "value": "请输入内容"
+    },
+    {
+      "name": "url_codec_err_escape",
+      "value": "无法解码：存在不完整的 % 转义序列"
+    },
+    {
+      "name": "url_codec_err_escape_at",
+      "value": "无法解码：第 %s 个参数里存在不完整的 % 转义序列"
+    },
+    {
+      "name": "url_codec_hint_plus",
+      "value": "提示：+ 在表单口径里是空格，字面加号请写 %2B"
+    },
+    {
+      "name": "url_codec_label_decoded",
+      "value": "解码结果（表单口径：+ 为空格）"
+    },
+    {
+      "name": "url_codec_label_decoded_literal",
+      "value": "解码结果（字面口径：+ 保留）"
+    },
+    {
+      "name": "url_codec_label_encoded",
+      "value": "编码结果"
+    },
+    {
+      "name": "url_codec_label_input",
+      "value": "已编码或待编码的 URL 文本"
+    },
+    {
+      "name": "url_codec_label_query",
+      "value": "Query 参数拆解"
+    },
+    {
+      "name": "url_codec_label_raw",
+      "value": "原样"
+    },
+    {
+      "name": "url_codec_label_valueless",
+      "value": "无值参数"
+    },
+    {
+      "name": "url_codec_placeholder_input",
+      "value": "如 https://x.test/a?b=中文 或已编码的串"
+    },
+    {
+      "name": "url_codec_query_empty",
+      "value": "没有 query 参数（空 query 是合法状态）"
+    },
+    {
+      "name": "ut_action_calc",
+      "value": "换算"
+    },
+    {
+      "name": "ut_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ut_col_binary",
+      "value": "二进制（IEC）"
+    },
+    {
+      "name": "ut_col_decimal",
+      "value": "十进制（SI）"
+    },
+    {
+      "name": "ut_hint_disk",
+      "value": "磁盘标称用十进制，操作系统常用二进制——两者相差约 7%"
+    },
+    {
+      "name": "ut_label_bytes",
+      "value": "字节数"
+    },
+    {
+      "name": "uuidpwd_advice_common_weak",
+      "value": "包含常见弱口令片段"
+    },
+    {
+      "name": "uuidpwd_advice_consecutive_repeat",
+      "value": "存在连续重复的字符"
+    },
+    {
+      "name": "uuidpwd_advice_digits_only",
+      "value": "只用了数字，建议混合大小写字母与符号"
+    },
+    {
+      "name": "uuidpwd_advice_empty",
+      "value": "请输入密码以评估强度。"
+    },
+    {
+      "name": "uuidpwd_advice_lowercase_only",
+      "value": "只用了小写字母，建议混合大写、数字与符号"
+    },
+    {
+      "name": "uuidpwd_advice_sequential",
+      "value": "存在连续递增/递减的字符（如 abc、123）"
+    },
+    {
+      "name": "uuidpwd_advice_single_class",
+      "value": "字符类别太单一，建议混合多种字符"
+    },
+    {
+      "name": "uuidpwd_advice_too_many_repeats",
+      "value": "重复字符太多，随机性被浪费了"
+    },
+    {
+      "name": "uuidpwd_advice_too_short",
+      "value": "长度不足 %s 位，越短越容易被穷举"
+    },
+    {
+      "name": "uuidpwd_err_no_random_uuid",
+      "value": "取不到系统安全随机数，无法生成 UUID。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_all_excluded",
+      "value": "排除易混字符后没有可用字符了，请放宽字符类别。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_length_not_integer",
+      "value": "密码长度必须是整数。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_length_range",
+      "value": "密码长度必须在 %s-%s 之间。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_no_charset",
+      "value": "至少要选择一种字符类别（大写/小写/数字/符号）。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_no_random",
+      "value": "取不到系统安全随机数，无法生成密码。"
+    },
+    {
+      "name": "uuidpwd_err_pwd_too_short_for_pools",
+      "value": "长度至少要有 %s 位，才能覆盖所选的全部字符类别。"
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_not_integer",
+      "value": "条数必须是整数。"
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_too_large",
+      "value": "一次最多生成 %s 条：本工具用来取几个测试数据，不做批量造数。"
+    },
+    {
+      "name": "uuidpwd_err_uuid_count_too_small",
+      "value": "条数至少为 1。"
+    },
+    {
+      "name": "uuidpwd_level_fair",
+      "value": "一般"
+    },
+    {
+      "name": "uuidpwd_level_strong",
+      "value": "强"
+    },
+    {
+      "name": "uuidpwd_level_very_strong",
+      "value": "很强"
+    },
+    {
+      "name": "uuidpwd_level_very_weak",
+      "value": "很弱"
+    },
+    {
+      "name": "uuidpwd_level_weak",
+      "value": "弱"
+    },
+    {
+      "name": "uuidpwd_pwd_copied",
+      "value": "已复制密码"
+    },
+    {
+      "name": "uuidpwd_pwd_digits",
+      "value": "数字 012"
+    },
+    {
+      "name": "uuidpwd_pwd_exclude",
+      "value": "排除易混字符 0 O 1 l I"
+    },
+    {
+      "name": "uuidpwd_pwd_generate",
+      "value": "生成密码"
+    },
+    {
+      "name": "uuidpwd_pwd_hint",
+      "value": "长度 %s-%s 位；生成的密码不落盘、不上传。"
+    },
+    {
+      "name": "uuidpwd_pwd_length_not_digit",
+      "value": "长度必须是数字。"
+    },
+    {
+      "name": "uuidpwd_pwd_length_placeholder",
+      "value": "长度"
+    },
+    {
+      "name": "uuidpwd_pwd_lowercase",
+      "value": "小写 abc"
+    },
+    {
+      "name": "uuidpwd_pwd_strength",
+      "value": "强度：%s（估算熵 %s 比特）"
+    },
+    {
+      "name": "uuidpwd_pwd_symbols",
+      "value": "符号 !@#"
+    },
+    {
+      "name": "uuidpwd_pwd_title",
+      "value": "随机密码"
+    },
+    {
+      "name": "uuidpwd_pwd_uppercase",
+      "value": "大写 ABC"
+    },
+    {
+      "name": "uuidpwd_uuid_copied",
+      "value": "已复制 UUID"
+    },
+    {
+      "name": "uuidpwd_uuid_copied_all",
+      "value": "已复制 %s 条 UUID"
+    },
+    {
+      "name": "uuidpwd_uuid_copy_all",
+      "value": "全部复制"
+    },
+    {
+      "name": "uuidpwd_uuid_count_not_digit",
+      "value": "条数必须是数字。"
+    },
+    {
+      "name": "uuidpwd_uuid_generate",
+      "value": "生成 UUID"
+    },
+    {
+      "name": "uuidpwd_uuid_hint",
+      "value": "一次最多 %s 条；随机字节来自系统安全随机源。"
+    },
+    {
+      "name": "uuidpwd_uuid_hyphens",
+      "value": "连字符"
+    },
+    {
+      "name": "uuidpwd_uuid_placeholder",
+      "value": "条数（1-%s）"
+    },
+    {
+      "name": "uuidpwd_uuid_uppercase",
+      "value": "大写"
+    },
+    {
+      "name": "ww_action_clear",
+      "value": "清空"
+    },
+    {
+      "name": "ww_action_copy",
+      "value": "复制"
+    },
+    {
+      "name": "ww_action_wrap",
+      "value": "换行"
+    },
+    {
+      "name": "ww_copied",
+      "value": "已复制"
+    },
+    {
+      "name": "ww_err_empty",
+      "value": "请输入文本"
+    },
+    {
+      "name": "ww_err_width",
+      "value": "行宽必须是 10 到 200 的整数"
+    },
+    {
+      "name": "ww_label_input",
+      "value": "文本"
+    },
+    {
+      "name": "ww_label_lines",
+      "value": "行数"
+    },
+    {
+      "name": "ww_label_output",
+      "value": "结果"
+    },
+    {
+      "name": "ww_label_width",
+      "value": "行宽（10-200）"
     }
   ]
 }

@@ -59,6 +59,12 @@ class ColorTokenProviderFacade implements IColorTokenProvider {
     this.registerColor(new NGFColorValue(NGFColorToken.ON_ERROR, '#FFFFFF', '#601410'));
     this.registerColor(new NGFColorValue(NGFColorToken.OUTLINE, '#79747E', '#938F99'));
     this.registerColor(new NGFColorValue(NGFColorToken.OUTLINE_VARIANT, '#CAC4D0', '#49454F'));
+    // 本仓先行补充的 5 个语义 Token（见 IColorTokenProvider.ets 的说明）
+    this.registerColor(new NGFColorValue(NGFColorToken.ERROR_CONTAINER, '#F9DEDC', '#8C1D18'));
+    this.registerColor(new NGFColorValue(NGFColorToken.ON_ERROR_CONTAINER, '#410E0B', '#F9DEDC'));
+    this.registerColor(new NGFColorValue(NGFColorToken.WARNING, '#7A5900', '#F0B457'));
+    this.registerColor(new NGFColorValue(NGFColorToken.WARNING_CONTAINER, '#FFF3E0', '#2B2417'));
+    this.registerColor(new NGFColorValue(NGFColorToken.SUCCESS, '#1D8147', '#5FD08A'));
     logger.info(TAG, '注册默认颜色 Token: ' + this.colors.size + ' 个');
   }
 }
