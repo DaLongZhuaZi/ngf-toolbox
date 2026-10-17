@@ -126,3 +126,8 @@ desktop.ini
 # 会话期间的临时截图与脚本
 /.tmp-shots/
 
+# 真编译门禁（tools/verify/build.ps1）留下的日志
+build.log
+
+# 门禁变异验证脚本的临时备份（tools/verify/mutation-check.mjs）
+.mutation-backup/

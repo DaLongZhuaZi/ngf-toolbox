@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: NGF 框架仓（框架本身的问题去这里）
+    url: https://github.com/DaLongZhuaZi/airwavefootprints
+    about: 框架实现、门面契约、组件行为的问题属于框架仓，不属于本样板仓。
